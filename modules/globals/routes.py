@@ -6,7 +6,7 @@ import pandas as pd
 from helpers.exceptions import AppException
 from modules.globals.models import ResUserModel, ReqLoginUser
 from flask_restx import Resource, Namespace
-from modules.globals.services import check_username_pg, validate_pg, list_closing_codes, list_priority_codes, \
+from modules.globals.services import list_closing_codes, list_priority_codes, \
     list_ship_customers, list_code_values
 from helpers.constants import Check
 from modules.globals import services
@@ -87,7 +87,6 @@ class Login(Resource):
         """
         username = request.get_json().get('username')
         password = request.get_json().get('password')
-        check: bool = check_username_pg(username)
         validation: bool = False
         count: int = 0
         print(f'proof that this exists {check}')

@@ -22,7 +22,6 @@ from modules.user.routes import user_ns
 from flask_restx import Api
 from helpers.handlers import before_request_handler, after_request_handler
 from security.auth import load_auth
-from fob_sybase.DBConfigs import is_dev
 from helpers.exceptions import BadRequestException
 from werkzeug.exceptions import MethodNotAllowed, NotFound
 from config.config import config
@@ -49,7 +48,7 @@ api = Api(app, version='0.1'
           )
 
 app.config['JWT_SECRET_KEY'] = getenv('JWT_SECRET_KEY', 'your-secret-key')
-app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(hours=(1000 if is_dev() else 8))
+app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(hours=8)
 app.config['SECRET_KEY'] = 'ilmsdev'
 app.config['SWAGGER_UI_DOC_EXPANSION'] = 'list'
 app.config['SWAGGER_UI_CUSTOM_CSS'] = 'static/custom.css'
@@ -60,15 +59,9 @@ app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY', 'fob_module')
 def token_timeout(token_name='access'):
     # from audit_application.services.host_service import is_dev
     if token_name == 'refresh':
-        if is_dev():
-            return timedelta(days=30)
-        else:
-            return timedelta(hours=7)
+        return timedelta(hours=7)
     else:
-        if is_dev():
-            return timedelta(hours=70)
-        else:
-            return timedelta(minutes=60)
+        return timedelta(minutes=60)
 
 
 print(fetch_origins())

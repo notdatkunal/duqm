@@ -1,9 +1,6 @@
 from typing import Final
 
 from fob_postgres.functions import execute_query_with_results, execute_query_with_dictionary
-from fob_sybase.Connections import ConnectionsElement
-from fob_sybase.IVMS_AUDIT.tables import IVMS_UserRole, IVMS_Users
-from fob_sybase.csilms.tables import Users, Item, Customer, GroupMembers, Groups, GroupCustomers
 from sqlalchemy import distinct, text, func
 from helpers.constants import Check, CustomerCodes
 from helpers import exceptions
@@ -11,104 +8,6 @@ from fob_postgres.pg_session import postgres_session
 from fob_postgres import tables as t
 import pandas as pd
 
-
-def check_username_pg(username):
-    return True
-    user = ConnectionsElement.get_csilms().app_session.query(IVMS_Users.LoginId).filter(
-        IVMS_Users.LoginId.startswith(username), IVMS_Users.DateTimeLeft.is_(None))
-    if user.count() == 0:
-        return Check.INVALID.value
-    # return user.first().LoginId is not None
-    return Check.VALID.value
-
-
-def validate_pg(username, password):
-    if password == 'password':
-        return True
-    import pyodbc as db
-    try:
-        from fob_sybase.DBConfigs import config
-        validation_url = config.get_validated_url(username, password)
-        db_result = db.connect(validation_url)
-        db_result.close()
-        return True
-    except db.Error as e:
-        print(e)
-        return False
-
-
-def get_station_code_by_username(username):
-    csilms = ConnectionsElement.get_csilms().app_session
-    result = csilms.query(IVMS_Users.StationCode).filter(IVMS_Users.LoginId.startswith(username))
-    return result.first().StationCode
-
-
-def get_roles_with_username(username, station_code):
-    csilms = ConnectionsElement.get_csilms().app_session
-    role_list = []
-    result = csilms.query(distinct(IVMS_UserRole.RoleName)).filter(IVMS_UserRole.LoginId.startswith(username),
-                                                                   IVMS_UserRole.StationCode == station_code,
-                                                                   IVMS_UserRole.DateTimeClosed.is_(None)).all()
-    for row in result:
-        role_list.append(row[0].strip())
-    return role_list
-
-
-def user_full_name(username):
-    return ConnectionsElement.get_csilms().app_session.query(IVMS_Users.Name).filter(
-        IVMS_Users.LoginId.startswith(username)).first().Name.strip()
-
-
-def get_department(username) -> str:
-    return ConnectionsElement.get_csilms().app_session.query(IVMS_Users.Department).filter(
-        IVMS_Users.LoginId.startswith(username)).first().Department.strip()
-
-
-def get_rank(username: str) -> str:
-    return ConnectionsElement.get_csilms().app_session.query(IVMS_Users.Rank).filter(
-        IVMS_Users.LoginId.startswith(username)).first().Rank.strip()
-
-
-def get_desc_by_item_code(item_code):
-    return ConnectionsElement.get_csilms().app_session.query(Item.ItemDesc).filter(
-        Item.ItemCode == item_code).first().ItemDesc
-
-
-def get_customers_by_station_code(station_code):
-    query = ConnectionsElement.get_csilms().app_session.execute(text(
-        """
-             select s.StationCode,s.CustomerCode,c.Name from ivms..StationParameter as s 
-                join ivms..Customer as c on s.CustomerCode =c.CustomerCode 
-                    where s.StationCode = :station
-        """
-    ), {'station': station_code}).one()
-    return {
-        "customer_code": query[1],
-        "customer_name": query[2]
-    }
-
-
-def get_customers_by_loginid(loginid: str):
-    query = ConnectionsElement.get_csilms().app_session.execute(text(
-        f''' 
-        select s.CustomerCode , s.DepotName from ivms..StationParameter as s where s.CustomerCode in (
-            SELECT gc.CustomerCode
-            FROM ivms..GroupCustomers as gc
-            WHERE gc.GroupId IN (
-                SELECT gm.GroupId
-                FROM ivms..GroupMembers as gm
-                WHERE gm.LoginId = :loginid )
-            )
-        '''
-    ), {"loginid": loginid}).all()
-
-    result = []
-    for item in query:
-        result.append({
-            "value": item[0],
-            'label': item[1]
-        })
-    return result
 
 
 def get_customer_code(station_code):
@@ -118,35 +17,6 @@ def get_customer_code(station_code):
 
     return CustomerCodes.B.value
 
-
-def get_customers_by_login_id(login_id) -> list:
-    sub_query = ConnectionsElement.get_csilms().app_session.query(GroupMembers.GroupId).filter(
-        GroupMembers.LoginId.startswith(login_id)).scalar_subquery()
-    groups_list = list(item[0] for item in ConnectionsElement.get_csilms().app_session.query(Groups.GroupId).filter(
-        Groups.GroupId.in_(sub_query)))
-    customers_list = list(customers.CustomerCode for customers in
-                          ConnectionsElement.get_csilms().app_session.query(GroupCustomers.CustomerCode).filter(
-                              GroupCustomers.GroupId.in_(groups_list)).all())
-
-    data = ConnectionsElement.get_csilms().app_session.query(Customer.Name, Customer.CustomerCode).filter(
-        Customer.CustomerCode.in_(customers_list))
-    if 0 == data.count() or 0 == len(customers_list) or 0 == len(groups_list):
-        print(f'this is business')
-        print(groups_list, customers_list, data.count())
-        return []
-    print("data ", data.all())
-    return list(customer._asdict() for customer in data.all())
-
-
-def get_name_by_username(loginid: str):
-    if loginid is None or len(loginid.strip()) == 0:
-        return None
-    users_name__first = ConnectionsElement.get_csilms().app_session.query(Users.Name).filter(
-        Users.LoginId.startswith(loginid)).group_by(
-        Users.Name).first()
-    if users_name__first is None or len(users_name__first) == 0:
-        return None
-    return users_name__first.Name
 
 
 def list_closing_codes():
