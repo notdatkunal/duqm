@@ -11,8 +11,6 @@ import pandas
 import pandas as pd
 from sqlalchemy import inspect
 
-from fob_sybase.Connections import ConnectionsElement
-from fob_sybase.IVMS_AUDIT.tables import IVMS_Customer
 from helpers.exceptions import BadRequestException
 
 
