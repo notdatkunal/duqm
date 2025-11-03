@@ -101,9 +101,11 @@ def base_url(filename):
 
 @app.before_request
 def ensure_single_logo_active_role():
-    if (request.endpoint in ("static", None, "/api/docs")
+    if (request.endpoint in ("static", None, "/api/docs", '/fob/index.html')
         or request.endpoint.startswith("user")) \
             or request.method == "OPTIONS":
+        return
+    if '/fob/' in request.endpoint:
         return
     cache_count = cache.get("cache_count")
     if cache_count is None:
