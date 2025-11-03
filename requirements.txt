@@ -13,6 +13,6 @@ fpdf2
 sympy
 PyJWT
 pyodbc
-sqlalchemy-ase
+sqlalchemy
 
 
