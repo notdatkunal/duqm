@@ -14,5 +14,5 @@ sympy
 PyJWT
 pyodbc
 sqlalchemy
-
-
+pydantic
+pydantic_core
