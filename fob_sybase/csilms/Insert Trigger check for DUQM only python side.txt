@@ -1,0 +1,28 @@
+
+
+
+
+       //
+
+		   
+	   16. IF EXISTS (SELECT 1 FROM csilms..ObsolescentItem WHERE ItemCode = @ItemCode AND StationCode=@StationCode AND DateObsolete is not NULL)                                                                                                     
+		   BEGIN                                                                                                     
+
+           IF ( Select IsNull(sum(QtyGround),0) From Stock where Stock.ItemCode = @ItemCode AND StationCode= @StationCode AND ConditionCode in ('New','Rpd','Usd') ) =  0                                                                                     
+            rollback trigger with raiserror 68814 '68814 : Cannot insert as Item is Obsolete ! (ILMS  Trig-iDemand)'                                                                                                                                           
+          END           
+
+
+
+
+
+
+
+
+	   Foreign Key Reference
+
+	   fkey_Dem_Usr        Demand FOREIGN KEY (VettedBy) REFERENCES Users(LoginId)
+	   fkey_Dem_Item       Demand FOREIGN KEY (ItemCode) REFERENCES Item(ItemCode)
+	   fkey_Dem_Eqpt       Demand FOREIGN KEY (EqptItemCode) REFERENCES Eqpt(EqptItemCode)
+	   fkey_Dem_Customer   Demand FOREIGN KEY (CustomerCode) REFERENCES Customer(CustomerCode)
+

@@ -1,0 +1,1056 @@
+ItemCode,SectionHead,ItemDesc,CountryCode,ItemDeno,MonthsShelfLife,CRPCategory,VEDCategory,ABCCategory,DateTimeApproved,ApprovedBy,ReviewSubSectionCode,INCATYN
+EA3000B-BM-350                  ,AI,PR RELIEF VALVE (350 PSI)                                   ,Ind,no ,0,C,D,C,00:00.0,k41057  ,0,Y
+EA3000B-MP5                     ,AI,SWITCH PRESSURE HP CUTOUT                                   ,Ind,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+EA3000B-RC4864                  ,AI,FILTER DRIER CATCHALL                                       ,Ind,no ,0,R,V,B,00:00.0,a40778  ,0,Y
+EA3070B-37282301                ,AB,SET OF GASKET                                               ,Ind,no ,0,R,E,C,00:00.0,c209890 ,0,Y
+EA6010B-12174-00                ,AL,BALL BEARING                                                ,UK ,no ,0,R,V,C,00:00.0,s_a     ,0,Y
+EA6010B-12481-00                ,AL,SINGLE ROW RIGID/BALL BEARING                               ,UK ,no ,0,R,V,C,00:00.0,s_a     ,0,Y
+EA6010B-223436-19               ,AL,PACKING                                                     ,UK ,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+EA6010B-233213-50               ,AL,BALL BEARING                                                ,UK ,no ,0,P,D,C,00:00.0,z85129  ,0,Y
+EA6010B-260169-22               ,AL,FLAT BELT                                                   ,UK ,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EA6010B-538293-80               ,AL,FRICTION PAD                                                ,UK ,no ,0,C,V,C,00:00.0,sailmsd ,0,Y
+EA6010B-53871883                ,AL,PUMP FEED                                                   ,UK ,no ,0,P,D,C,00:00.0,a40778  ,0,Y
+EA6010B-546669-04               ,AL,INTERMEDIATE SERVICE KIT                                    ,UK ,no ,0,R,D,C,00:00.0,k41057  ,0,Y
+EA6010B-62812                   ,AL,PACKING                                                     ,UK ,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+EA6330B-1-508499                ,RZ,DISTILLED WATER                                             ,Ger,no ,0,C,E,C,23:00.0,sailmsd ,0,Y
+EA6330B-110-228NG001            ,RZ,STD 20M GYRO COMPASS (INCLUDING GYROSPHERE)                 ,Ger,no ,0,R,D,C,00:00.0,sa      ,0,Y
+EA6330B-110-231-40              ,RZ,PUMP                                                        ,Ger,no ,0,P,E,C,00:00.0,b04809  ,0,Y
+EA6330B-110-231X01              ,RZ,HEATER COMPLETE                                             ,Ger,no ,0,P,E,C,00:00.0,b04809  ,0,Y
+EA6330B-110-233-X01             ,RZ,OUTER SPHERE PCB                                            ,Ger,no ,0,P,E,C,00:00.0,b04809  ,0,Y
+EA6330B-110-233X04              ,RZ,OUTER SPHERE,,,,,,,,,,
+EA6330B-110-233X13              ,RZ,CONNECTION PCB                                              ,Ger,no ,0,R,V,C,00:00.0,a51899  ,0,Y
+EA6330B-110-234-100             ,RZ,SENSOR PCB 22M                                              ,Ger,no ,0,P,D,C,00:00.0,b04809  ,0,Y
+EA6330B-110-234-101             ,RZ,STEP MOTOR,,,,,,,,,,
+EA6330B-110234100               ,RZ,SENSOR PCB                                                  ,Ger,no ,0,P,D,C,00:00.0,n03999  ,0,Y
+EA6330B-11023447                ,RZ,STEP MOTOR COMPLETE                                         ,Ind,no ,0,P,E,B,00:00.0,c209890 ,0,Y
+EA6330B-110234X02               ,RZ,POWER SUPPLY PCB                                            ,Ger,no ,0,R,D,C,00:00.0,y05455  ,0,Y
+EA6330B-111-006-E01             ,RZ,GYROSPHERE                                                  ,Ger,no ,0,R,E,A,00:00.0,a51899  ,0,N
+EA6330B-111-006E01              ,RZ,GYROSPHERE (NEW)                                            ,Ger,no ,0,P,E,B,00:00.0,h41705  ,0,Y
+EA6330B-232-590-321             ,RZ,SLAVE 9 FOR DDU                                             ,Ger,no ,0,R,V,C,00:00.0,f51736  ,0,Y
+EA6330B-232-590-322             ,RZ,DSCU-DM                                                     ,Ger,no ,0,R,V,C,00:00.0,f51736  ,0,Y
+EA6330B-232-590-323             ,RZ,DSCU-CPU                                                    ,Ger,no ,0,R,V,C,00:00.0,f51736  ,0,Y
+EA6330B-232-590-324             ,RZ,DDU CPU FOR DIGITAL RTU                                     ,Ger,no ,0,R,V,C,00:00.0,f51736  ,0,Y
+EA6330B-232-590-332             ,RZ,DDU CPU-SYN FOR DIGITAL RTU                                 ,Ger,no ,0,R,V,C,00:00.0,f51736  ,0,Y
+EA6330B-DD02-Z03-102            ,RZ,D/S PCB                                                     ,Ger,no ,0,R,V,C,00:00.0,a51899  ,0,Y
+EA6330B-GY02-Z01100             ,RZ,CPU PCB U12                                                 ,Ger,no ,0,P,D,C,00:00.0,a51899  ,0,Y
+EA6330B-GY02Z07-101             ,RZ,D/S PCB                                                     ,Ger,no ,0,P,E,C,00:00.0,b04809  ,0,Y
+EA6330B-MG5424G624375-3         ,RZ,MAGNETRON,,,,,,,,,,
+EA8045D-1338915910XX1E00-15     ,AV,CONTROL CARD                                                ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EA8045D-1338915910XX1E00-37     ,AV,DISPLAY CONTROL CARD                                        ,Ind,no ,0,R,E,C,00:00.0,c860310 ,0,Y
+EA8045D-1338915910XX4E00-03     ,AV,DIGITAL VOICE CARD                                          ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EB3050B-110002802858            ,BL,BASE BAND MODULE                                            ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EB3050B-110002803052            ,BL,HF TX/RX MODULE                                             ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EB3050B-110002803537            ,BL,RM MODULE                                                   ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EB3050B-110002803634            ,BL,HMI MODULE                                                  ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EB3050B-110003098902            ,BL,SDR-NC RCU                                                  ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EB3050B-110005193714            ,BL,BB2 MODULE                                                  ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EB3050B-457914010418            ,BL,IGBT DRIVER CARD                                            ,Ind,no ,0,R,D,C,00:00.0,f51736  ,0,Y
+EB3050B-476617200151            ,BL,MEDIA CONVERTOR                                             ,Ind,no ,0,P,D,C,00:00.0,r51344  ,0,N
+EB3050B-476644510113            ,BL,MODEM (HX260M)                                              ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EB3050B-476644540280            ,BL,NETWORK ACCELERATOR REMOTE                                  ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EB3050B-476740410812            ,BL,SBC                                                         ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EB3050B-476740411103            ,BL,C BAND LNB                                                  ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EB3050B-476740411297            ,BL,BUC 20W                                                     ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EB3050B-476740430697            ,BL,BUC 16W KU BAND EXTENDED LINEAR                             ,Ind,no ,0,R,E,B,00:00.0,k03888  ,0,Y
+EB3050B-476740431570            ,BL,WIDE BAND LNB KU-BAND                                       ,Ind,no ,0,R,E,B,00:00.0,k03888  ,0,Y
+EB3050B-480512640126            ,BL,CPCI PSU MODULE                                             ,Ind,no ,0,P,E,C,41:00.0,t137430 ,0,N
+EB3497B-476741950784            ,BL,DUAL CCU WITH S/W UPGRADE AND NEW BDMX                      ,Ind,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+EB3497B-476741950978            ,BL,ANTENNA CONTROL UNIT (ACU)                                  ,Ind,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+EB3497B-476741951463            ,BL,AXIS DRIVER 10 A UNIT                                       ,Ind,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+EB9188B-171000344550            ,BL,ADV VLF DEMODULATOR                                         ,Ind,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+EB9834B-362204-02               ,X1,OIL FILTER INCLUDING O RING                                 ,Ger,no ,0,R,E,B,00:00.0,w86909  ,0,Y
+EB9834B-372823-01               ,X1,SET OF GASKET                                               ,Ger,no ,0,R,D,C,00:00.0,w86909  ,0,Y
+EB9834B-37402201                ,X1,SHAFT SEAL                                                  ,Ger,no ,0,P,V,A,00:00.0,k86927  ,0,Y
+EC4720B-3034221                 ,KC,PUMP,,,,,,,,,,
+EC4720B-3075537                 ,KC,PUMP,,,,,,,,,,
+EC4720B-3096859                 ,KC,VALVE,,,,,,,,,,
+EC4720B-3178835                 ,KC,HOSE,,,,,,,,,,
+EC4720B-3178893                 ,KC,FLOAT                                                       ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,Y
+EC4720B-3310169                 ,KC,ELEMENT LUB OIL FILTER                                      ,USA,no ,0,R,V,A,00:00.0,y04476  ,0,Y
+EC4720B-3315115                 ,KC,WATER FILTER SERVICE                                        ,USA,no ,0,C,V,A,00:00.0,y04476  ,0,Y
+EC4720B-3889311                 ,KC,ELEMENT,,,,,,,,,,
+EC4720B-5223A2                  ,KC,U9 RELAY FOR IDLING SPEED ADJUSTMENT                        ,USA,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EC4720B-LS901                   ,KC,LEVEL SWITCH COOL WATER LEAK W                              ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-PS202                   ,KC,PRESS SWITCH LOW LUB OIL PRESS                              ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-PS301                   ,KC,PRESSURE SWITCH LOW LOB OIL PR                              ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-PS401                   ,KC,PRESS SWITCH LOW PRESSURE WARN                              ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-PT201                   ,KC,PRESS ELEMENT L/O PRESSURE MEA                              ,USA,no ,0,C,D,C,00:00.0,y04476  ,0,N
+EC4720B-PT401                   ,KC,PRESS ELEMENT CWP MEASURING                                 ,USA,no ,0,C,D,C,00:00.0,y04476  ,0,N
+EC4720B-TS201                   ,KC,TEMP SWITCH HIGH L/O TEMP WARN                              ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-TS401                   ,KC,TEMP SWITCH ENGINE PREHEATING                               ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-TS402                   ,KC,TEMP SWITCH HCWT SHUT DOWN                                  ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-TS403                   ,KC,TEMP SWITCH HCWT WARNING                                    ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-TT201                   ,KC,THERMO ELEMENT L/O TEMP MEASUR                              ,USA,no ,0,R,D,C,00:00.0,y04476  ,0,N
+EC4720B-VS301                   ,KC,START AIR VALVE START CONTROL                               ,USA,no ,0,R,E,C,00:00.0,y04476  ,0,N
+EC5730D-CFFAPR18DP0C0048M5120503,X7,HP AIR PRESSURE REDUCER 45-25/8 BAR CURUCH CIRCUIT          ,Ind,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+EC5730D-CFFHCV09DH0064MAT5220794,X7,HYDRAULIC CHANGE OVER VALVE 6-WAY/2-POSITION ND20           ,Ind,no ,0,P,E,C,00:00.0,a238314 ,0,Y
+EC6010B-36-0276-009             ,CC,BRAKE LINING REVET                                          ,UK ,no ,0,C,E,C,00:00.0,r50508  ,0,Y
+EC6010B-ILMS(M)2160             ,CC,BRAKE LINING                                                ,UK ,no ,0,C,D,C,00:00.0,r50508  ,0,N
+EC6190B-5F20-1703               ,CT,CYLINDER HEAD COVER GASKET                                  ,UK ,no ,0,C,E,C,00:00.0,a40778  ,0,Y
+EC6190B-5H40-276                ,CT,ROATRY SEAL PKG (STANDARD)                                  ,UK ,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+EC6190B-5H40-962                ,CT,REGULATOR VALVE                                             ,UK ,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+EC6190B-5H80-502                ,CT,GASKET SET                                                  ,UK ,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+EC6190B-90C01-1061-46           ,CT,SWITCH OIL PRESSURE                                         ,UK ,no ,0,R,D,C,00:00.0,k41222  ,0,Y
+EC6190B-90C01-6093-1            ,CT,SWITCH HIGH PRESSURE                                        ,UK ,no ,0,P,D,C,00:00.0,c444690 ,0,Y
+EC6190B-90C0156522              ,CT,THERMO EXPANSION VALVE                                      ,UK ,no ,0,P,D,C,00:00.0,s_a     ,0,N
+EC6190B-EN07EA-039              ,CT,"DISCHARGE SHUT OFF VALVE 1 3/8"" ODS                         ",UK ,no ,0,R,D,C,33:00.0,sa      ,0,Y
+EC6200B-CCC-SMPS-125            ,CN,SMPS POWER MODULE                                           ,Ind,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EC6250B-962098                  ,T9,BLOCK SLIDING 2MM                                           ,UK ,no ,0,R,D,C,00:00.0,a40778  ,0,N
+EC6250B-962099                  ,T9,BLOCK SLIDING 3MM                                           ,UK ,no ,0,R,D,C,00:00.0,a40778  ,0,N
+EC6250B-962100                  ,T9,BLOCK SLIDING 1.5MM                                         ,UK ,no ,0,R,D,C,00:00.0,a40778  ,0,N
+EC7100V-109515                  ,VP,STEERING BUSH CRANK                                         ,NZ ,no ,0,C,V,B,00:00.0,t42655  ,0,Y
+EC7100V-111398-STG              ,VP,STEERING PIVOT BUSH(JET OVER S/N 329)                       ,NZ ,no ,0,R,V,B,00:00.0,t42655  ,0,Y
+EC7100V-111399                  ,VP,STEERING PIVOT BUSH                                         ,NZ ,no ,0,C,V,B,00:00.0,t42655  ,0,Y
+ED4006V-TEX2                    ,Y2,EXPANSION VALVE                                             ,Ind,no ,0,R,E,C,00:00.0,k40727  ,0,Y
+ED6000B-H833-5309799            ,DY,"PERFECT SEALS (SINGLE) NO. 2752 2"" DIA SHAFT                ",UK ,no ,0,C,D,C,00:00.0,sa      ,0,Y
+ED6000B-H833-57096              ,DY,"PERFECT SEALS (SINGLE) NO. 18918 1 1/4"" DIA SHAFT           ",UK ,no ,0,C,D,C,00:00.0,t40598  ,0,Y
+ED6000B-H833-57441              ,DY,"PERFECT SEALS (SINGLE) NO. 250124N 1 3/4"" DIA SHAFT         ",UK ,no ,0,C,D,C,00:00.0,sa      ,0,Y
+ED6061D-0930930143459           ,X7,VARIATOR MDX 30                                             ,Fra,no ,0,P,V,A,00:00.0,c697750 ,0,Y
+ED6061D-0930930143460           ,X7,VARIATOR MDX 60                                             ,Fra,no ,0,P,V,A,00:00.0,c697750 ,0,Y
+ED6061D-0930930143461           ,X7,VARIATOR MDX 130                                            ,Fra,no ,0,P,V,A,00:00.0,c697750 ,0,Y
+ED6061D-0930930143462           ,X7,VARIATOR MDX 250                                            ,Fra,no ,0,P,V,A,00:00.0,c697750 ,0,Y
+ED6061D-0999514180              ,X7,"LCD SCREEN 17""                                              ",Fra,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-0999520126              ,X7,"LCD SCREEN 21""                                              ",Fra,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-18FG000C4537            ,X7,FHARI HOSE PEH200 BAR ND15 STAUBLI UNIONS L:2 M             ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-18FG000C4552            ,X7,FLEXIBLE AIR PEH500 DN15 RACCORD RUCH CU-AL LHT750          ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-18FH000C4128            ,X7,FHARI HOSE PEH410 BAR ND20 RUCH UNIONS L:0,,,,,,,,,,
+ED6061D-24SF000C0107            ,X7,SMOKE DETECTOR                                              ,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-2866378                 ,X7,QUINT-PS-24DC/24DC/10                                       ,Fra,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-380105                  ,X7,INCANDESCENT LAMP 25W/24V B15                               ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-380106                  ,X7,INCANDESCENT LAMP 40W/115V B22                              ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-380107                  ,X7,INCANDESCENT LAMP 60W/115V B22                              ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-380125                  ,X7,FLUORESCENT LAMP 9W 115V B22                                ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-448-0118-F6             ,X7,BALL JOINT                                                  ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-448-0118-F68            ,X7,COVER SEAL MRGH V01 AME MONEL                               ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-448-0118-F71            ,X7,COVER SEAL MRGH V01 AME MONEL                               ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-487238                  ,X7,LANTERN SEAL                                                ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-487240                  ,X7,VALVE SEAL                                                  ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-49CH000C0002            ,X7,COMPLETE SERVO VV WITH CONNETOR (FWD,,,,,,,,,,
+ED6061D-49DD300C0075            ,X7,CLOCKWISE WATERPROOF LIM-SWITCH ROTARY ACTUATOR 14MCONN PLUG,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-49DD300C0076            ,X7,C-CLOCKWISE WATERPROOF LIM-SWITCH ROT ACTUATOR14M CONN PLUG ,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-49DD300C0087            ,X7,C-CLOCKWISE LIM-SWITCH F44 FCI10MCONNECTOR PLUG SIMPLE LEVER,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-49DD300C0088            ,X7,CLCOKWISE LIMIT SWITCH F45 FCI10MCONNECTOR PLUG SIMPLE LEVER,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-49SC001C0102            ,X7,RSU                                                         ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+ED6061D-9CR260322S601           ,X7,CARTRIDGE 200U                                              ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-ACM0109                 ,X7,PROTECTIVE SEAL CEM EMV EPDM FOAM RUBBER COATING STEEL FRAME,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-APM0277                 ,X7,TEMPERATURE PROBE CTN 10K                                   ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-APM0290                 ,X7,AFT HYDROPLANE SENSOR                                       ,Fra,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-APM0291                 ,X7,FWD HYDROPLANE SENSOR                                       ,Fra,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-APM0292                 ,X7,RUDDER SENSOR                                               ,Fra,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-C-800                   ,X7,O2 SENSOR                                                   ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-CABL00089               ,X7,FITTED CABLE                                                ,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-CABL00091               ,X7,FITTED CABLE                                                ,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-CABL00109               ,X7,FITTED CABLE                                                ,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+ED6061D-CDE1227                 ,X7,CAPACITOR FILM 40UF 1450VDC SERIES DC 89-HC                 ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-DIE0521                 ,X7,DIODE BRIDGE G10 17A 1.2KV                                  ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-DTC-311                 ,X7,H2 SENSOR                                                   ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-FCE-02-G21-RD-14M-L-A   ,X7,LIMIT SWITCH WITH CUSN12P BRONZE LEVER                      ,Fra,no ,0,R,V,C,00:00.0,a238314 ,0,Y
+ED6061D-FSE0613                 ,X7,FUSE CARTRIDGE 10 X 38 HPC TYPE G 6A                        ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-FSE0615                 ,X7,FUSE 10 X 38 HPC TYPE G 8A                                  ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-FSE0723                 ,X7,FUSE 10 X 38 4A GRB 690V                                    ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-MAT171-2748-49CE000C0023,X7,SG 10.2 AUMA 5-PRONG SERVOMOTOR FOR VALVES                  ,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-MAT738-0045             ,X7,EXHAUST FLEXIBLE HOSE                                       ,Fra,no ,0,R,V,C,00:00.0,a238314 ,0,Y
+ED6061D-PVBEN443-0-00           ,X7,DN80 SEA WATER SENSOR                                       ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-PVBEN445-0-00           ,X7,DN40 SEA WATER SENSOR                                       ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-REE0679                 ,X7,"POWER CONTACT 1""F"" 350A 750VCC + 1 AUXILIARY CONTACT 1""F""   ",Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-RSE2754                 ,X7,RESISTOR TYPE RPS500  68OHM 5%                              ,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-SG05-2                  ,X7,SG 05.2 AUMA 5-PRONG SERVOMOTOR FOR VALVES                  ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ED6061D-TR-14-01A-CS-J1         ,X7,INTERCOM WITH STANDARD BOX J1                               ,Fra,no ,0,P,V,A,00:00.0,b43606  ,0,Y
+ED6061D-YEC0329-01              ,X7,MANOEUVRING IMPACT CARD                                     ,Fra,no ,0,R,D,C,00:00.0,cj14413 ,0,Y
+ED6062D-12ED000C0044            ,Z9,HYDROPHORE GROUP                                            ,Fra,no ,0,R,E,A,00:00.0,c860310 ,0,Y
+EE3070B-476644561717            ,EC,BUC 16W KU BAND EXTENDED LINEAR                             ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EE3070B-476644562008            ,EC,SBC(MKII)                                                   ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EE3070B-476644562105            ,EC,ADMX                                                        ,Ind,no ,0,P,V,C,00:00.0,w41699  ,0,Y
+EE6106B-5430612                 ,EV,LEVEL SWITCH                                                ,Ind,no ,0,R,E,C,00:00.0,c444690 ,0,Y
+EE6106B-5430668                 ,EV,NON RETURN VALVE,,,,,,,,,,
+EE6106B-5430675                 ,EV,FLAP NON RETURN FOR EJECTOR                                 ,Fra,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+EE6106B-5430805                 ,EV,O-RING                                                      ,Fin,no ,0,C,D,C,00:00.0,z86933  ,0,Y
+EE6106B-5430816                 ,EV,GASKET 133/90X2                                             ,Fra,no ,0,C,E,C,00:00.0,a40778  ,0,Y
+EE6106B-5430827                 ,EV,GASKET FOR EJECTOR                                          ,Fra,no ,0,C,V,C,00:00.0,a40778  ,0,Y
+EE6106B-5435015                 ,EV,VALVE DISCHARGE SEPARATOR                                   ,Fra,no ,0,R,V,B,00:00.0,a40778  ,0,Y
+EE6106B-5437598                 ,EV,PRESSURE SWITCH                                             ,Sng,no ,0,R,V,B,00:00.0,s_a     ,0,Y
+EE6106B-5437623                 ,EV,"VACUUM GAUGE R1/2"" BAR-1 0                                  ",Ind,no ,0,P,D,C,00:00.0,sa      ,0,N
+EE6106B-5451270                 ,EV,IMPELLER 238MM/50HZ)                                        ,Fra,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EE6106B-5451300                 ,EV,SHAFT ADAPTOR                                               ,Fra,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EE6106B-5451310                 ,EV,SEAL MECHANICAL                                             ,Fra,no ,0,R,V,B,00:00.0,a40778  ,0,N
+EE6106B-5451470                 ,EV,BEARING PUMP SIDE (SKF-6205-2Z/C3)                          ,Fra,no ,0,R,V,C,00:00.0,a40778  ,0,N
+EE6106B-5451480                 ,EV,BEARING MOTR END FOR PUMP EVAC SKF 6206-22/03               ,Fra,no ,0,R,D,C,00:00.0,a40778  ,0,N
+EE6106B-5774002                 ,EV,WATER VALVE                                                 ,Fin,no ,0,R,E,C,00:00.0,w41270  ,0,Y
+EE6106B-5775500                 ,EV,CONTROL MECHANISM                                           ,Fin,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+EE6106B-5805900                 ,EV,HOSE 4X2X1-1000                                             ,Fin,no ,0,C,E,C,00:00.0,w41270  ,0,Y
+EE6106B-5860303                 ,EV,PNEMATIC PUSH BUTTON                                        ,Fin,no ,0,R,E,C,00:00.0,w41270  ,0,Y
+EE6106B-5900200                 ,EV,PUSH BUTTON                                                 ,Fin,no ,0,R,E,C,00:00.0,w41270  ,0,Y
+EE6106B-5900204                 ,EV,PNEUMATIC PUSH BUTTON                                       ,Fin,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EE6106B-5959902                 ,EV,MINI CHECK VALVE                                            ,Fin,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+EE6106B-6540215                 ,EV,VALVE MOTOR DN-65 220V                                      ,Fra,no ,0,R,V,B,00:00.0,p1058633,0,Y
+EE6106B-6541002                 ,EV,BACK PLATE  EVAC 900  FLOOR                                 ,Fin,no ,0,P,E,B,00:00.0,w41270  ,0,Y
+EE6106B-6549074                 ,EV,KIT,,,,,,,,,,
+EE6106B-6549075                 ,EV,KIT,,,,,,,,,,
+EE6106B-6549076                 ,EV,KIT,,,,,,,,,,
+EE6106B-6549101                 ,EV,2-WAY PNEUMATIC VALVE                                       ,Ind,no ,0,P,E,B,00:00.0,k52101  ,0,Y
+EE6106B-6549127                 ,EV,LEVEL SWITCH                                                ,Fin,no ,0,R,V,B,00:00.0,w06422  ,0,Y
+EE6106B-6549131                 ,EV,"MAGNETIC VALVE 3/4""                                         ",Fin,no ,0,R,V,B,00:00.0,w06422  ,0,Y
+EE6106B-6549138                 ,EV,PRESSURE GAUGE,,,,,,,,,,
+EE6106B-6549140                 ,EV,WASTE WATER FLOW ADJUSTMENT VALVE                           ,Fin,no ,0,R,V,C,00:00.0,t43161  ,0,Y
+EE6106B-6549616                 ,EV,CONTRACTOR                                                  ,Ind,no ,0,P,E,B,00:00.0,k52101  ,0,Y
+EE6106B-6552311                 ,EV,BRUSHWAY FILTER                                             ,Fin,no ,0,R,V,B,00:00.0,t43161  ,0,Y
+EE6106B-6552316                 ,EV,PRESSURE DIF.INDICATOR                                      ,Fin,no ,0,R,V,B,00:00.0,w06422  ,0,Y
+EE6106B-IV6574014               ,EV,"3 Way PN Valve 1 1/4""                                       ",Fin,no ,0,P,V,A,00:00.0,t43161  ,0,Y
+EE6120B-63333                   ,Y8,FLOAT SWITCH,,,,,,,,,,
+EE9520D-BOB0290-400HZ           ,X7,INDUCTION COIL FOR DIFFERENTIAL MODE FILTER                 ,Fra,no ,0,P,E,C,00:00.0,z42328  ,0,Y
+EE9520D-BOB0290-60HZ            ,X7,INDUCTION COIL FOR DIFFERENTIAL MODE FILTER                 ,Fra,no ,0,P,E,C,00:00.0,z42328  ,0,Y
+EE9520D-BOB0426                 ,X7,INDUCTOR MLI 30‰H 125AEFF. A4D02661                         ,Fra,no ,0,R,E,B,00:00.0,r86885  ,0,Y
+EE9520D-BOB0426-400HZ           ,X7,INDUCTOR MLI 30AH 125AEFF  FOR PWM FILTER 400HZ             ,Fra,no ,0,R,E,B,00:00.0,f42705  ,0,Y
+EE9520D-BOB0427                 ,X7,600VDC/330VEFF AXIAL                                        ,Fra,no ,0,R,E,B,00:00.0,r86885  ,0,Y
+EE9520D-BOB0428                 ,X7,TRIPHASE TRANSFORMER 82.3V(UIN) 115V(UOUT) 400HZ 20         ,Fra,no ,0,R,E,B,00:00.0,r86885  ,0,Y
+EE9526D-14356                   ,T6,PUMP WITH MOTOR PART NO. 14356,,,,,,,,,,
+EE9526D-14357                   ,T6,PUMP WITH MOTOR PART NO. 14357,,,,,,,,,,
+EE9935V-000317820               ,EL,ELEMENT FILTER B TYPE                                       ,Ind,no ,0,C,D,C,00:00.0,a51668  ,0,Y
+EE9935V-000426320               ,EL,SEAT VALVE NRV 1 1/2                                        ,Ind,no ,0,C,D,C,00:00.0,a51668  ,0,Y
+EE9935V-000432220               ,EL,SEAT FELT DIA83XDIA126X1.                                   ,Ind,no ,0,C,D,C,00:00.0,a51668  ,0,Y
+EE9935V-000905286               ,EL,`V,Ind,no ,0,R,D,C,00:00.0,a51668  ,0,Y
+EG6011D-334-11107               ,X7,X848 PCB SUB-ASSY.                                          ,UK ,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+EG8338V-2194-0-01-02-B-S1-00563 ,GR,SHROUDED PUSHBUTTON RED  COLOUR                             ,Ind,no ,0,C,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-02-B-S1-00592 ,GR,ADD ON BLOCK 1 NO CONTACT                                   ,Ind,no ,0,C,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-04-B-SI-00564 ,GR,SHROUDE PUSHBUTTON YELLOW COLOUR                            ,Ind,no ,0,C,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-05-B-SI-00591 ,GR,ADD ON BLOCK 1 NO CONTACT                                   ,Ind,no ,0,C,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-06-B-SI-00591 ,GR,ADD ON BLOCK 1 NO CONTACT                                   ,Ind,no ,0,C,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-06-B-SI-00594 ,GR,ADD ON BLOCK 2 NO CONTACT                                   ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-07-D-SI-00151 ,GR,1 NO CONTACTS ADD ON BLOCK FOR 3RT1.2-3RT1.7,,,,,,,,,,
+EG8338V-2194-0-01-07-D-SI-00152 ,GR,1 NO CONTACTS ADD ON BLOCK FOR 3RT1.2-3RT1.7,,,,,,,,,,
+EG8338V-2194-0-01-11-E-SI-0150  ,GR,VOLTAGE MONITORING RELAY 2C/O 380V AC                       ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-15-E-SI-0361  ,GR,SEMICONDUCTOR FUSE 690V AC,,,,,,,,,,
+EG8338V-2194-0-01-16-E-SI-03005 ,GR,HRC FUSE BASE RATED 160A                                    ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-19-H-SI-00002 ,GR,INDICATING LAMP INTEGRAL LED GREEN  COLOUR 220-240V AC      ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-20-H-SI-00005 ,GR,INDICATING LAMP INTEGRAL LED AMBER  COLOUR 220-240V AC      ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-2194-0-01-21-H-SI-00006 ,GR,INDICATING LAMP INTEGRAL LED BLUE COLOUR 220-240V AC        ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-GRSE-EL-002          ,GR,INDICATING LAMP RED COLOUR,,,,,,,,,,
+EG8338V-PH-GRSE-EL-003          ,GR,INDICATING LAMP RED COLOUR,,,,,,,,,,
+EG8338V-PH-GRSE-EL-004          ,GR,INDICATING LAMP GREEN COLOUR 22.5MM DIA                     ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-GRSE-EL-020          ,GR,E.STOP PUSH BUTTON 22.5MM DIA,,,,,,,,,,
+EG8338V-PH-SYS-16-17-027-03     ,GR,OIL LEVEL INDICATOR                                         ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-15     ,GR,SUCTION STAINER                                             ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-20     ,GR,ELEMENT FOR RETURN LINE FILTER                              ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-29     ,GR,PROPORTIONAL D.C. VALVE                                     ,Ind,no ,0,P,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-32     ,GR,PRESSURE GAUGE                                              ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-40     ,GR,RELIEF VALVE                                                ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-44     ,GR,PRESSURE TRANSDUCER                                         ,Ind,no ,0,P,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-45     ,GR,PRESSURE RELIEF VALVE                                       ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-51     ,GR,COUNTER BALANCE VALVE                                       ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-57     ,GR,COIUNTER BALANCE VALVE                                      ,Ind,no ,0,P,D,B,00:00.0,z42768  ,0,Y
+EG8338V-PH-SYS-16-17-027-VV-COIL,GR,COILS FOR VALVES                                            ,Ind,no ,0,R,D,B,00:00.0,z42768  ,0,Y
+EG9042D-01200167                ,X9,COMPRESSOR BELT  VSX 2096 L10                               ,Fra,no ,0,R,V,C,00:00.0,cj14413 ,0,Y
+EG9042D-02100473                ,X9,TOROIDAL GASKET R 27                                        ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+EG9042D-02100474                ,X9,TOROIDAL GASKET R 28                                        ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+EG9042D-02101274                ,X9,TOROIDAL GASKET R 21                                        ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+EG9042D-02101275                ,X9,TOROIDAL GASKET R 22                                        ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+EG9064B-ERS-0317                ,GN,MECH.SEAL FOR A/C REF S W PUMP                              ,Ind,no ,0,R,E,B,00:00.0,c444690 ,0,Y
+EG9064B-ERS-0380                ,GN,MECHANICAL SEAL FOR AC CHILLED WATER P/P                    ,Ind,no ,0,R,D,C,00:00.0,c444690 ,0,Y
+EG9064B-ERS-19-0317-A3          ,GN,CHILLED WATER PUMP                                          ,Ind,no ,0,R,E,A,00:00.0,w41270  ,0,Y
+EG9064B-ERS-B-0400              ,GN,MECH.SEAL FOR FW PUMP                                       ,Ind,no ,0,R,E,C,00:00.0,c444690 ,0,Y
+EH3370V-100100000               ,TE,RELEASE BUTTON COMPLETE                                     ,Ind,no ,0,R,V,A,00:00.0,c209890 ,0,Y
+EH5670B-3648070                 ,IN,BLADDER 100L                                                ,Ind,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+EH6020D-D8830-01                ,HL,MIL STD 188-110A HSDM MODEM NSG DATA COM 4000               ,Ind,no ,0,P,E,C,00:00.0,w41699  ,0,Y
+EH6039D-000157                  ,Y8,CAPACITIV LIMIT SWITCH KG-201(INDUCTION SWITCH)             ,Ind,no ,0,R,E,B,00:00.0,r86885  ,0,Y
+EH6039D-000168                  ,Y8,TEST KIT,,,,,,,,,,
+EH6039D-000338                  ,Y8,FLOT SWITCH WITH SHROUD S01                                 ,Ind,no ,0,P,E,B,00:00.0,r86885  ,0,Y
+EH6039D-000551                  ,Y8,SHAFT SEALING RING                                          ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-000705                  ,Y8,DRIVE SHAFT                                                 ,Ind,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+EH6039D-000706                  ,Y8,TAPER ROLLAR BEARING 32009                                  ,Ind,no ,0,R,E,C,00:00.0,r86885  ,0,Y
+EH6039D-000708                  ,Y8,SET OF FITTING DISCS                                        ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-000709                  ,Y8,O-RING                                                      ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-000764                  ,Y8,JOINT CLAMP                                                 ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-000786                  ,Y8,SET SCREW                                                   ,Ind,no ,0,C,D,C,00:00.0,z42768  ,0,Y
+EH6039D-000788                  ,Y8,SEALING RING                                                ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-000838                  ,Y8,HEXAGON NUT M8/ISO 4032 (DIN 934)/8/STVZ                    ,Ind,no ,0,C,D,C,00:00.0,z42768  ,0,Y
+EH6039D-000906                  ,Y8,LOCK NUT                                                    ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-000933                  ,Y8,DISK / WASHER 10.5./ISO 7089 (DIN 125B) STVZ                ,Ind,no ,0,C,D,C,00:00.0,z42768  ,0,Y
+EH6039D-000934                  ,Y8,HEXAGON NUT M19/ISO 4032 (DIN 934)/8/STVZ                   ,Ind,no ,0,C,D,C,00:00.0,z42768  ,0,Y
+EH6039D-000935                  ,Y8,PLUG-IN SHAFT                                               ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-000936                  ,Y8,SPLASH RING(THROWER)                                        ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-000937                  ,Y8,MECHANICAL SEAL                                             ,Ind,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+EH6039D-000941                  ,Y8,O-RING                                                      ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-000970                  ,Y8,SHEAR PLATE                                                 ,Ind,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+EH6039D-000973                  ,Y8,HEADSTOCK                                                   ,Ind,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+EH6039D-001396                  ,Y8,DOSING VALVE                                                ,Ind,no ,36,R,E,C,00:00.0,b04776  ,0,Y
+EH6039D-001406                  ,Y8,PLUG-IN SHAFT                                               ,Ind,no ,0,R,V,B,00:00.0,r86885  ,0,Y
+EH6039D-001408                  ,Y8,SPLASH RING                                                 ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-001409                  ,Y8,MECHANICAL SEAL                                             ,Ind,no ,0,R,V,B,00:00.0,r86885  ,0,Y
+EH6039D-001411                  ,Y8,SET COLLAR                                                  ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-001413                  ,Y8,COUPLING ROD                                                ,Ind,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+EH6039D-001415                  ,Y8,COUPLING ROD PIN                                            ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-001416                  ,Y8,GUIDE BUSH                                                  ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-001417                  ,Y8,FLOLOWER/SLEEVE                                             ,Ind,no ,0,C,E,C,00:00.0,r86885  ,0,Y
+EH6039D-001418                  ,Y8,HOLDING BAND                                                ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-001421                  ,Y8,SUCTION CASING GASKET                                       ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-001423                  ,Y8,SEALING RING                                                ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6039D-001426                  ,Y8,ROTOR                                                       ,Ind,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+EH6039D-001427                  ,Y8,STATOR                                                      ,Ind,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+EH6039D-001468                  ,Y8,LOCKING PLATE                                               ,Ind,no ,0,C,D,C,00:00.0,r86885  ,0,Y
+EH6160B-674351051000            ,HK,FLAP                                                        ,Ger,no ,0,R,D,C,00:00.0,y51270  ,0,Y
+EH6230B-ND2108                  ,HH,SEAT VALVE                                                  ,UK ,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+EH7051B-351271169080            ,K6,REMOTE SMALL TERMINAL RST16CX012                            ,Ger,no ,0,P,V,C,00:00.0,w42458  ,0,N
+EH7051B-351274504900            ,K6,SWAN-NECK MICROPHONE LBD 3320/10                            ,Ger,no ,0,R,V,A,00:00.0,w42458  ,0,N
+EH7051B-351274505510            ,K6,HAND MICROPHONE LBD 1884/65                                 ,Ger,no ,0,R,V,A,00:00.0,w42458  ,0,Y
+EH8015D-343309-02               ,Y1,SOLENOID COIL 230 V (UNLOADER)                              ,Ind,no ,0,R,E,B,00:00.0,a42021  ,0,Y
+EH8015D-347022-01               ,Y1,THERMOSTAT FOR OA 1854                                      ,Ind,no ,0,R,D,C,00:00.0,z86933  ,0,Y
+EH8015D-50206043012-06          ,Y1,HIGH PRESSURE SWITCH KP-5 (RESET TYPE)                      ,Ind,no ,0,R,E,B,00:00.0,a42021  ,0,Y
+EH8015D-50206043012-46          ,Y1,EXPANSION VALVE (AHU-1) 22 TR                               ,Ind,no ,0,R,E,B,00:00.0,a42021  ,0,Y
+EH8015D-50206043012-47          ,Y1,EXPANSION VALVE (AHU-2) 5.6 TR                              ,Ind,no ,0,R,E,B,00:00.0,a42021  ,0,Y
+EI6025D-70234737                ,IG,VALVE FINGER                                                ,Ind,no ,0,P,D,C,00:00.0,w86909  ,0,Y
+EI6025D-70242508                ,IG,GASKET SET                                                  ,Ind,no ,0,P,D,C,00:00.0,w86909  ,0,Y
+EI6025D-70484647                ,IG,"FLEXIBLE HOSE 1/2"" NPT                                      ",Ind,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EI6025D-70488440                ,IG,FUEL FILTER ELEMENT(ENGINE)                                 ,Ind,no ,0,C,D,C,00:00.0,sailmsv ,0,Y
+EI6025D-97044440                ,IG,V BELTS                                                     ,Ind,no ,0,C,D,C,00:00.0,sailmsv ,0,Y
+EJ6000B-001863                  ,JP,GASKET RADIAL                                               ,Ger,no ,0,C,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-002566                  ,JP,N RING                                                      ,Ger,no ,0,C,D,C,00:00.0,a40778  ,0,Y
+EJ6000B-002580                  ,JP,S RING                                                      ,Ger,no ,0,C,D,C,00:00.0,a40778  ,0,Y
+EJ6000B-002691                  ,JP,RING RECTANGULAR                                            ,Ger,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+EJ6000B-012512                  ,JP,RING RECTANGULAR                                            ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-030082                  ,JP,OIL PRESSURE SWITCH                                         ,Ger,no ,0,P,E,B,21:00.0,sa      ,0,Y
+EJ6000B-030752                  ,JP,VALVE SAFETY II STAGE                                       ,Ger,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+EJ6000B-030915                  ,JP,SAFETY VALVE                                                ,Ger,no ,0,R,E,C,00:00.0,a40778  ,0,N
+EJ6000B-031526                  ,JP,VALVE CONCENTRIC II STAGE COMPLETE                          ,Ger,no ,0,R,V,B,00:00.0,a40778  ,0,Y
+EJ6000B-031527                  ,JP,VALVE CONCENTRIC I STAGE COMPLETE                           ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-031542                  ,JP,S-RING                                                      ,Ger,no ,0,C,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-031872                  ,JP,D RING                                                      ,Ger,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+EJ6000B-031901                  ,JP,N-RING 136X4                                                ,Ger,no ,0,R,V,C,00:00.0,s_a     ,0,Y
+EJ6000B-031902                  ,JP,D-RING                                                      ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+EJ6000B-032653                  ,JP,PLATE VALVE SUCTION                                         ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-032939-006              ,JP,VALVE SAFETY  STAGE I                                       ,Ind,no ,0,R,E,C,46:00.0,h42332  ,0,Y
+EJ6000B-033602-017              ,JP,VALVE SAFETY II                                             ,Ind,no ,0,R,E,C,46:00.0,h42332  ,0,Y
+EJ6000B-033900                  ,JP,VALVE PLATE (DELIVERY)                                      ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+EJ6000B-034465                  ,JP,SUCTION VALVE III STAGE                                     ,Ind,no ,0,R,V,B,46:00.0,h42332  ,0,Y
+EJ6000B-034468                  ,JP,VALVE SOLENOID                                              ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-035323                  ,JP,VALVE ELECTROMAGNETIC DRAINING                              ,Ger,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+EJ6000B-050228                  ,JP,VALVE SAFETY                                                ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-050233265               ,JP,VALVE SAFETY IV                                             ,Ind,no ,0,P,E,C,46:00.0,h42332  ,0,Y
+EJ6000B-050456                  ,JP,CONNECTING ROD ASSY                                         ,Ger,no ,0,P,D,C,00:00.0,a40778  ,0,Y
+EJ6000B-050772                  ,JP,PISTON                                                      ,Ger,no ,0,P,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-051526E                 ,JP,VALVE CONCENTRIC                                            ,Ger,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+EJ6000B-053395                  ,JP,CYLINDER I STAGE COMPLETE WITH GASKET O RING                ,Ger,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+EJ6000B-056860                  ,JP,BEARING CONNECTING ROD                                      ,Ger,no ,0,R,V,B,00:00.0,a40778  ,0,Y
+EJ6000B-056870                  ,JP,PISTON PIN BUSHING                                          ,Ger,no ,0,P,V,C,00:00.0,a40778  ,0,Y
+EJ6000B-056872                  ,JP,PISTON PIN BUSHING                                          ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,N
+EJ6000B-056891                  ,JP,CYLINDER II STAGE COMPLETE WITH GASKET & O RING             ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EJ7512D-G204                    ,Z6,EXCITATION GENERATOR BALLAST RESISTOR                       ,Fra,no ,0,R,D,C,00:00.0,a238314 ,0,Y
+EJ7512D-GEN-ACC-ATS             ,Z6,AIR TEMPERATURE SENSOR                                      ,Fra,no ,0,P,E,C,00:00.0,z86933  ,0,Y
+EJ7512D-GEN-BEA-TEM             ,Z6,BEARING TEMPERATURE SENSOR                                  ,Fra,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EJ7512D-GEN-CC-AVR-CPU          ,Z6,CPU BOARD                                                   ,Fra,no ,0,P,V,C,00:00.0,cj14413 ,0,Y
+EJ7512D-GEN-FR-ACC-CT           ,Z6,CURRENT TRANSFORMER                                         ,Fra,no ,0,P,V,C,00:00.0,z86933  ,0,Y
+EJ7512D-GEN-RCT-EP-EXTR         ,Z6,EXCITATION TRANSFORMER                                      ,Fra,no ,0,P,V,C,00:00.0,z86933  ,0,Y
+EJ7512D-GEN-RCT-EP-R            ,Z6,RESISTOR                                                    ,Fra,no ,0,R,V,C,00:00.0,z86933  ,0,Y
+EJ7512D-GEN-RT-EXC-DIO          ,Z6,SET OF 6 DIODES FOR EXCITATION GENERATOR                    ,Fra,no ,0,P,V,C,00:00.0,z86933  ,0,Y
+EK3000B-0-650-C                 ,KC,EXHAUST TEMP INDICATOR                                      ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+EK3000B-162426                  ,KC,SPIDER JAW COUPLING                                         ,Ind,no ,0,P,D,C,00:00.0,c698368 ,0,Y
+EK3000B-172723                  ,KC,GASKET,,,,,,,,,,
+EK3000B-172856                  ,KC,BELT V                                                      ,Ind,no ,0,C,V,B,00:00.0,a40778  ,0,Y
+EK3000B-186917                  ,KC,CLAMP BOARRD                                                ,Ind,no ,0,C,E,C,06:00.0,sa      ,0,Y
+EK3000B-193736K7                ,KC,O RING INJECTOR BODY                                        ,Ind,no ,0,C,V,B,00:00.0,a40778  ,0,N
+EK3000B-213272                  ,KC,MAGNETIC PICK UP                                            ,Ind,no ,0,P,V,B,00:00.0,s_a     ,0,Y
+EK3000B-3011574                 ,KC,OVERSPEED MODULE                                            ,Ind,no ,0,P,D,C,00:00.0,c697175 ,0,N
+EK3000B-3017961                 ,KC,ROD PUSH                                                    ,Ind,no ,0,R,E,B,00:00.0,a40778  ,0,Y
+EK3000B-3017993                 ,KC,VALVE,,,,,,,,,,
+EK3000B-3018225                 ,KC,INJECTOR                                                    ,Ind,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+EK3000B-3021420                 ,KC,SOLENOID                                                    ,Ind,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+EK3000B-3026797                 ,KC,MOTOR,,,,,,,,,,
+EK3000B-3026806                 ,KC,CLAMP HOSE                                                  ,Ind,no ,0,C,E,C,00:00.0,a40778  ,0,Y
+EK3000B-3040377                 ,KC,BELT,,,,,,,,,,
+EK3000B-3050692                 ,KC,SWITCH MAGNETIC                                             ,Ind,no ,0,R,V,C,00:00.0,sailmsk ,0,Y
+EK3000B-3054251                 ,KC,INJECTOR                                                    ,Ind,no ,0,R,D,C,00:00.0,z85129  ,0,Y
+EK3000B-3056193                 ,KC,PUMP,,,,,,,,,,
+EK3000B-3075537                 ,KC,PUMP,,,,,,,,,,
+EK3000B-3077198                 ,KC,GASKET,,,,,,,,,,
+EK3000B-3089056                 ,KC,SEAL,,,,,,,,,,
+EK3000B-3166652                 ,KC,SEA WATER PUMP                                              ,Ind,no ,0,P,V,C,00:00.0,s_a     ,0,Y
+EK3000B-3178912                 ,KC,VALVE,,,,,,,,,,
+EK3000B-3234899                 ,KC,BRACKET,,,,,,,,,,
+EK3000B-3238183                 ,KC,KIT BARREL PLUNGER & INJECTOR                               ,Ind,no ,0,R,D,C,00:00.0,h41705  ,0,Y
+EK3000B-3283462                 ,KC,ACTUATOR,,,,,,,,,,
+EK3000B-3288856                 ,KC,BELT V RIBBED                                               ,Ind,no ,0,C,E,A,00:00.0,w41270  ,0,Y
+EK3000B-3392992                 ,KC,GEAR                                                        ,Ind,no ,0,R,D,C,00:00.0,sa      ,0,Y
+EK3000B-3408326C                ,KC,ACTUATOR                                                    ,Ind,no ,0,R,V,A,00:00.0,a70280  ,0,N
+EK3000B-3545647                 ,KC,KIT TURBO REPAIR HC5A                                       ,Ind,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EK3000B-3627084                 ,KC,WATER COOLING CASING PUMP                                   ,Ind,no ,0,R,D,C,00:00.0,c02185  ,0,Y
+EK3000B-3801969                 ,KC,KIT TURBOCHARGER                                            ,Ind,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+EK3000B-3812887                 ,KC,PUMP WATER                                                  ,Ind,no ,0,P,V,B,00:00.0,w41270  ,0,Y
+EK3000B-3814696                 ,KC,ELEMENT AIR CLEANER                                         ,Ind,no ,0,C,E,B,00:00.0,w41270  ,0,Y
+EK3000B-3818823                 ,KC,STUD                                                        ,Ind,no ,0,C,V,B,00:00.0,h04976  ,0,Y
+EK3000B-3818824                 ,KC,NUT,,,,,,,,,,
+EK3000B-3874152                 ,KC,VALVE,,,,,,,,,,
+EK3000B-3902112                 ,KC,SCREW HEX FLANGE HEAD CAP                                   ,Ind,no ,0,C,D,C,00:00.0,z86933  ,0,Y
+EK3000B-3902662                 ,KC,NUT HEXAGON FLANGE                                          ,Ind,no ,0,R,D,C,00:00.0,k40727  ,0,Y
+EK3000B-3903035                 ,KC,SCREW BANJO CONNECTOR                                       ,Ind,no ,0,C,E,C,00:00.0,c444690 ,0,Y
+EK3000B-3905449                 ,KC,SEAL ROCKER LEVER COVER                                     ,Ind,no ,0,R,D,C,00:00.0,z86933  ,0,Y
+EK3000B-3907978                 ,KC,STUD                                                        ,Ind,no ,0,R,D,C,00:00.0,k40727  ,0,Y
+EK3000B-3909886                 ,KC,SEAL INJECTOR                                               ,Ind,no ,0,C,D,C,00:00.0,z86933  ,0,Y
+EK3000B-3910279                 ,KC,CLAMP INJECTOR                                              ,Ind,no ,0,C,D,C,00:00.0,z86933  ,0,Y
+EK3000B-3918188                 ,KC,WASHER SEALING                                              ,Ind,no ,0,C,V,C,00:00.0,sailmsk ,0,Y
+EK3000B-3918973                 ,KC,PUMP,,,,,,,,,,
+EK3000B-3921926                 ,KC,GASKET TURBO CHARGER                                        ,Ind,no ,0,R,E,C,00:00.0,f70293  ,0,Y
+EK3000B-3923261                 ,KC,SEAL INJECTOR                                               ,Ind,no ,0,C,V,C,00:00.0,sailmsk ,0,Y
+EK3000B-3926787                 ,KC,INJECTOR                                                    ,Ind,no ,0,R,E,B,00:00.0,w06422  ,0,Y
+EK3000B-3936993                 ,KC,GASKET INT MANIFOLD COVER                                   ,Ind,no ,0,C,D,C,00:00.0,z86933  ,0,Y
+EK3000B-3937706                 ,KC,GASKET OIL DRAIN                                            ,Ind,no ,0,C,E,B,00:00.0,w41270  ,0,Y
+EK3000B-3938267                 ,KC,GASKET CYLINDER HEAD                                        ,Ind,no ,0,R,D,C,00:00.0,z86933  ,0,Y
+EK3000B-3974704                 ,KC,CONTROL GOVERNOR                                            ,Ind,no ,0,P,V,A,00:00.0,k04977  ,0,Y
+EK3000B-4072616                 ,KC,PUMP WATER                                                  ,Ind,no ,0,P,D,C,00:00.0,f05019  ,0,Y
+EK3000B-4078338                 ,KC,EXCHANGE HEAT                                               ,Ind,no ,0,R,E,B,00:00.0,r42390  ,0,Y
+EK3000B-4105447                 ,KC,PICKUP MAGNETIC                                             ,Ind,no ,0,R,D,C,00:00.0,k41057  ,0,Y
+EK3000B-4911878                 ,KC,WATER TEMP SENSOR                                           ,Ind,no ,0,R,E,B,00:00.0,w41270  ,0,Y
+EK3000B-4911880                 ,KC,SENSOR PRESSURE                                             ,Ind,no ,0,R,E,B,00:00.0,r42390  ,0,Y
+EK3000B-4911882                 ,KC,PRESSURE SENSOR                                             ,Ind,no ,0,R,E,B,00:00.0,w41270  ,0,Y
+EK3000B-4913235                 ,KC,SENSOR TEMPERATURE                                          ,Ind,no ,0,R,E,B,00:00.0,r42390  ,0,Y
+EK3000B-4942278                 ,KC,SEAL,,,,,,,,,,
+EK3000B-4963242                 ,KC,SENSOR  TEMPERATURE                                         ,Ind,no ,0,R,E,B,00:00.0,w41270  ,0,Y
+EK3000B-5263870                 ,KC,PUMP,,,,,,,,,,
+EK3000B-5284105                 ,KC,MOTOR STARTING                                              ,Ind,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EK3000B-AK10021SS               ,KC,HOSE FLEXIBLE                                               ,Ind,no ,0,C,E,C,00:00.0,h41705  ,0,Y
+EK3000B-AK10050SS               ,KC,HOSE FLEXIBLE                                               ,Ind,no ,0,C,D,C,00:00.0,sailmsv ,0,Y
+EK3000B-AK6065SS                ,KC,HOSE FLEXIBLE                                               ,Ind,no ,0,C,D,C,00:00.0,sailmsv ,0,Y
+EK3000B-AR3238205               ,KC,KIT FUEL FILTER AND RING                                    ,Ind,no ,0,C,V,B,00:00.0,s_a     ,0,Y
+EK3000B-AX1005073               ,KC,ELEMENT AIR CLEANER                                         ,Ind,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EK3000B-BM68356                 ,KC,GASKET SET FUEL PUMP                                        ,Ind,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+EK3000B-KIT3238493              ,KC,KIT,,,,,,,,,,
+EK3000B-NI500048901             ,KC,AVR COSIMAT N+                                              ,Ind,no ,0,P,V,B,00:00.0,t42655  ,0,Y
+EK3000B-NI910018123             ,KC,VARISTOR TYPE. SKVC 20A 460C                                ,Ind,no ,0,P,V,B,00:00.0,z42768  ,0,Y
+EK3010B-7439406000              ,KO,SENSOR MBT 1-S-80-1/2 90-3-FRDGF                            ,Ind,no ,0,R,D,C,00:00.0,sailmsc ,0,Y
+EK3010B-7439504000              ,KO,TEMP SENSOR MD2R-CK80-18X1.5-90-0.7-F1A                     ,Ind,no ,0,R,D,C,00:00.0,sailmsc ,0,Y
+EK3010B-7535201000              ,KO,TEMPERATURE SENSOR (BRG TEMP SENSOR)                        ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+EK3010B-7904116000              ,KO,HELICOFLEX SEALING JOINT (HN 113 INCONEL)                   ,Ind,no ,0,C,D,C,00:00.0,sa      ,0,Y
+EK3010B-7907804000              ,KO,FLEXIBLE SEALING JOINT                                      ,Ind,no ,0,C,V,B,00:00.0,s_a     ,0,Y
+EK3010B-7910101000              ,KO,SHEATHED INJECTION PIPE                                     ,Ind,no ,0,R,D,C,00:00.0,sailmsc ,0,Y
+EK3010B-EX02700101              ,KO,REGROUPING SAFETIES CARD                                    ,Ind,no ,0,R,E,A,00:00.0,c444690 ,0,Y
+EK3010B-EX02800101              ,KO,ACTUATOR SAFETIES CARD                                      ,Ind,no ,0,R,D,C,00:00.0,c444690 ,0,Y
+EK3010B-EX02900101              ,KO,CONDITIONAL ACTUATOR SAFETIES CARD                          ,Ind,no ,0,R,D,C,00:00.0,c444690 ,0,Y
+EK3010B-EX03100101              ,KO,THRESHOLD CARD                                              ,Ind,no ,0,R,D,C,00:00.0,c444690 ,0,Y
+EK3010B-EX03300101              ,KO,FUEL RACK MEASURE CARD                                      ,Ind,no ,0,R,E,A,00:00.0,c444690 ,0,Y
+EK3010B-EX03400101              ,KO,BEARINGS TEMP.MEASURE CARD                                  ,Ind,no ,0,R,D,C,00:00.0,c444690 ,0,Y
+EK3010B-EX03700101              ,KO,BEARINGS INDIVIDUAL ALARM CARD                              ,Ind,no ,0,R,E,A,00:00.0,c444690 ,0,Y
+EK3010B-EX03800101              ,KO,SUPPLY CARD 24 VDC/24 VDC                                   ,Ind,no ,0,P,D,C,00:00.0,c444690 ,0,Y
+EK3010B-EX03900101              ,KO,SUPPLY CARD 24 VDC / 15VDC                                  ,Ind,no ,0,P,E,C,00:00.0,c444690 ,0,N
+EK3010B-EX05400101              ,KO,SOLENOID VALVE                                              ,Ind,no ,0,R,V,C,00:00.0,c444690 ,0,Y
+EK3010B-EX05500101              ,KO,SOLENOID VALVE NC (3/4)                                     ,Ind,no ,0,R,V,C,00:00.0,c444690 ,0,Y
+EK3010B-EX05600101              ,KO,SOLENOID VALVE NC                                           ,Ind,no ,0,R,V,C,00:00.0,c444690 ,0,Y
+EK3010B-EX05700101              ,KO,SPOOL VALVE AIR OPERATED 2 PILOTS (LOCATION 13)             ,Ind,no ,0,R,E,B,00:00.0,c444690 ,0,Y
+EK3010B-EX05800101              ,KO,SPOOL VALVE AIR OPERATED 2 PILOTS (LOCATION 15)             ,Ind,no ,0,R,E,C,00:00.0,c444690 ,0,Y
+EK3010B-EX06800101              ,KO,PRESSURE REGULATOR                                          ,Ind,no ,0,P,D,C,00:00.0,c444690 ,0,Y
+EK3040B-CAL-204                 ,KN,CONTACTOR SWITCH (B/O)                                      ,Ind,no ,0,C,D,C,00:00.0,a40778  ,0,Y
+EK4096B-SEPP201M                ,Z2,OVPU/DFI CARD                                               ,Ind,no ,0,P,V,A,00:00.0,t06201  ,0,Y
+EK6030V-45-615-164-25           ,KH,FUSE GLASS FAST ACTING 5A                                   ,UK ,no ,0,C,E,C,00:00.0,w41699  ,0,Y
+EK6030V-45-690-0006-001         ,KH,PSU 125W 12V @ 10.5A                                        ,UK ,no ,0,R,E,C,00:00.0,w41699  ,0,Y
+EK6030V-45-975-0061-001         ,KH,POWER SUPPLY AND AUTO RANGING INPUT                         ,UK ,no ,0,R,E,C,00:00.0,w41699  ,0,Y
+EK6030V-CTX-A317                ,KH,ASSY OF MAGNETRON MG5437                                    ,UK ,no ,0,R,E,C,00:00.0,w41699  ,0,Y
+EK6030V-CTX-A323                ,KH,ASSY OF LNFE UNIT                                           ,UK ,no ,0,R,E,C,00:00.0,w41699  ,0,Y
+EK6030V-CTX-A369                ,KH,ASSY OF 25KW FET MODULATOR                                  ,UK ,no ,0,P,E,C,00:00.0,w41699  ,0,Y
+EK6030V-NTD-A797-1              ,KH,USB CAN ADAPTOR PCB(PCI VERSION)                            ,UK ,no ,0,R,E,B,00:00.0,f42705  ,0,Y
+EK9938V-DSA-36104019            ,KT,COMMUNICATION MODULE ASSY                                   ,Ind,no ,0,R,E,C,00:00.0,w41699  ,0,Y
+EK9938V-DSA361070052            ,KT,MASTER CONTROLLER MODULE ASSY                               ,Ind,no ,0,P,E,C,00:00.0,t52390  ,0,Y
+EK9938V-DSA361070053            ,KT,ENGINE MODULE ASSY                                          ,Ind,no ,0,P,E,C,00:00.0,t52390  ,0,Y
+EK9938V-DSA361070054            ,KT,POWER SUPPLY MODULE ASSY                                    ,Ind,no ,0,P,E,C,00:00.0,t52390  ,0,Y
+EK9938V-DSA361070055            ,KT,DISPLAY MODULE ASSY                                         ,Ind,no ,0,P,E,C,00:00.0,t52390  ,0,Y
+EK9938V-DSA361070105            ,KT,POWER SUPPLY MODULE ASSY                                    ,Ind,no ,0,P,E,C,00:00.0,t52390  ,0,Y
+EK9938V-DSA361070108            ,KT,RESOLVER MODULE ASSY                                        ,Ind,no ,0,P,E,C,00:00.0,t52390  ,0,Y
+EK9938V-DSA361070109            ,KT,CONTROLLER AND SDLC MODULE ASSY                             ,Ind,no ,0,P,E,C,00:00.0,t52390  ,0,Y
+EK9938V-DSA361120005            ,KT,TRANSCIEVER MODULE ASSY CH1(33KHZ)                          ,Ind,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EK9938V-DSA361120007            ,KT,SP MODULE ASSY                                              ,Ind,no ,0,P,E,C,00:00.0,z86933  ,0,Y
+EK9938V-DSA361120011            ,KT,POWER SUPPLY MODULE ASSY                                    ,Ind,no ,0,R,E,C,00:00.0,z86933  ,0,Y
+EL0003B-T65801616               ,SH,LNFE RECEIVER ASSEMBLY                                      ,Ger,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EL0003B-T65801806               ,SH,TRIGGER PCB TRANSCIVER                                      ,Ger,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EL0003B-T65825812               ,SH,MODULATOR 25 KW TRANSCEIVER                                 ,Ger,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EL0003B-T65825816               ,SH,POWER SUPPLY PCB                                            ,Ger,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+EL3020B-CM94004OOT5S            ,LE,MCCB-630A                                                   ,Ind,no ,0,R,D,C,00:00.0,r86885  ,0,Y
+EL3020B-SPE0101172135           ,LE,UNDER/OVER VOLTAGE RELAY VCTD2 3PHASE,,,,,,,,,,
+EL6000B-65801811                ,N1,MOTOR DRIVE PCB(BME RADAR C181/4E)                          ,UK ,no ,0,P,E,C,00:00.0,b50690  ,0,Y
+EL6000B-65825816                ,N1,POWER SUPPLY ASSEMBLY                                       ,UK ,no ,0,R,D,C,00:00.0,c963253 ,0,Y
+EL6000B-91003496                ,N1,MAGNETRON                                                   ,UK ,no ,0,R,D,C,00:00.0,c963253 ,0,N
+EL6000B-T65801801               ,N1,PCB TRIGGER ASSEMBLY                                        ,UK ,no ,0,P,V,B,00:00.0,z85129  ,0,Y
+EL6000B-T65830812               ,N1,MODULATOR PCB ASSEMBLY - 30KW                               ,UK ,no ,0,P,V,B,00:00.0,z85129  ,0,Y
+EL6000B-T91003751               ,N1,220/440V 50/60HZ 3PH STANDARD                               ,UK ,no ,0,P,V,B,00:00.0,z85129  ,0,Y
+EL6080B-4-5-673F021-224         ,Z7,SET OF DIODES (06NOS.=01SET)                                ,UK ,set,0,R,E,C,00:00.0,a40778  ,0,Y
+EM1939B-50-855507               ,JO,STARTER MOTOR(11.5V,,,,,,,,,,
+EM1939B-87-855386               ,JO,RELAY                                                       ,USA,no ,0,P,D,C,00:00.0,h41331  ,0,Y
+EM2001B-T91003496               ,ME,MAGNETRON 9410 MHZ                                          ,Ind,no ,0,P,E,C,00:00.0,r51344  ,0,Y
+EM3090B-C60H3P10AC              ,MA,TP MCB 10A                                                  ,Ind,no ,0,R,D,C,00:00.0,a51899  ,0,Y
+EM3090B-C60H3P32AC              ,MA,TP MCB 32A                                                  ,Ind,no ,0,R,E,C,00:00.0,a51899  ,0,Y
+EM3090B-D-TC-2005               ,MA,2NO+2NC CONTACTS ADD ON BLOCK                               ,Ind,no ,0,C,D,C,00:00.0,w86909  ,0,Y
+EM3090B-E-ML-00023              ,MA,UNDERVOLTAGE RELAY SUPPLY 415,,,,,,,,,,
+EM3090B-E-ML-00080              ,MA,PHASE FAILURE WITH UV/OV RELAY                              ,Ind,no ,0,R,D,C,00:00.0,z86933  ,0,Y
+EM3090B-E-ML-0043               ,MA,PHASE FAILURE RELAY  SYSTEM & AUXILIARY VOLTAGE-415V,,,,,,,,,,
+EM3090B-E-SC-01010              ,MA,BIMETALLIC OVERLOAD RELAY RANGE 12-18A                      ,Ind,no ,0,C,E,C,00:00.0,h04976  ,0,Y
+EM6026D-FR-25018900045          ,T7,EQUIPPED CYLINDER HEAD ASSEMBLY                             ,Fra,no ,0,P,V,A,00:00.0,w43349  ,0,Y
+EM6290B-0000925105              ,MU,FILTER ELEMENT                                              ,Ger,no ,0,R,D,C,00:00.0,k41222  ,0,Y
+EM6290B-000125008427            ,MU,WASHER                                                      ,Ger,no ,0,C,D,C,00:00.0,k41222  ,0,Y
+EM6290B-000125013012            ,MU,WASHER                                                      ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+EM6290B-0001400182              ,MU,EXH PIPE BELLOWS                                            ,Ger,no ,0,P,E,C,00:00.0,k41222  ,0,Y
+EM6290B-000N221441              ,MU,SLIP RING                                                   ,Ger,no ,0,R,E,C,00:00.0,w42458  ,0,Y
+EM6290B-0031845301              ,MU,OIL FILTER (ELEMENT)                                        ,Ger,no ,0,R,D,C,00:00.0,k41222  ,0,Y
+EM6290B-007603014102            ,MU,RING SEALING (CRANK CASE) A14X18                            ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,Y
+EM6290B-0180943002              ,MU,AIR FILTER                                                  ,Ger,no ,0,P,D,C,00:00.0,k41222  ,0,Y
+EM6290B-5240900850              ,MU,FUEL DELIVERY PUMP                                          ,Ger,no ,0,P,D,C,00:00.0,c693221 ,0,Y
+EM6290B-5260980120              ,MU,INTERCOOLER( B  BANK)  ,Ger,no ,0,P,E,C,00:00.0,w42458  ,0,Y
+EM6290B-5319972945              ,MU,O-RING                                                      ,Ger,no ,0,C,E,C,00:00.0,k41222  ,0,Y
+EM6290B-5410100080              ,MU,INSERT (CRANK CASE BREATHER)                                ,Ger,no ,0,P,D,C,00:00.0,c693221 ,0,Y
+EM6290B-700429070000            ,MU,O RING                                                      ,Ind,no ,0,C,E,C,00:00.0,c444690 ,0,Y
+EM6290B-700429120002            ,MU,O RING                                                      ,Ger,no ,0,C,D,C,00:00.0,c444690 ,0,Y
+EM6290B-700429130003            ,MU, RING                                                    ,Ger,no ,0,C,E,C,00:00.0,f70293  ,0,Y
+EM6290B-700429135000            ,MU,O RING                                                      ,Ger,no ,0,C,D,C,00:00.0,r51344  ,0,Y
+EM6290B-700429190001            ,MU,O RING                                                      ,Ger,no ,0,C,E,C,00:00.0,c444690 ,0,Y
+EM6290B-700429244000            ,MU,O-RING FOR SET W6                                           ,Ind,no ,0,C,E,C,00:00.0,t40697  ,0,Y
+EM6290B-8591840001              ,MU,PAPER PACK CENTRIFUGAL SPINNER FILTER                       ,Ger,no ,0,C,D,C,00:00.0,k41222  ,0,Y
+EM6290B-EAE-84                  ,MU,EXHAUST BELLOWS                                             ,Ger,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+EM6290B-EX00012174              ,MU,SEA WATER PUMP                                              ,Ger,no ,0,P,V,C,00:00.0,r06343  ,0,Y
+EM6290B-X00008647               ,MU,COOLANT PUMP HIGH-TEMP CIRCUIT                              ,Ger,no ,0,P,D,B,00:00.0,f42430  ,0,Y
+EM6290B-X00012168               ,MU,IMPELLER FOR SEA WATER PUMP                                 ,Ger,no ,0,P,V,A,00:00.0,t2522927,0,Y
+EM6290B-X00012879               ,MU,FUEL FILTER                                                 ,Ger,no ,0,R,D,C,00:00.0,c693221 ,0,Y
+EM6299B-0021803401              ,MU,OIL PUMP 12V / 16V                                          ,Ger,no ,0,P,D,C,59:00.0,z128820 ,0,Y
+EM6299B-8695860572              ,MU,GASKET KIT (8690920032)                                     ,Ger,no ,0,C,D,C,05:00.0,z128820 ,0,Y
+EN0013D-T65801806               ,Z9,TRIGGER PCB                                                 ,USA,no ,0,R,E,C,00:00.0,z86933  ,0,Y
+EN0013D-T65900801               ,Z9,POWER SUPPLY PCB                                            ,USA,no ,0,R,E,C,00:00.0,z86933  ,0,Y
+EN0013D-T91003496               ,Z9,MAGNETRON 25 KW                                             ,USA,no ,0,R,E,C,00:00.0,z86933  ,0,Y
+EN0013D-T91005225               ,Z9,MAGNETRON 30 KW                                             ,USA,no ,0,R,E,C,00:00.0,z86933  ,0,Y
+EN9036D-T65825812               ,N1,MODULATOR PCB ASSEMBLY (25KW) (STANDARD)                    ,Ind,no ,0,R,E,B,00:00.0,c860310 ,0,Y
+EN9070V-13225                   ,NE,HYDOSTOP INFLATABLE SEALS (SET OF 2)                        ,Fra,no ,0,R,E,C,00:00.0,sailmsv ,0,Y
+EN9070V-1740A                   ,NE,ELCTROAD                                                    ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+EN9070V-1788A                   ,NE,MAIN CONTROL UNIT                                           ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+EO6064D-LC1D18M7                ,Z4,MAIN CONTACTOR                                              ,ITL,no ,0,R,E,B,00:00.0,h50725  ,0,Y
+EO6064D-LC1D65AM7               ,Z4,MAIN CONTACTOR                                              ,ITL,no ,0,R,E,C,00:00.0,z86933  ,0,Y
+EO6064D-LC1D80M7                ,Z4,MAIN CONTACTOR                                              ,ITL,no ,0,R,E,C,00:00.0,z86933  ,0,Y
+EO6064D-LC1D95M7                ,Z4,MAIN CONTACTOR                                              ,ITL,no ,0,R,E,B,00:00.0,h50725  ,0,Y
+EP6120B-14032698                ,Y9,SHAFT SEAL                                                  ,USA,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EP9950B-17-P-0005-789           ,X7,PANEL PC 1 (FILTERING ELEMENT)                              ,UK ,no ,0,R,E,C,00:00.0,h51583  ,0,Y
+ER1048V-10410417                ,Y3,SET OF GASKETS                                              ,Ind,set,0,C,E,C,00:00.0,y70234  ,0,Y
+ER1048V-10410606                ,Y3,SET OF BUSH BEARING (04 NOS PER SET)                        ,Ind,set,0,R,E,C,00:00.0,y70234  ,0,Y
+ER1048V-104124LP                ,Y3,MECHANICAL  SEAL                                            ,Ind,no ,0,R,D,C,48:00.0,sa      ,0,Y
+ER5045B-RI-SSK-OA3104-FDTRIM-300,K1,COMPLETE FLOW METER (DN50,,,,,,,,,,
+ER5045B-RI-SSK-OA3104-PWSU-200  ,K1,COMPLETE POWER SUPPLY UNIT (MODEL BD-SSK-006d)              ,Ind,no ,0,P,E,B,00:00.0,b05139  ,0,N
+ER5045B-RI-SSK-OA3104-RST1-200  ,K1,COMPLETE REMOTE RESET  UNIT -1(MODEL BD-SSK-006a)           ,Ind,no ,0,P,E,B,00:00.0,b05139  ,0,N
+ER5045B-RI-SSK-OA3104-RST3-200  ,K1,COMPLETE REMOTE RESET  UNIT -3(MODEL BD-SSK-006c)           ,Ind,no ,0,P,E,B,00:00.0,b05139  ,0,Y
+ER6020D-132-084.NG002           ,RZ,DC- MAIN SUPPLY                                             ,Ger,no ,0,P,E,C,00:00.0,y51270  ,0,N
+ER6020D-134-11110               ,RZ,WIRING PCB/ICU                                              ,Ger,no ,0,C,E,C,00:00.0,w42458  ,0,Y
+ER6020D-2258005300000           ,RZ,POWER SUPPLY 160/5VDC 100W                                  ,Ger,no ,0,R,V,C,00:00.0,w42458  ,0,N
+ER6020D-2277007500000           ,RZ,VMEBUS CPU PCB(APS-IF)                                      ,Ger,no ,0,R,V,C,00:00.0,w42458  ,0,Y
+ER6020D-2277008100000           ,RZ,ADAPTION PCB(APS-1)                                         ,Ger,no ,0,R,V,C,00:00.0,w42458  ,0,Y
+ER6020D-2277008400000           ,RZ,ADAPTION PCB(GS-2)                                          ,Ger,no ,0,R,V,C,00:00.0,w42458  ,0,Y
+ER6020D-DD02Z01.XXX             ,RZ,DSCU-MANAGER                                                ,Ger,no ,0,P,D,C,00:00.0,y51270  ,0,N
+ER6020D-DD02Z02.XXX             ,RZ,DSCU-CPU                                                    ,Ger,no ,0,P,D,C,00:00.0,y51270  ,0,N
+ER6020D-GY04Z01.XXX             ,RZ,ICU - MANAGER                                               ,Ger,no ,0,R,D,C,00:00.0,y51270  ,0,N
+ER6020D-GY04Z02.XXX             ,RZ,ICU - CPU                                                   ,Ger,no ,0,R,D,C,00:00.0,y51270  ,0,N
+ER6020D-GY04Z03.XXX             ,RZ,ICU - I/O - PCB                                             ,Ger,no ,0,P,D,C,00:00.0,y51270  ,0,Y
+ER6150B-0-60                    ,RS,"DISC PRESSURE GAUGE 0-60 BAR 4"" DIA                         ",Ger,no ,0,R,D,C,00:00.0,sa      ,0,N
+ER6150B-000973                  ,RS,SOLENOID VALVE                                              ,Ger,no ,0,R,E,B,00:00.0,s_a     ,0,N
+ER6150B-00196                   ,RS,SHAFT PACKING(CP-3)                                         ,Ger,no ,0,R,E,C,00:00.0,y04476  ,0,N
+ER6150B-01260                   ,RS,FLOW METER                                                  ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,N
+ER6150B-02719                   ,RS,PRESSURE TRANSMITTER                                        ,Ger,no ,0,R,V,B,00:00.0,a41592  ,0,N
+ER6150B-03304                   ,RS,SERVO MOTOR CONTROL VALVE                                   ,Ger,no ,0,R,E,A,00:00.0,y42008  ,0,Y
+ER6150B-06920                   ,RS,SERVO MOTOR CONTROL VALVE                                   ,Ger,no ,0,R,E,C,00:00.0,y42008  ,0,Y
+ER6150B-09121                   ,RS,CARTRIDGE FILTER COMPLETE                                   ,Ger,no ,0,R,E,C,00:00.0,y42008  ,0,Y
+ER6150B-09953                   ,RS,CONDUCTIVITY DISPLAY (METER WITH SENSOR)                    ,Ger,no ,0,R,E,A,00:00.0,y42008  ,0,Y
+ER6150B-101002                  ,RS,"SERVO MOTOR CONTROL VALVE(*) 230V 3/8""                      ",Ger,no ,0,R,D,C,00:00.0,c444690 ,0,Y
+ER6150B-101013                  ,RS,SOLENOID VALVE PVC D 20 3 WAY                               ,Ger,no ,0,P,D,C,00:00.0,a41680  ,0,N
+ER6150B-101022                  ,RS,"SOLENOID VALVE BRASS  1/2""(F) 3 WAY                         ",Ger,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+ER6150B-101101                  ,RS,PRESSURE SWITCH                                             ,Ger,no ,0,R,V,B,00:00.0,f70293  ,0,Y
+ER6150B-101112                  ,RS,PRESSURE TRANSMITTER                                        ,Ger,no ,0,R,E,B,00:00.0,f70293  ,0,N
+ER6150B-101113                  ,RS,PRESSURE TRANSMITTER                                        ,Ger,no ,0,P,E,A,00:00.0,f70293  ,0,Y
+ER6150B-101302                  ,RS,PULSATION DAMPER  0.32 LTS                                  ,Ger,no ,0,P,D,C,00:00.0,k41222  ,0,Y
+ER6150B-101304                  ,RS,PULSATION DAMPER  2 LTS                                     ,Ger,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+ER6150B-101311                  ,RS,FILLING DEVICE FOR PULSATION DAMPER                         ,Ger,no ,0,R,V,A,00:00.0,f70293  ,0,Y
+ER6150B-101402                  ,RS,FLOW SWITCH                                                 ,Ger,no ,0,P,E,B,00:00.0,c444690 ,0,Y
+ER6150B-102302                  ,RS,E-SPARE KIT RO 30 TPD                                       ,Ger,no ,0,P,E,B,00:00.0,f70293  ,0,Y
+ER6150B-102563                  ,RS,FUSE LINK 1A                                                ,Ger,no ,0,R,E,C,00:00.0,a41680  ,0,N
+ER6150B-102567                  ,RS,FUSE 6A                                                     ,Ger,no ,0,C,E,C,00:00.0,a41680  ,0,Y
+ER6150B-102681                  ,RS,POTENTIONMETER                                              ,Ind,no ,0,P,V,C,00:00.0,y04377  ,0,Y
+ER6150B-104102                  ,RS,FLOW SWITCH FS 82                                           ,Ger,no ,0,C,D,C,00:00.0,sa      ,0,Y
+ER6150B-104103                  ,RS,FLOW METER  WITH MAGNETIC FLOAT 150 - 1600 LPH              ,Ger,no ,0,R,E,B,00:00.0,f70293  ,0,Y
+ER6150B-131100403601            ,RS,PROGRAMMABLE LOGIC CONTROLLER (VERSION 2)                   ,Ind,no ,0,P,V,A,00:00.0,n42983  ,0,Y
+ER6150B-202600                  ,RS,PRE-FILTER/FILTER PUMP FOR 20 TPD                           ,Ger,no ,0,P,V,C,57:00.0,y04377  ,0,Y
+ER6150B-206242                  ,RS,MANIFOLD HEAD                                               ,Ger,no ,0,R,E,C,00:00.0,f70293  ,0,Y
+ER6150B-206620                  ,RS,PLUNGER ROD PIN                                             ,Ger,no ,0,P,D,C,00:00.0,y04476  ,0,Y
+ER6150B-208008                  ,RS,"1/4"" MXPU4 ELBOW                                            ",Ger,no ,0,C,D,C,00:00.0,b05139  ,0,Y
+ER6150B-208009                  ,RS,"1/4"" FXPU4 ELBOW                                            ",Ger,no ,0,C,D,C,00:00.0,b05139  ,0,Y
+ER6150B-301016                  ,RS,CARTRIDGE FILTER ELEMENT                                    ,Ger,no ,0,C,V,A,00:00.0,f70293  ,0,Y
+ER6150B-502251                  ,RS,HIGH PRESSURE MANIFOLD  3 X 2 ARRANGEMENT                   ,Ger,no ,0,R,E,C,00:00.0,f70293  ,0,Y
+ER6150B-503111                  ,RS,FLEXIBLE TUBE PL4                                           ,Ger,m  ,0,C,V,C,00:00.0,f70293  ,0,Y
+ER6150B-503112                  ,RS,FLEXIBLE TUBE PU8                                           ,Ind,m  ,0,C,V,B,00:00.0,y04377  ,0,Y
+ER6150B-503114                  ,RS,PL-4 HOSE(MTRS)                                             ,Ind,m  ,0,C,D,C,45:00.0,ilms_k  ,0,Y
+ER6150B-601169                  ,RS,DISC TUBE MODULE                                            ,Ger,no ,0,R,E,A,00:00.0,f70293  ,0,Y
+ER6150B-604041                  ,RS,LIP SEAL DT MODULE                                          ,Ger,no ,0,R,E,B,00:00.0,f70293  ,0,Y
+ER6150B-604101                  ,RS,MEMBRANE CUSHION                                            ,Ger,no ,0,C,V,C,00:00.0,s_a     ,0,Y
+ER6150B-604102                  ,RS,BLUE HYDRAULIC DISC                                         ,Ger,no ,0,R,E,B,00:00.0,f70293  ,0,Y
+ER6150B-701101                  ,RS,O  RING FOR HEAD DISTRIBUTOR ASSEMBLY              ,Ger,no ,0,C,V,B,00:00.0,f70293  ,0,Y
+ER6150B-701111                  ,RS,`O`RING CARTRIDGE FILTER HOUSING                            ,Ger,no ,0,C,V,C,00:00.0,f70293  ,0,Y
+ER6150B-701203                  ,RS,O RING HYDRAULIC DISC                                       ,Ger,no ,0,C,D,C,00:00.0,a41680  ,0,Y
+ER6150B-702102                  ,RS,HIGH PRESSURE HOSE TO PT 60                                 ,Ger,no ,0,R,E,B,00:00.0,c444690 ,0,Y
+ER6150B-702111                  ,RS,HIGH PRESSURE FLEXIBLE HOSE                                 ,Ger,no ,0,C,D,C,00:00.0,f70293  ,0,N
+ER6150B-702212                  ,RS,LP HOSE ( FOR PREFILTER PUMP)                               ,Ger,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+ER6150B-705003                  ,RS,HP PUMP DRIVING BELT SET                                    ,Ger,set,0,C,V,B,00:00.0,f70293  ,0,Y
+ER6150B-705004                  ,RS,HIGH PRESSURE PUMP DRIVING BELT SET(5 NOS)                  ,Ger,no ,0,R,E,C,00:00.0,f70293  ,0,Y
+ER6150B-ARM00973                ,RS,SOLENOID VALVE                                              ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+ER6151B-100690001005            ,RS,DT MODULE                                                   ,Ind,no ,0,R,D,C,00:00.0,z86933  ,0,Y
+ER6151B-100902101003            ,RS,"SOLENOID VALVE 3/8"" F",,,,,,,,,,
+ER6200B-6152                    ,RA,VALVE OVER FLOW (31)                                        ,Ger,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+ER6200B-6181                    ,RA,VALVE OVER FLOW (30)                                        ,Ger,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+ER6200B-6251                    ,RA,SWITCH DIFF-PRESS (56)                                      ,Ger,no ,0,R,V,C,00:00.0,a40778  ,0,N
+ER6200B-6490                    ,RA,VALVE 3/2 WAY (23)                                          ,Ger,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+ER9798B-RI-SSK-OA3104-DUCOMP-200,K1,COMPLETE DISPLAY UNIT,,,,,,,,,,
+ER9798B-RI-SSK-OA3104-DUTRIM-200,K1,COMPLETE DISPLAY UNIT,,,,,,,,,,
+ES3439B-3TA61                   ,SL,CONTACTOR 415V                                              ,Ind,no ,0,C,D,C,00:00.0,s_a     ,0,Y
+ES3439B-3TF32000AR0:22          ,SL,CONTACTOR RATED 16A,,,,,,,,,,
+ES3439B-3TH30220AR0             ,SL,SICONT AUX CONTACTOR 4NO+4NC COIL VOLTAGE 415V AC           ,Ind,no ,0,R,D,C,00:00.0,y04476  ,0,Y
+ES3439B-3UA5800-2FZ2            ,SL,BIMETAL OVERLOAD RELAY HAVING RELAY RANGE 32-50A            ,Ind,no ,0,R,E,C,00:00.0,a51899  ,0,Y
+ES3439B-3UA58002EZ1+3UX1421     ,SL,BIMETAL OVERLOAD RELAY HAVING RELAY RANGE 25-40A WITH ADAPTO,Ind,no ,0,R,D,C,00:00.0,y109910 ,0,Y
+ES3439B-3UA58002FZ1+3UX1421     ,SL,BIMETAL OVERLOAD RELAY HAVING RELAY RANGE 32-50A WITH ADAPTO,Ind,no ,0,R,E,C,00:00.0,y109910 ,0,Y
+ES3439B-3UA58002TZ1+3UX1421     ,SL,BIMETAL OVERLOAD RELAY HAVING RELAY RANGE 40-57A WITH ADAPTO,Ind,no ,0,R,E,C,00:00.0,y109910 ,0,Y
+ES3439B-3UA58002VZ1+3UX1421     ,SL,BIMETAL OVERLOAD RELAY HAVING RELAY RANGE 57-70A WITH ADAPTO,Ind,no ,0,R,E,C,00:00.0,y109910 ,0,Y
+ES3439B-3UA58305B+3UX14210XA    ,SL,BIMETAL OVERLOAD RELAY HAVING RELAY RANGE 70-95A WITH ADAPTO,Ind,no ,0,R,E,B,00:00.0,y109910 ,0,Y
+ES3439B-52002A+3UX1420          ,SL,BIMETAL OVERLOAD RELAY HAVING RELAY RANGE 10-16A WITH ADAPTO,Ind,no ,0,R,D,C,00:00.0,y109910 ,0,Y
+ES3452D-90330-210               ,X7,BALLAST TANK 1 OPENING CONTROL SOLENOID VALVE               ,Fra,no ,0,R,E,A,00:00.0,c697750 ,0,Y
+ES3452D-90333-100               ,X7,BH00001 SNORKEL AIR MAST AIR SUPPLY SOLENOID VALVE          ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ES3452D-90334-100               ,X7,AIR ELECTRODISTRIBUTOR  HP3V/2 P DN10                       ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ES3452D-90336-400               ,X7,AIR ELECTRO-DISTRIBUTOR                                     ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ES3486B-SKF11330                ,SK,BEARING BALL 6206                                           ,Ind,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+ES3486B-SKF22218C               ,SK,BEARING BALL                                                ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+ES3486B-SKF23032C               ,SK,BEARING DOUBLE ROW SELFALIGNING ROLLER 160X140X60MM         ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+ES3486B-SKF30211                ,SK,TAPER ROLLER BEARING                                        ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+ES3486B-SKF6212ZZ               ,SK,BEARING BALL                                                ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+ES3486B-SKF6214                 ,SK,BEARING BALL JOURNAL BORE                                   ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+ES3486B-SKF7315B                ,SK,BEARING BALL JOURNAL 75X160X37 MM                           ,Ind,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+ES3919B-3030210                 ,SY,VME 64 POWER SUPPLY                                         ,Ind,no ,0,R,E,C,00:00.0,c698542 ,0,Y
+ES3919B-3030220                 ,SY,AUX POWER SUP I/P115V/60HZ O/P2 VDC+15V&5V DC               ,Ind,no ,0,R,E,C,00:00.0,c698542 ,0,Y
+ES3919B-4050410                 ,SY,MULTI CHAN VME SIGNAL COND CARDS TYPE 64C2-C                ,Ind,no ,0,R,E,C,00:00.0,c698542 ,0,Y
+ES3919B-4050500                 ,SY,MULTI CHAN VME SIGNAL COND CARDS TYPE 64C2-A                ,Ind,no ,0,R,E,C,00:00.0,c698542 ,0,Y
+ES3919B-4050510                 ,SY,MULTI CHAN VME SIGNAL CONDCARDS TYPE 64C2-B                 ,Ind,no ,0,P,E,C,00:00.0,c698542 ,0,Y
+ES3919B-4050541                 ,SY,RELAY DRIVER PCBS                                           ,Ind,no ,0,R,V,B,00:00.0,w42491  ,0,Y
+ES3919B-4050550                 ,SY,RELAY PCB                                                   ,Ind,no ,0,R,V,B,00:00.0,w42491  ,0,Y
+ES3919B-4050572                 ,SY,SIGNAL CONDITIONING MODULES                                 ,Ind,no ,0,R,V,B,00:00.0,w42491  ,0,Y
+ES3919B-4050621                 ,SY,MULTIFUNCTION PCB                                           ,Ind,no ,0,R,V,B,00:00.0,w42491  ,0,Y
+ES3919B-4050631                 ,SY,MULTIFUNCTION PCB                                           ,Ind,no ,0,R,V,B,00:00.0,w42491  ,0,Y
+ES3919B-4050710                 ,SY,RELAY PCB                                                   ,Ind,no ,0,R,V,B,00:00.0,w42491  ,0,Y
+ES3919B-4050731                 ,SY,LCD DISPLAY PCB                                             ,Ind,no ,0,R,E,B,00:00.0,y42580  ,0,Y
+ES3919B-4050741                 ,SY,ANALOG ISOLATOR PCB                                         ,Ind,no ,0,R,E,B,00:00.0,y42580  ,0,Y
+ES3919B-4050753                 ,SY,SPEED CONTROL PCB                                           ,Ind,no ,0,R,E,B,00:00.0,y42580  ,0,Y
+ES3919B-4050761                 ,SY,POWER SUPPLY PCB                                            ,Ind,no ,0,R,E,B,00:00.0,y42580  ,0,Y
+ES3919B-4050771                 ,SY,MAIN CONTROL PCB                                            ,Ind,no ,0,R,E,B,00:00.0,y42580  ,0,Y
+ES3919B-4050782                 ,SY,TEMP.MEASUREMENT PCB                                        ,Ind,no ,0,R,E,B,00:00.0,y42580  ,0,Y
+ES3919B-4050830                 ,SY,TEMP.TO VOLTAGE CONVERTER PCB                               ,Ind,no ,0,R,E,B,00:00.0,y42580  ,0,Y
+ES3919B-4050841                 ,SY,TACHO  PCB 24V DC,,,,,,,,,,
+ES3919B-4120370                 ,SY,REMOTE HMI                                                  ,Ind,no ,0,R,V,B,00:00.0,t42655  ,0,Y
+ES3919B-4170130                 ,SY,AMMETER,,,,,,,,,,
+ES3919B-4170140                 ,SY,VOLTMETER,,,,,,,,,,
+ES3919B-4570100                 ,SY,POTENTIOMETER 1K/2 WATTS +/- 3%10 TURN POT WITH DIAL        ,Ind,no ,0,R,E,C,00:00.0,c698542 ,0,Y
+ES3919B-5030050                 ,SY,PRESSURE TRANSMITTER 4-20MA DC 0-10 BAR                     ,Ind,no ,0,R,D,C,00:00.0,z87615  ,0,Y
+ES3919B-7117IG1                 ,SY,IGBT CARD                                                   ,Ind,no ,0,R,V,C,00:00.0,t40598  ,0,Y
+ES6019D-001751-122-00           ,Z6,RAIL 22 MODULE HL105                                        ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+ES6019D-001755-201-02           ,Z6,MODULE HL105 9X2 CONTACTS (AWG20)                           ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+ES6019D-001755-204-02           ,Z6,MODULE HL105 3X6 CONTACTS (AWG20)                           ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+ES6019D-001755-205-02           ,Z6,MODULE HL105 1X18 CONTACTS (AWG20)                          ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+ES6019D-001755-306-02           ,Z6,MODULE HL105 6-4 CONTACTS (AWG16)                           ,Fra,no ,0,R,E,B,00:00.0,c697750 ,0,Y
+ES6019D-310-212B1P28            ,Z6,RELAY 2RT 2A 28VCC (P)                                      ,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ES6019D-788-8059                ,Z6,RESISTOR 1000 OHMS                                          ,Fra,no ,0,C,E,C,00:00.0,a238314 ,0,Y
+ES6019D-LA4DC1U-REL016          ,Z6,OVERVOLTAGE PROTECTION DEVICE                               ,Fra,no ,0,P,E,C,00:00.0,cj14413 ,0,Y
+ES6019D-R331031C                ,Z6,FUSE HOLDER 14X51 TYPE CMS142 2P 440V 60HZ 16 AM            ,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ES6019D-S331032B                ,Z6,FUSE HOLDER 14X51 TYPE CMS143 3P                            ,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ES6019D-W310013A                ,Z6,MICRO SWITCH TPYE MS 3V 1-5 BS                              ,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ES6019D-Y219234J                ,Z6,FUSE 14X51 690V 60HZ 2A GG                                  ,Fra,no ,0,C,E,C,00:00.0,cj14413 ,0,Y
+ES6019D-YSP-1239                ,Z6,SIGNALLING UNIT 9 LAMPS                                     ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6019D-Z300057                 ,Z6,FUSE 310A TYPE 6.9 URD 30TTF0315                            ,Fra,no ,0,R,E,C,00:00.0,cj14413 ,0,Y
+ES6020B-8354065-28              ,AH,VALVE PRESSURE CONTROL                                      ,Ger,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+ES6020B-8354065-4               ,AH,VALVE PRESSURE REDUCING                                     ,Ger,no ,0,P,D,C,00:00.0,a40778  ,0,Y
+ES6020B-8354065030              ,AH,FILTER OIL INSERT DUPLEX                                    ,Ger,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+ES6020B-DRG.NO.888354065-032    ,AH,CLOGGING INDICATOR TYPE V4,,,,,,,,,,
+ES6020B-DRGNO-8351059           ,AH,PITCH SETTER                                                ,Ger,no ,0,P,E,C,00:00.0,c444690 ,0,Y
+ES6024D-A0010334                ,Y9,COMPRESSOR                                                  ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-A0010364                ,Y9,COMPRESSOR VALVE PLATE                                      ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-A0060047                ,Y9,COMPRESSOR                                                  ,Fra,no ,0,P,D,C,00:00.0,a238314 ,0,Y
+ES6024D-A0060049                ,Y9,COMPRESSOR                                                  ,Fra,no ,0,P,D,C,00:00.0,a238314 ,0,Y
+ES6024D-A0060054                ,Y9,COMPRESSOR                                                  ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-F0020010                ,Y9,COOLER UNIT FAN                                             ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-F0070010                ,Y9,CONDENSER FAN                                               ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-F0250019                ,Y9,FAN                                                         ,Fra,no ,0,R,D,C,00:00.0,a238314 ,0,Y
+ES6024D-F0250021                ,Y9,FAN                                                         ,Fra,no ,0,R,D,C,00:00.0,a238314 ,0,Y
+ES6024D-F0250026                ,Y9,FAN                                                         ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-K1260030                ,Y9,EVAPORATOR DEFROST HEATER                                   ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-L0010007                ,Y9,LOW PRESSURE SWITCH                                         ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-L0010038                ,Y9,HIGH PRESSURE SWITCH                                        ,Fra,no ,0,R,E,C,00:00.0,a238314 ,0,Y
+ES6024D-M0010110                ,Y9,FILTER DRIER                                                ,Fra,no ,0,C,D,C,00:00.0,a238314 ,0,Y
+ES6024D-M0020033                ,Y9,HP GAUGE                                                    ,Fra,no ,0,C,D,C,00:00.0,a238314 ,0,Y
+ES6024D-M0090006                ,Y9,LP SWITCH                                                   ,Fra,no ,0,C,D,C,00:00.0,a238314 ,0,Y
+ES6024D-M0090007                ,Y9,HP SWITCH                                                   ,Fra,no ,0,C,D,C,00:00.0,a238314 ,0,Y
+ES6031D-7426985000              ,KO,MECHANICAL SEAL FOR PUMP                                    ,Fra,no ,0,P,D,C,00:00.0,z85129  ,0,Y
+ES6031D-7436850000              ,KO,INJECTOR ASSEMBLY                                           ,Fra,no ,0,R,D,C,00:00.0,sailmsc ,0,Y
+ES6031D-7442345000              ,KO,SPEED SENSOR 19050                                          ,Fra,no ,0,P,D,C,00:00.0,f05019  ,0,Y
+ES6031D-7902932000              ,KO,CYLINDER HEAD GASKET                                        ,Fra,no ,0,C,D,C,00:00.0,s_a     ,0,Y
+ES6031D-7904030000              ,KO,AIR STARTING VALVE (CYL.HEAD)                               ,Fra,no ,0,P,D,C,00:00.0,k04977  ,0,Y
+ES6031D-7904118000              ,KO,INJECTOR GASKET                                             ,Fra,no ,0,C,D,C,00:00.0,s_a     ,0,Y
+ES6031D-7904150000              ,KO,INJECTOR ASSLY.                                             ,Fra,no ,0,P,D,C,00:00.0,k41959  ,0,Y
+ES6031D-7904222000              ,KO,CONNECTION                                                  ,Fra,no ,0,R,V,C,00:00.0,c209890 ,0,Y
+ES6031D-7904410000              ,KO,SAFETY VALVE ASSEMBLY                                       ,Ind,no ,0,P,V,C,00:00.0,c697175 ,0,N
+ES6031D-7915201000              ,KO,FILTER PARTICLE DETECT                                      ,Fra,no ,0,P,D,C,00:00.0,s_a     ,0,Y
+ES6031D-7923850000              ,KO,INDICATOR COCK ASSEMBLY                                     ,Fra,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+ES6031D-8130239000              ,KO,FLEXIBLE HOSE FOR FUEL RETURN                               ,Fra,no ,0,C,D,C,00:00.0,sailmsv ,0,Y
+ES6031D-8205535                 ,KO,TURBO CHARGER EXHAUST INLET TEMP SENSOR                     ,Fra,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+ES6031D-EX00400101              ,KO,FUSE 2A(F76B,,,,,,,,,,
+ES6031D-EX00600101              ,KO,RELAY 24 VCC (K81,,,,,,,,,,
+ES6031D-EX00700101              ,KO,RELAY 24 VCC TEMPORISED (K105)                              ,Fra,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+ET9131B-61020848AA00            ,K5,METER,,,,,,,,,,
+ET9131B-61025974AA00            ,K5,CIRCUIT CARD ASSEMBLY,,,,,,,,,,
+ET9131B-61030551AA00            ,K5,CIRCUIT CARD ASSEMBLY,,,,,,,,,,
+ET9131B-61050768AA00            ,K5,CIRCUIT CARD ASSEMBLY CB2 & AUDIO PCB (CB02) 61050768AA00   ,Fra,no ,0,P,E,B,00:00.0,r86885  ,0,Y
+ET9131B-61050769AA00            ,K5,CIRCUIT CARD ASSEMBLY CB3PCB (CB03) 61050769AA00            ,Fra,no ,0,P,E,B,00:00.0,r86885  ,0,Y
+ET9131B-61050774AA00            ,K5,CIRCUIT CARD ASSEMBLY CB2PCB (CB01) 61050774AA00            ,Fra,no ,0,P,V,B,00:00.0,r86885  ,0,Y
+ET9131B-62003224AA00            ,K5,CIRCUIT CARD ASSEMBLY,,,,,,,,,,
+EV6000B-40-A-83                 ,ND,TELEMOTOR SIMULATOR AMPLIFIER PCB TYPE AHE 1236 C           ,UK ,no ,0,P,V,A,00:00.0,c209890 ,0,Y
+EV6000B-600-835                 ,ND,POTENTIOMETER (P.T.U.)                                      ,UK ,no ,0,P,D,C,00:00.0,sailmsv ,0,Y
+EV6000B-700-987                 ,ND,PUMP AMPLIFIER PCB TYPE 1236A 40 F 16                       ,UK ,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EV6000B-E2426                   ,ND,VALVE CLIPPARD R301                                         ,UK ,no ,0,R,D,C,00:00.0,sa      ,0,N
+EV6000B-E2450                   ,ND,VALVE CLIPPARD R502                                         ,UK ,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+EV6000B-E2910116-0              ,ND,ELEMENT FILTER MAIN LINE                                    ,UK ,no ,0,R,V,B,00:00.0,a40778  ,0,Y
+EV6000B-E2910131-0              ,ND,ELEMENT FILTER INLINE                                       ,UK ,no ,0,R,V,C,00:00.0,a40778  ,0,Y
+EV6000B-E2910132-0              ,ND,ELEMENT FILTER INLINE                                       ,UK ,no ,0,R,V,C,00:00.0,a40778  ,0,N
+EV6000B-L8542003C               ,ND,CLIPPARD VALVE R501                                         ,UK ,no ,0,R,D,C,00:00.0,c963582 ,0,Y
+EV6000B-L8680505C               ,ND,VALVE 3 WAY                                                 ,UK ,no ,0,R,D,B,00:00.0,sa      ,0,N
+EV6000B-L8681501C               ,ND,VALVE  3/2 WAY                                              ,UK ,no ,0,R,D,C,00:00.0,sa      ,0,Y
+EV6000B-L8681502C               ,ND,VALVE 4 WAY                                                 ,UK ,no ,0,R,D,C,00:00.0,sa      ,0,N
+EV9023B-010-1831                ,VL,LP CUTOUT                                                   ,Ind,no ,0,C,E,B,00:00.0,s_a     ,0,N
+EV9023B-052-02-20               ,VL,EXPANSION VALVE MVE34CP100                                  ,Ind,no ,0,R,E,C,00:00.0,c662512 ,0,Y
+EV9023B-1081Z18                 ,VL,SOLENOID VALVE                                              ,Ind,no ,0,R,E,B,00:00.0,sa      ,0,N
+EV9023B-52575539220             ,VL,CATCH ALL ELEMENT (DRIER FILTER)                            ,Ind,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EV9023B-610-18-00               ,VL,SEAL SHAFT ASSY                                             ,Ind,no ,0,R,V,A,00:00.0,s_a     ,0,Y
+EV9023B-650-22-00               ,VL,"SHUTT OFF VALVE (KV40022S)1.3/8""OD                          ",Ind,no ,0,P,E,C,00:00.0,s_a     ,0,Y
+EV9023B-DANFOSS-KP1             ,VL,LOW PRESSURE SWITCH (DANFOSS MAKE)                          ,Ind,no ,0,P,D,C,00:00.0,c963253 ,0,N
+EV9023B-DANFOSS-KP5             ,VL,HIGH PRESSURE SWITCH (DANFOSS MAKE)                         ,Ind,no ,0,P,D,C,00:00.0,c963253 ,0,Y
+EV9023B-DANFOSS-KP55            ,VL,OIL SAFETY SWITCH (DANFOSS MAKE)                            ,Ind,no ,0,P,D,C,00:00.0,c963253 ,0,Y
+EW6000B-A1-106703/509           ,WP,MECHANICAL SEAL                                             ,UK ,no ,0,R,D,C,00:00.0,t137430 ,0,Y
+EW6000B-A1-106704/124A          ,WP,RETAINING RING                                              ,UK ,no ,0,C,D,C,00:00.0,sa      ,0,Y
+EW6000B-A1-106704/506           ,WP,JOINT                                                       ,UK ,no ,0,C,D,C,00:00.0,c697175 ,0,Y
+EW6000B-AI-106704/122           ,WP,BALL BEARING SKF 6207                                       ,UK ,no ,0,R,D,C,00:00.0,c963582 ,0,Y
+EW6000B-AI-106704/509           ,WP,MECHANICAL SEAL                                             ,UK ,no ,0,R,D,C,00:00.0,t137430 ,0,Y
+EW6000B-AO-106195/122           ,WP,BALL BEARING                                                ,UK ,no ,0,R,D,C,00:00.0,sa      ,0,Y
+EW6000B-AO106195-509A           ,WP,SEAL MECHANICAL                                             ,UK ,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+EW6000B-AO106195-615            ,WP,SPRING                                                      ,UK ,no ,0,C,D,C,00:00.0,a40778  ,0,Y
+EW6000B-AO603395-14             ,WP,BUSH BEARING (BRT SILVE LINE)                               ,UK ,no ,0,R,V,B,00:00.0,a40778  ,0,Y
+EW6000B-AO603395-20             ,WP,SHAFT PUMP                                                  ,UK ,no ,0,R,V,A,00:00.0,a40778  ,0,Y
+EW6000B-AO603395-3              ,WP,IMPELLER                                                    ,UK ,no ,0,R,V,A,00:00.0,a40778  ,0,Y
+EW6000B-AO603398-14             ,WP,BEARING (BTR SILVER LINE)                                   ,UK ,no ,0,R,E,C,00:00.0,a40778  ,0,Y
+EW6000B-AO603398-4              ,WP,RING WEAR                                                   ,UK ,no ,0,R,D,C,00:00.0,a40778  ,0,Y
+EW9090V-512700015-A27           ,WA,PNEUMATIC (AIR) STARTER                                     ,Fin,no ,0,P,D,C,00:00.0,y04476  ,0,Y
+EW9090V-HE401                   ,WA,ELECTRICAL HEATING ELEMENT ENGINE PRE HEATING               ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-LS901                   ,WA,LEVEL SWITCH COOL WATER  LEAK WARNING                       ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-M0500-U7                ,WA,TACHO VOLTAGE DETECTOR U7                                   ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-M1000-24-10B            ,WA,ALARM ANNUNCIATOR                                           ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-M2000-20-10B            ,WA,ENGINE CONTROL UNIT                                         ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-N02-120-402             ,WA,PRESSURE METER                                              ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-N02-120-406             ,WA,PRESSURE METER                                              ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-N02-320-406             ,WA,TEMPERATURE METER                                           ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-N02-320-506             ,WA,TEMPERATURE METER                                           ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-P3-PQ72-0-40            ,WA,PRESSURE METER 0-40 BAR                                     ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-P5                      ,WA,SPEED TACHOMETER                                            ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-PQ72-0-600              ,WA,TEMPERATURE METER                                           ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-PS202                   ,WA,PRESSURE SWITCH LOW LUB OIL PRESSURE WARNING                ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-PS301                   ,WA,PRESSURE SWITCH LOW START AIR PRESS WARNING                 ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-PT201                   ,WA,PRESSURE ELEMENT LUB OIL PRESSURE MEASURING                 ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-PT301                   ,WA,PRESSURE TRANSDUCER,,,,,,,,,,
+EW9090V-PT401                   ,WA,PRESSURE ELEMENT CWP MEASURING                              ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TE501                   ,WA,THERMO ELEMENT EXHAUST TEMP A BANK AFTER TURBO              ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TE502                   ,WA,THERMO ELEMENT EXHAUST TEMP B BANK AFTER TURBO              ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TS201                   ,WA,TEMP SWITCH HIGH LUB OIL TEM WARNING                        ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TS401                   ,WA,TEMP SWITCH ENGINE PRE HEATING ON/OFF                       ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TS402                   ,WA,TEMP SWITCH HCWT SHUT DOWN                                  ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TS403                   ,WA,TEMP SWITCH HCWT WARNING                                    ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TT201                   ,WA,THERMO ELEMENT LO TEMP MEASURING                            ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TT501                   ,WA,THERMO TRANSMITTER EXHAUST B BANK AFTER TURBO               ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EW9090V-TUS-100-ZEM             ,WA,TERMISTER CONTROL RELAY                                     ,Fin,no ,0,P,D,C,00:00.0,h42332  ,0,Y
+EW9090V-U5-2255-B2              ,WA,F/I CONVERTER WITH LEVEL RELAY OUT PUT                      ,Fin,no ,0,R,D,C,00:00.0,c698368 ,0,Y
+EY6020D-226L64584               ,YM,FILTER DRIER REPLACEMENT CORE                               ,UK ,no ,0,R,E,B,00:00.0,c444690 ,0,Y
+EY6020D-372805-02               ,YM,SET OF GASKETS                                              ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-374011-01               ,YM,GLAND SET                                                   ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-40RA16T11               ,YM,SOLENOID VALVE  OIL RETURN LINE                             ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-768-041-6               ,YM,OIL FILTER CARTRIDGE                                        ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-CA2DN22EF7              ,YM,AUXILIARY CONTACTOR                                         ,UK ,no ,0,R,E,C,00:00.0,n41080  ,0,Y
+EY6020D-CA2DN31FE7              ,YM,AUXILIARY CONTACTOR                                         ,UK ,no ,0,R,E,C,00:00.0,n41080  ,0,Y
+EY6020D-FFG142-3                ,YM,PRESSURE RELAY                                              ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-GLRDQ1Q1VG              ,YM,COOLANT WATER PUMP SHAFT PACKING                            ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-GLZ1451029P4-ASC120V-50H,YM,COIL FOR SOLENOID VALVE                                     ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-GLZ4785084-200RB6T5     ,YM,SOLENOID VALVE OIL COOLER,,,,,,,,,,
+EY6020D-GLZ4785084-240RA20T17M  ,YM,SOLENOID VALVE ON LIQUID PIPELINE                           ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-GLZ4792024              ,YM,MOTOR COUPLING,,,,,,,,,,
+EY6020D-GLZ4794064R1            ,YM,WATER PROTECTION SYSTEM                                     ,UK ,no ,0,C,E,C,00:00.0,y04476  ,0,Y
+EY6020D-GLZ4795095              ,YM,COOLING WATER  REGULATOR                                    ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-GLZ4795107              ,YM,FLOW SWITCH                                                 ,UK ,no ,0,R,D,C,00:00.0,y04476  ,0,Y
+EY6020D-GV3A01                  ,YM,AUXILIARY SWITCH                                            ,UK ,no ,0,R,D,C,00:00.0,y42580  ,0,Y
+EY6020D-GV3M40                  ,YM,MOTOR PROTECTOR                                             ,UK ,no ,0,R,E,B,00:00.0,n41080  ,0,Y
+EY6020D-HDLK10                  ,YM,STOP VALVE                                                  ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-HDLK22                  ,YM,STOP VALVE                                                  ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-HVBL6                   ,YM,STOP VALVE                                                  ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-KVP15                   ,YM,SUCTION PRESSURE REGULATOR                                  ,UK ,no ,0,R,D,C,00:00.0,y04476  ,0,Y
+EY6020D-KVP22                   ,YM,SUCTION PRESSURE REGULATOR                                  ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-LA1DN22                 ,YM,AUXILIARY SWITCH                                            ,UK ,no ,0,R,E,C,00:00.0,n41080  ,0,Y
+EY6020D-LA1DN31                 ,YM,AUXILIARY SWITCH                                            ,UK ,no ,0,R,E,C,00:00.0,n41080  ,0,Y
+EY6020D-RHN411F                 ,YM,RELAY                                                       ,UK ,no ,0,R,E,C,00:00.0,n41080  ,0,Y
+EY6020D-RT7-17-5033             ,YM,ANTI-FREEZE THERMOSTAT                                      ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-SPA1582LW-12            ,YM,V-BELT 5X1600LA                                             ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-T3SA00M                 ,YM,MOTORFULL PROTECTION                                        ,UK ,no ,0,R,D,C,00:00.0,y04476  ,0,Y
+EY6020D-TEX2-68Z3302            ,YM,THERMO REGULATING VALVE                                     ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-TEX2-68Z3305            ,YM,THERMO REGULATING VALVE                                     ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-THRE100HW100            ,YM,THERMO-REGULATING VALVE                                     ,UK ,no ,0,R,E,C,00:00.0,y04476  ,0,Y
+EY6020D-WEDO43-D6               ,YM,SV 4/3 WAY CAPACITY CONTROL VALVE OF AIR CONDITIONING PLANT ,UK ,no ,0,P,D,C,00:00.0,c662512 ,0,Y
+EY6020D-XB2BD337                ,YM,SELECTOR SWITCH                                             ,UK ,no ,0,R,E,C,00:00.0,n41080  ,0,Y
+EY6050B-10                      ,T3,BALL BEARING SKF 6212                                       ,Ind,no ,0,C,D,C,00:00.0,c444690 ,0,N
+EY6050B-12                      ,T3,BALL BEARING SKF 6008                                       ,Ind,no ,0,C,D,C,00:00.0,sa      ,0,Y
+EY6050B-13                      ,T3,BALL BEARING SKF 6010                                       ,Ind,no ,0,C,D,C,00:00.0,sa      ,0,Y
+EY6050B-21                      ,T3,OIL SEAL                                                    ,Ind,no ,0,C,D,C,00:00.0,k41222  ,0,Y
+EY6050B-59                      ,T3,SNAP RING                                                   ,Ind,no ,0,C,D,C,00:00.0,k41222  ,0,Y
+EY6050B-YHIC-03                 ,T3,SNAP RING                                                   ,Ind,no ,0,C,E,B,00:00.0,k41222  ,0,Y
+EY6050B-YHIC-050-06             ,T3,BEARING 30206                                               ,Ind,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EY6050B-YHIC-050-107            ,T3,BEARING 30209                                               ,Ind,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EY6050B-YHIC-050-28             ,T3,BEARING 6205                                                ,Ind,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EY6050B-YHIC-08                 ,T3,SNAP RING                                                   ,Ind,no ,0,C,E,B,00:00.0,k41222  ,0,Y
+EY6050B-YHIC-09                 ,T3,SNAP RING                                                   ,Ind,no ,0,C,E,B,00:00.0,k41222  ,0,Y
+EY6050B-YHIC-29                 ,T3,OIL SEAL                                                    ,Ind,no ,0,C,E,B,00:00.0,k41222  ,0,Y
+EY6050B-YSC-P002C-6             ,T3,OIL SEAL                                                    ,Ind,no ,0,R,D,C,00:00.0,sailmsv ,0,Y
+EZ1072B-TIPL-019                ,KC,EXHAUST TEMPERATURE SENSOR                                  ,Ind,no ,0,R,D,C,00:00.0,f05019  ,0,Y
+EZ6010V-3084206041-01           ,ZF,PUMP                                                        ,Ger,no ,0,R,V,B,00:00.0,z04279  ,0,Y
+EZ6010V-3084301050-01           ,ZF,GASKET                                                      ,Ger,no ,0,C,V,B,00:00.0,z04279  ,0,Y
+KA6160B-49.2.489.0119           ,K5,POWER OUTPUT STAGE A006                                     ,Fra,no ,0,P,E,C,00:00.0,c135745 ,0,Y
+KA6160B-4924890250              ,K5,CURRENT AND VOLTAGE REGULATOR A005(                         ,Fra,no ,0,P,D,C,00:00.0,s_a     ,0,N
+KA6160B-PKTT102E37              ,K5,V BELT                                                      ,Fra,set,0,C,E,C,00:00.0,c135745 ,0,N
+KA6160B-PKTT102E48              ,K5,CYLINDER LINER                                              ,Fra,no ,0,R,E,C,00:00.0,c135745 ,0,N
+KA6160B-PKTT102E59              ,K5,STUFING BOX                                                 ,Fra,set,0,R,E,C,00:00.0,c135745 ,0,N
+KA6160B-PKTT120E74K             ,K5,VALVE COMPLETE                                              ,Fra,no ,0,P,V,C,00:00.0,c135745 ,0,N
+KA6160B-PQQ64E37                ,K5,V BELT                                                      ,Fra,set,0,C,E,C,00:00.0,c135745 ,0,N
+KA6160B-PQQ64E48                ,K5,CYLINDER                                                    ,Fra,no ,0,R,E,C,00:00.0,c135745 ,0,Y
+KA6160B-PQQ64E59                ,K5,STUFFING BOX PACKING                                        ,Fra,set,0,C,V,C,00:00.0,c135745 ,0,Y
+KA6160B-PQQ64E65K               ,K5,PISTON COMPLETE                                             ,Fra,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KA6160B-QQ-140-K/E74K           ,K5,VALVE (PQQ64E74K)                                           ,Fra,no ,0,P,D,C,00:00.0,s_a     ,0,N
+KA6160B-TT120KE65               ,K5,SPACER RING                                                 ,Fra,no ,0,C,E,C,00:00.0,c135745 ,0,N
+KA6220B-2781-6-300              ,K9,HYDRAULIC HOSE                                              ,Ger,no ,0,P,E,C,00:00.0,c444690 ,0,Y
+KA6260B-GA1326P00775000         ,K9,HIGH PRESSURE HOSE .775M                                    ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+KA6260B-GA5900089J00700         ,K9,HIGH PRESSURE HOSE BDS07026201211                           ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+KA6260B-GA9020019J00500         ,K9,HIGH PRESSURE HOSE                                          ,Ger,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+KA6260B-GA9020053K00880         ,K9,HIGH PRESSURE HOSE                                          ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+KA6260B-GA9020541J00700         ,K9,HIGH PRESSURE HOSE                                          ,Ger,no ,0,R,E,B,00:00.0,c135745 ,0,Y
+KB6070B-TERE35HW100WL22-22      ,K9,THERMOSTAT TYPE EXPANSION VALVE                             ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,Y
+KB6120B-433                     ,K8,SLIDE RING SEALING                                          ,Ger,no ,0,R,E,A,00:00.0,s_a     ,0,Y
+KB6120B-RT14175099              ,K8,THERMOSTAT LOW WATER RT-14                                  ,Ger,no ,0,P,D,C,00:00.0,s_a     ,0,Y
+KB6120B-YKP7B-601191            ,K8,HIGH PRESSURE SWITCH KP 78                                  ,Ger,no ,0,C,V,C,00:00.0,s_a     ,0,Y
+KB6160B-08043                   ,K9,PUMP SET OIL                                                ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,Y
+KB6180B-S55044065046N2278307    ,K9,GLYD RING                                                   ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+KD6050B-320150502               ,K5,SOLENOID VALVE EYSI-10                                      ,Den,no ,0,C,V,C,00:00.0,c135745 ,0,N
+KD6050B-X22440-B1B              ,K5,VALVE INSERT                                                ,Den,no ,0,R,E,B,00:00.0,c135745 ,0,Y
+KD6110B-0001703116/521A07716/1  ,DD,VALVE 3/2 WAY                                               ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KD6110B-031211                  ,DD,SUCTION VALVE COMPLETE                                      ,Ger,no ,0,R,V,B,00:00.0,c135745 ,0,N
+KD6110B-031220                  ,DD,SUCTION VALVE COMPLETE                                      ,Ger,no ,0,R,V,B,00:00.0,c135745 ,0,N
+KD6110B-034463                  ,DD,SUCTION VALVE COMPLETE                                      ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,N
+KD6110B-034464                  ,DD,DELIVERY VALVE COMPLETE                                     ,Ger,no ,0,R,V,B,00:00.0,c135745 ,0,N
+KD6110B-034466                  ,DD,DISCHARGE VALVE III STAGE                                   ,Ger,no ,0,R,V,B,00:00.0,c135745 ,0,N
+KD6110B-034782                  ,DD,MAGNETIC STRAIGHT WAY                                       ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,N
+KD6110B-034798                  ,DD,V BELT (5EA=1SE)                                            ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+KD6110B-050230                  ,DD,VALVE SAFETY III                                            ,Ger,no ,0,R,V,A,00:00.0,c135745 ,0,Y
+KD6110B-054870                  ,DD,VALVE PNEUMATIC                                             ,Ger,no ,0,R,V,C,00:00.0,c135745 ,0,N
+KD6110B-058768                  ,DD,CYLINDER HEAD COMPLETE                                      ,Ger,no ,0,R,E,C,00:00.0,c135745 ,0,N
+KD6110B-058781                  ,DD,CYLINDER HEAD COMPLETE                                      ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KD6110B-059461                  ,DD,PUMP OIL                                                    ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,N
+KD6110B-1814938720004           ,DD,SEAL RING                                                   ,Ger,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+KD6110B-5359131                 ,DD,SENSOR PRESSURE                                             ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,Y
+KD6110B-DIN7753-12.5X1575LA     ,DD,V BELT                                                      ,Ger,no ,0,C,V,B,00:00.0,c135745 ,0,N
+KD6180B-100320463A              ,K9,FUSE LINK                                                   ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+KD6180B-B40/35-25               ,K9,RECTIFIER                                                   ,Ger,no ,0,R,V,C,00:00.0,c135745 ,0,Y
+KD6269B-242208600056            ,K8,FUSE 104 7FG 10A                                            ,Ger,no ,0,C,E,B,00:00.0,c135745 ,0,N
+KD6270B-EG389641016             ,K9,CARBON BRUSH                                                ,Ger,no ,0,C,E,C,00:00.0,s_a     ,0,N
+KF6020B-500055                  ,K8,DESICCANT MS T146 (ABSORBENT)                               ,Ger,kg ,0,C,V,B,00:00.0,c135745 ,0,Y
+KH6040B-19247ZA86441-196079     ,K8,HYDRAULIC CYLINDER SNORKEL INTERLOC                         ,Ger,no ,0,P,D,C,00:00.0,s_a     ,0,N
+KH6130B-ND1715                  ,K6,VALVE SUB ASSY                                              ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KH6130B-ND684                   ,K6,DIAPHRAGM                                                   ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+KH6130B-ND7517                  ,K6,DIAPHRAGM                                                   ,Ger,no ,0,C,V,B,00:00.0,c135745 ,0,Y
+KH6160B-0001700406              ,HK,AIR DISTRIBUTOR                                             ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KH6160B-0001702916              ,HK,VALVE 3/2 WAY                                               ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KH6160B-0005358931              ,HK,SENSOR PRESSURE                                             ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,N
+KH6160B-0005359702              ,HK,MONITOR PRESSURE                                            ,Ger,no ,0,R,V,C,00:00.0,c135745 ,0,Y
+KH6160B-0011884201              ,HK,HEAT EXCHANGER LUB OIL                                      ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,N
+KH6160B-004200957539            ,HK,FLAT TUBE COOLER (002200457539)                             ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KH6160B-111F037041              ,HK,PUMP INJECTION                                              ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KH6160B-111F037061              ,HK,PUMP INJECTION                                              ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,N
+KH6160B-111G08757               ,HK,FUEL PRE LINE LIFT                                          ,Ger,no ,0,R,E,C,00:00.0,c135745 ,0,N
+KH6160B-181-2128-08-17-00       ,HK,FLAP HALF                                                   ,Ger,no ,0,R,V,C,00:00.0,s_a     ,0,Y
+KH6160B-1812128081200           ,HK,FLAP HALF                                                   ,Ger,no ,0,R,V,B,00:00.0,s_a     ,0,Y
+KH6160B-1862128320000           ,HK,DRAIN VALVE                                                 ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,Y
+KH6160B-521A07718               ,HK,VALVE 3/2 WAY                                               ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,N
+KH6160B-700388032000            ,HK,WATER SEAL                                                  ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,N
+KH6160B-90221500008             ,HK,RING SEALING                                                ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,Y
+KH6160B-X00E50200502            ,HK,PRESSURE SENSOR 0-4 BAR                                     ,Ger,no ,0,P,V,C,00:00.0,w51346  ,0,N
+KH6170B-031208                  ,K8,DELIVERY VALVE COMPLETE                                     ,Ger,no ,0,R,V,C,00:00.0,s_a     ,0,N
+KJ6000B-031217                  ,JP,DELIVERY VALVE COMPLETE                                     ,Ger,no ,0,R,E,A,00:00.0,s_a     ,0,Y
+KJ6000B-059866                  ,JP,VALVE PNEUMATIC                                             ,Ger,no ,0,P,D,C,00:00.0,s_a     ,0,Y
+KL6030B-A50030                  ,K8,FLOAT BALL                                                  ,Ger,no ,0,R,E,C,00:00.0,s_a     ,0,Y
+KM3040B-80008279A               ,K1,SLIDE RING SEALING (MECHANICAL SEAL                         ,Ind,no ,0,R,V,A,00:00.0,s_a     ,0,Y
+KM3040B-D8412TWEW12LG50         ,K1,RESISTANCE THERMOMETER                                      ,Ind,no ,0,R,V,C,00:00.0,c135745 ,0,N
+KM6090B-L1541-007-407           ,K8,COMPACT ROD SEAL                                            ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,N
+KM6110B-121M00204               ,MU,FRESHWATER COOLING PUMP                                     ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,Y
+KM6110B-521A07711               ,MU,3/2 WAY VALVE                                               ,Ger,no ,0,R,E,B,00:00.0,c135745 ,0,Y
+KM6290B-0000921705              ,MU,FINE FILTER ELEMENT                                         ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,Y
+KM6290B-111G107271              ,MU,FUEL PRESSURE LINE RIGHT                                    ,Ger,no ,0,R,E,B,00:00.0,c135745 ,0,Y
+KM6290B-111L967311              ,MU,HEAT EXCHANGER                                              ,Ger,no ,0,R,E,A,00:00.0,c444690 ,0,Y
+KM6290B-111M077041              ,MU,CENTRIFUGAL PUMP                                            ,Ger,no ,0,P,V,C,00:00.0,c135745 ,0,Y
+KM6290B-8200103151              ,MU,NOZZLE HOLDER WITH NOZZLE                                   ,Ger,no ,0,P,E,C,00:00.0,c135745 ,0,Y
+KR6090B-000180B186              ,K7,BELLOW COMPENSATOR                                          ,Ger,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+KR6090B-0200100700186           ,K7,HIGH PRESSURE HOSE COMPENSATOR                              ,Ger,no ,0,R,V,A,00:00.0,c135745 ,0,Y
+KR6090B-0200150900186           ,K7,HIGH PRESSURE HOSE COMPENSATOR                              ,Ger,no ,0,R,E,C,00:00.0,c135745 ,0,Y
+KR6090B-020050700186            ,K7,HIGH PRESSURE HOSE COMPENSATOR                              ,Ger,no ,0,R,D,C,00:00.0,s_a     ,0,Y
+KR6206B-022050700186            ,K7,COMPENSATOR HP HOSE                                         ,Ger,no ,0,R,E,C,00:00.0,c135745 ,0,Y
+KS6210B-1003204-16A             ,SI,FUSE LINK                                                   ,Ger,no ,0,C,D,C,00:00.0,s_a     ,0,N
+KS6210B-1003204-20A             ,SI,FUSE LINK                                                   ,Ger,no ,0,C,E,B,00:00.0,c135745 ,0,N
+KS6210B-1003204-25A             ,SI,FUSE LINK                                                   ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+KS6210B-1003204-50A             ,SI,FUSE LINK                                                   ,Ger,no ,0,C,E,B,00:00.0,c135745 ,0,N
+KS6210B-1003204-6A              ,SI,FUSE LINK                                                   ,Ger,no ,0,C,V,B,00:00.0,c135745 ,0,N
+KS6210B-2023313-315A            ,SI,FUSE LINK LOW VOLTAGE                                       ,Ger,no ,0,C,E,B,00:00.0,c135745 ,0,N
+KS6210B-2023313160A             ,SI,FUSE LINK LOW VOLTAGE                                       ,Ger,no ,0,C,V,A,00:00.0,c135745 ,0,N
+KS6210B-2023313250A             ,SI,FUSE LINK LOW VOLTAGE                                       ,Ger,no ,0,C,V,B,00:00.0,c135745 ,0,N
+KS6210B-5TN33365YP409/2B        ,SI,SWITCH YAXELY TYPE                                          ,Ger,no ,0,R,V,B,00:00.0,c135745 ,0,Y
+KS6210B-70090130                ,SI,FUSE LINK 0.315A(03A)                                       ,Ger,no ,0,C,E,C,00:00.0,c135745 ,0,Y
+KS6210B-70090134A               ,SI,FUSE LINK                                                   ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,N
+KS6210B-P70090131A              ,SI,FUSE LINK                                                   ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,N
+KS6230B-02220200601             ,K7,SEAT SEALING                                                ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,Y
+KS6230B-02220320601             ,K7,SEAT PACKING FOR VALVE DN25-32                              ,Ger,no ,0,C,V,C,00:00.0,c135745 ,0,Y
+KS6230B-05-11-032-06-01         ,K7,GASKET                                                      ,Ger,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+KS6230B-05110200601             ,K7,SEAT SEALING                                                ,Ger,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+KS6230B-27X4PERBUNAN            ,K7,O-RING                                                      ,Ger,no ,0,C,D,C,00:00.0,s_a     ,0,Y
+KS6300B-2023313200A             ,K7,LOW-VOLTAGE FUSE LINK                                       ,Ger,no ,0,C,E,B,06:00.0,sa      ,0,
+N0472-4259813                   ,48,HYDROSTATIC RELEASE FOR LIFE RAFTS H20R                     ,Ind,no ,0,R,V,B,00:00.0,s_a     ,0,Y
+N0476-9234858                   ,30,V BELT A-33                                                 ,Ind,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+N3030-000181                    ,30,V BELT ENDLESS RUBBERISED FABRIC B 64                       ,Ind,no ,0,C,E,C,00:00.0,s_a     ,0,Y
+N3030-000500                    ,30,V BELT A49                                                  ,Ind,no ,0,C,E,C,00:00.0,b41285  ,0,Y
+N3110-P063946                   ,31,BALL BEARING 6307 ZZ/C3                                     ,Ind,no ,0,R,E,B,00:00.0,a05534  ,0,Y
+N4030-003411                    ,40,D TYPE JOINING SHACKLE SIZE 17.5MM                          ,Ind,no ,0,R,V,C,00:00.0,a03125  ,0,Y
+N4030-003839                    ,40,HOOK,,,,,,,,,,
+N6680-P063196                   ,66,HAND HELD TOXIC GAS DETECTOR PUMP                           ,Ind,no ,0,P,E,A,00:00.0,c692210 ,0,Y
+N8030-000174                    ,QE,PUTTY BRONZE (500 GMS)                                      ,Ind,kg ,0,C,V,B,00:00.0,s_a     ,0,Y
+N8030-000176                    ,QE,STEEL PUTTY QUICK SETTING                                   ,Ind,kg ,0,C,V,B,00:00.0,s_a     ,0,Y
+N8030-000184                    ,QE,STEEL REPAIR COMPOUND(PACK 1KG )                            ,Ind,kg ,0,C,V,B,00:00.0,s_a     ,0,Y
+NSN5330-720487571               ,53,SILICONE RUBBER SEAL 6000X47X29 MM FOR WT DOOR              ,Ind,m  ,180,C,V,A,00:00.0,c962246 ,0,Y
+NSN9999-720400032               ,99,SILICONE RUBBER SEAL 25X24 MM FOR ROUND HATCHES AND WT DOORS,Ind,m  ,180,C,V,A,00:00.0,c962246 ,0,Y
+SR6001D-(D)A(I)E-306521-047     ,1C,DEVICE HG3.20                                               ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-460700-041(D)  ,1C,DEVICE PCM-3520                                             ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467441-035     ,1C,UNIT FLASH-128 KBYTE (28F010)                               ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467441-036     ,1C,UNIT FLASH-128 KBYTE (28F010)                               ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467441-037     ,1C,UNIT FLASH-128 KBYTE (28F010)                               ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467441-038     ,1C,DEVICE RES-104                                              ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467441-039-001 ,1C,MODULE MCPU1-ON.1                                           ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467441-041-001 ,1C,MODULE MCPU3-ON.5                                           ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467441-042-001 ,1C,MODULE MCPU4-ON.2                                           ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467451-037     ,1C,UNIT FLASH128 KBYTE (28F010)                                ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-467451-106-001 ,1C,BLOCK BKR1-2-001                                            ,Rus,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+SR6001D-(D)A(I)E-467512-020-03  ,1C,MODULE MMD-A                                                ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E-469115-081     ,1C,UNIT YB1                                                    ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)A(I)E.467441.259-001 ,1C,MODULE M279-001                                             ,Rus,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+SR6001D-(D)MM-16                ,1C,UNIT DMM-16                                                 ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(D)YCY-M-12AC           ,1C,ANGULAR SPEEDS DETECTOR                                     ,Rus,no ,0,R,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-(E)(D)(P)-400:2-01C-1-0 ,1C,DIFFERENTIAL PRESSURE SENSOR (E)(D)(P)-400 KGF/CM2-01       ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,N
+SR6001D-(E)K10-1-02-005         ,1E,VALVE SUCTION 4TH STAGE                                     ,Rus,no ,0,R,V,C,00:00.0,s_a     ,A1,Y
+SR6001D-(E)K10-1-02-009         ,1E,VALVE SUCTION 3RD STAGE                                     ,Rus,no ,0,P,V,C,00:00.0,s_a     ,A1,Y
+SR6001D-(E)K10-1-02-010         ,1E,VALVE DELIVERY 3RD STAGE                                    ,Rus,no ,0,R,V,B,00:00.0,s_a     ,A1,Y
+SR6001D-(E)K10-1-02-012         ,1M,DISCHARGE VALVE 1ST STAGE                                   ,Rus,no ,0,R,V,B,00:00.0,s_a     ,A1,Y
+SR6001D-(E)K10-1-02-013         ,1M,VALVE SUCTION 2ND STAGE                                     ,Rus,no ,0,P,V,C,00:00.0,s_a     ,A1,Y
+SR6001D-(E)K10-1-02-014         ,1M,VALVE DELIVERY 2ND STAGE                                    ,Rus,no ,0,P,V,C,00:00.0,s_a     ,A1,Y
+SR6001D-(E)K10-3-00-150         ,1C,VALVE                                                       ,Rus,no ,0,P,E,C,00:00.0,n40537  ,0,Y
+SR6001D-(E)K10-3-03-118         ,1E,OIL DEFLECTOR                                               ,Rus,no ,0,P,D,C,00:00.0,n40937  ,A1,Y
+SR6001D-(E)K30A-04-027          ,1E,VALVE DELIVERY 4TH STAGE                                    ,Rus,no ,0,P,V,C,00:00.0,s_a     ,A1,Y
+SR6001D-(E)K30A-05-038          ,1M,FILTER SECTION                                              ,Rus,no ,0,C,E,C,00:00.0,s_a     ,A1,Y
+SR6001D-(G)K3-04-002-1          ,1E,VALVE SUCTION 1ST STAGE                                     ,Rus,no ,0,R,E,B,00:00.0,s_a     ,A1,Y
+SR6001D-(I)T(SH)(L)-493171-002  ,1C,REDUCING VALVE,,,,,,,,,,
+SR6001D-(L)(I)KA-711142-066     ,1C,DISK                                                        ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-(L)(I)KA-755471-006     ,1C,APERTURE                                                    ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-(SH)2-3911010-7         ,1C,ROD-TYPE GREASE GUN (SH)2                                   ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,N
+SR6001D-(TS)AK(I)-296441-042    ,1C,SOCKET WRENCH                                               ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,N
+SR6001D-(TS)AK(I)-742151-322    ,1C,BLOCK                                                       ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,N
+SR6001D-(TS)AK(I)-753513-306    ,1C,SPRING                                                      ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-(TS)AK(I)-753513-307    ,1C,SPRING C(SH)(P)-2-II-6X50X169X10                            ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-(TS)AK(I)-753514-005    ,1C,SPRING                                                      ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-(TS)AK(I)-753642-002    ,1C,DISK SPRING                                                 ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-058519001               ,1C,AIR VALVE                                                   ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,Y
+SR6001D-071088018               ,1C,NONRETURN VALVE                                             ,Rus,no ,0,R,D,C,00:00.0,n41080  ,P1,N
+SR6001D-1(TS)84HP1-6(D)         ,1C,MODULE BSKV 1U84HP1.6D                                      ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-1-540-000               ,1J,ELASTIC BUSHING MYBP1-25/5                                  ,   ,no ,0,R,E,C,00:00.0,f70293  ,0,N
+SR6001D-10(B)O-1-03-220         ,1E,ELEMENT FILTERING                                           ,Rus,no ,0,C,E,C,00:00.0,s_a     ,0,N
+SR6001D-10300-80:5X12-38M3      ,1C,RIVET 5X12.38M3                                             ,Rus,no ,0,C,D,C,00:00.0,n40937  ,0,N
+SR6001D-11356-264-015           ,1C,PRESS ON BAND                                               ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,N
+SR6001D-11356-264-018           ,1C,PULLEY BUSHING                                              ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-14(B)O-02-020           ,1E,FILTER                                                      ,Rus,no ,0,C,E,C,00:00.0,s_a     ,A1,Y
+SR6001D-1476-93:BM6-6(G)5-14H   ,1C,SCREW B.M6-6(G)5.14H K(D)6 XP                               ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-18829-73:030-038-46-2-2 ,1C,RING 030-038-46-2-2                                         ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-18829-73:055-061-36-2-2 ,1C,RING 055-061-36-2-2                                         ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-18829-73:055-065-58-2-2 ,1C,RING 055-065-58-2-2                                         ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-19853-74:1-2(TS)6       ,1C,LUBRICATOR 1.2.(TS) 6 (474-01-011-2)                        ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-2-117-5-3-3-3012        ,1C,RING 2-117,,,,,,,,,,
+SR6001D-2-141-5-3-3-3012        ,1C,RING 2-141,,,,,,,,,,
+SR6001D-2-34-2-3-3-3012         ,1C,RING 2-34-2-3-3-3012                                        ,Rus,no ,0,C,E,C,00:00.0,n40537  ,0,Y
+SR6001D-2-53-5-3-3-3012         ,1C,RING 2-53,,,,,,,,,,
+SR6001D-2-7-6-2-4-3012          ,1C,RING 2-7.6-24-3012                                          ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-2-92-5-3-3-3012         ,1C,RING 2-92,,,,,,,,,,
+SR6001D-211-58-1460-30          ,1C,CONNECTION LINK 40-2/2A                                     ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,N
+SR6001D-211-58-1470-30          ,1C,END SHACKLE 40-2/2A                                         ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,N
+SR6001D-24679-81:BMMOM4         ,1C,HYDRAULIC CONTROL VALVE BMMOM4                              ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,Y
+SR6001D-24HKTH:40-75            ,1C,THROTTLE PACK                                               ,Rus,no ,0,C,E,C,00:00.0,n40537  ,0,Y
+SR6001D-264-104-1137            ,1C,STANCHION                                                   ,Rus,no ,0,R,D,C,00:00.0,n40937  ,0,N
+SR6001D-264-104-1207            ,1C,STANCHION                                                   ,Rus,no ,0,R,D,C,00:00.0,n40937  ,0,N
+SR6001D-264-104-1222            ,1C,WASHER                                                      ,Rus,no ,0,C,D,C,00:00.0,n40937  ,0,N
+SR6001D-264-104-1248            ,1C,STEP                                                        ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,N
+SR6001D-264-104-1655            ,1C,STANCHION                                                   ,Rus,no ,0,R,D,C,00:00.0,n40937  ,0,N
+SR6001D-264-30-1194             ,1C,BUSHING                                                     ,Rus,no ,0,C,D,C,00:00.0,n40937  ,0,N
+SR6001D-264-30-210-01           ,1C,STANCHION                                                   ,Rus,no ,0,R,D,C,00:00.0,n40937  ,0,Y
+SR6001D-264-30-544              ,1R,BUSHING                                                     ,Rus,no ,0,C,E,C,00:00.0,s_a     ,M1,Y
+SR6001D-264-30-563              ,1C,RUBBING BAND                                                ,Rus,no ,0,C,D,C,00:00.0,n40537  ,0,N
+SR6001D-2839-80:7811-0003       ,1E,SCREWDRIVER 8X10:7811-0003 H(D)1X9                          ,Rus,no ,0,R,E,C,00:00.0,c444690 ,0,Y
+SR6001D-2839-80:7811-0007       ,1C,WRENCH 7811-0007 CHEM.OX.,,,,,,,,,,
+SR6001D-2839-80:7811-0023       ,1C,WRENCH 7811-0023 CHEM.OX.,,,,,,,,,,
+SR6001D-2839-80:7811-0025       ,1C,WRENCH 7811-0025                                            ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,N
+SR6001D-2839-80:7811-0041       ,1C,WRENCH 7811-0041                                            ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,N
+SR6001D-466-292-108             ,3M,VERTICAL WHEEL (VERTEX IMPELLER)                            ,Rus,no ,0,R,V,A,00:00.0,s_a     ,A2,Y
+SR6001D-466-292-110             ,1P,YOKE IN ASSEMBLY                                            ,Rus,no ,0,C,V,B,00:00.0,s_a     ,A2,Y
+SR6001D-466-292-455             ,1P,IMPELLER                                                    ,Rus,no ,0,P,E,B,00:00.0,s_a     ,A2,Y
+SR6001D-518015                  ,1C,ELECTROMAGNETIC VALVE MKT-361A-B-1                          ,Rus,no ,0,P,E,C,00:00.0,n40537  ,0,Y
+SR6001D-521-35-3238             ,1R,VALVE                                                       ,Ind,no ,0,R,E,C,00:00.0,s_a     ,A5,Y
+SR6001D-522-35-3927             ,1P,VALVE NON RETURN                                            ,Ind,no ,0,P,E,C,00:00.0,s_a     ,A5,Y
+SR6001D-525-35-2690             ,1R,VALVE REDUCING GEAR HA-30 Kg/Cub.CM                         ,Rus,no ,0,P,V,C,00:00.0,s_a     ,P1,Y
+SR6001D-525-35-2690-02          ,1R,VALVE REDUCING GEAR HA-110 Kg/CM Cube                       ,Rus,no ,0,P,V,C,00:00.0,s_a     ,P1,Y
+SR6001D-5307854                 ,1R,FILTER SECTION                                              ,Ind,no ,0,C,E,B,00:00.0,s_a     ,P1,N
+SR6001D-577-68:(I)(CH)05        ,1C,INDICATOR (I)(CH)05 CL.0                                    ,Rus,no ,0,P,E,C,00:00.0,n40537  ,0,Y
+SR6001D-577-99-2918-02          ,1M,ELEMENT FILTER                                              ,Rus,no ,0,C,V,C,00:00.0,s_a     ,A4,Y
+SR6001D-65801813                ,2V,BLOCK,,,,,,,,,,
+SR6001D-6AP-45E:MODIFIED        ,1E,MECHANICAL SEAL 6AP-45E(MOD)                                ,Rus,no ,0,C,D,C,00:00.0,c444690 ,0,N
+SR6001D-6AP-50E                 ,1R,FACE SEALING                                                ,Rus,no ,0,R,V,A,00:00.0,s_a     ,A2,N
+SR6001D-6AP-60E:MODIFIED        ,1C,MECHANICAL SEAL 6AP-60E(MOD)                                ,Rus,no ,0,C,D,C,00:00.0,c444690 ,0,N
+SR6001D-8(B)O-04-014            ,1C,VALVE                                                       ,Rus,no ,0,P,E,C,00:00.0,c444690 ,0,Y
+SR6001D-8752-79:1-1-300X340-1   ,1C,COLLAR 1.1-300X340-1                                        ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-8752-79:1-1-30X52-1     ,1C,COLLAR 1.1-30X52-1                                          ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-8752-79:1-1-60X85-1     ,1C,COLLAR 1.1-60X85-1                                          ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-8752-79:1-25X42-16-1    ,1C,COLLAR 1-25X42-16-1                                         ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-8752-79:1-45X65-16-1    ,1C,COLLAR 1-45X65-16-1                                         ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,Y
+SR6001D-8752-79:1-90X120-15-1   ,1C,COLLAR 1-90X120-15-1                                        ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-90088015                ,1C,START VALVE UNIT                                            ,Rus,no ,0,P,V,C,00:00.0,n40537  ,0,Y
+SR6001D-934-01-075-03           ,1C,EYE BOLT                                                    ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,Y
+SR6001D-A54518000               ,1C,VALVE AIR WITH INDIVIDUAL SET OF SPARES                     ,Rus,no ,0,P,E,C,00:00.0,s_a     ,P1,N
+SR6001D-AC6-283                 ,1R,GASKET                                                      ,Rus,no ,0,C,E,C,00:00.0,s_a     ,P1,N
+SR6001D-AE(I)Y-484143-008       ,1C,SHACKLE                                                     ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,N
+SR6001D-CC166-104               ,1C,UNIT CS166-104                                              ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-CKBC20A-460C            ,1C,VARISTOR SKVC 20A,,,,,,,,,,
+SR6001D-DD89N14K                ,1F,DIODE                                                       ,Rus,set,0,P,E,C,00:00.0,cj14413 ,0,Y
+SR6001D-E54008195               ,1C,PIPE METAL REINFORCED                                       ,Ind,no ,0,P,E,C,00:00.0,s_a     ,P1,N
+SR6001D-H(SH)32-3-(L)           ,1C,PUMP GEAR-TYPE H(SH)32-3-(L)                                ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,Y
+SR6001D-H11-121-00-003-01       ,1V,IMPELLER                                                    ,Rus,no ,120,R,V,B,00:00.0,a03785  ,0,Y
+SR6001D-HHA-2                   ,1C,FOOT-DRIVEN PUMP HHA-2                                      ,Rus,no ,0,P,D,C,00:00.0,n40937  ,0,Y
+SR6001D-K(I)AP-436448-009       ,1C,MODULE M(F)(F)                                              ,Rus,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+SR6001D-K71038019:II            ,1C,SUPPLY PIPE OF THE SECOND STAGE COLLECTOR                   ,Rus,no ,0,C,D,C,00:00.0,n40537  ,0,Y
+SR6001D-M71098001-31            ,1C,LIMITER OF TURBINE SPEEDUP OPT-LC                           ,Rus,no ,0,P,E,C,00:00.0,n40537  ,0,N
+SR6001D-P(I)(D)(F)-303713-001-02,1C,SHAFT INSERT                                                ,Rus,no ,0,P,E,C,00:00.0,n40937  ,0,N
+SR6001D-P(I)(D)(F)-713141-050   ,1C,BUSHING                                                     ,Rus,no ,0,C,D,C,00:00.0,n40937  ,0,N
+SR6001D-P(I)(D)(F)-713341-031   ,1C,BUSHING                                                     ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-P(I)(D)(F)-713341-045   ,1C,BUSHING                                                     ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-P(I)(D)(F)-713341-046   ,1C,BUSHING                                                     ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-P(I)(D)(F)-713341-047   ,1C,BUSHING                                                     ,Rus,no ,0,C,E,C,00:00.0,n40937  ,0,N
+SR6001D-P76018093               ,1R,FILTER                                                      ,Rus,no ,0,C,E,C,00:00.0,s_a     ,P1,N
+SR6001D-PC4-520-263-01          ,1C,RELAY P(P)C-36(B)                                           ,Rus,no ,0,C,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-PCM-3521                ,1C,DEVICE PCM-3521                                             ,Rus,no ,0,P,E,C,00:00.0,n40937  ,A5,Y
+SR6001D-T(I)(B)(L).304233.000   ,1C,BRAKE DISK                                                  ,Rus,no ,0,P,D,C,00:00.0,z86933  ,0,Y
+SR6001D-TXA-1368                ,1C,THERMAL CONVENTER                                           ,Rus,no ,0,R,E,B,00:00.0,c444690 ,0,N
+SZ6032D-090088021               ,ZR,STOP COCK                                                   ,Ukr,no ,0,P,D,C,00:00.0,sailmsv ,P1,Y
+SZ6032D-C71008305               ,ZR,THIN PIPE                                                   ,Ukr,no ,0,C,D,C,00:00.0,sailmsv ,P1,Y

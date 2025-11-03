@@ -1,0 +1,79 @@
+ClassName,ClassType,ProjectCode
+CAR NICOBAR CLASS        ,FAC                                     ,WJFAC          
+SHARDUL CLASS            ,LST                                     ,LST(L)         
+AUSTIN CLASS             ,LPD                                     ,LPD            
+SHIVALIK CLASS           ,FRIGATES                                ,P17            
+DEEPAK CLASS             ,TANKERS                                 ,FLEET TANKER   
+TARANGINI CLASS          ,TARANGINI                               ,STS            
+SANDHAYAK CLASS          ,SURVEY SHIPS                            ,SURVEY         
+TEG CLASS                ,FRIGATES                                ,FO P1135.6     
+KAMORTA CLASS            ,ASW CORVETTES                           ,P28            
+KALVARI CLASS            ,CONVENTIONAL SUBMARINES                 ,P75            
+DELHI CLASS              ,DESTROYERS                              ,P15            
+KOLKATA CLASS            ,DESTROYERS                              ,P15A           
+KUMBHIR CLASS            ,LST                                     ,LSTs(M)        
+MAGAR CLASS              ,LST                                     ,LST.L          
+BRAHMAPUTRA CLASS        ,FRIGATES                                ,P16A           
+JYOTI CLASS              ,TANKERS                                 ,TANKER(JYOTI)  
+KHUKRI CLASS             ,ASW CORVETTES                           ,P25            
+KORA CLASS               ,ASW CORVETTES                           ,P25A           
+BANGARAM CLASS           ,FAC                                     ,FAC            
+TALWAR CLASS             ,FRIGATES                                ,P1135.6        
+ADITYA CLASS             ,TANKERS                                 ,TANKER(ADITYA) 
+ASTRADHARINI CLASS       ,ASW SWC                                 ,TLRV           
+SUKANYA CLASS            ,OPV                                     ,OPV            
+SAGARDHWANI CLASS        ,OPV                                     ,RESEARCH       
+TARMUGLI CLASS           ,FAC                                     ,FO-WJFAC       
+SARYU CLASS              ,OPV                                     ,P1194          
+CHAKRA CLASS             ,CONVENTIONAL SUBMARINES                 ,SSN            
+SHISHUMAR CLASS          ,CONVENTIONAL SUBMARINES                 ,SSK            
+GODAVARI CLASS           ,FRIGATES                                ,P16            
+ABHAY CLASS              ,ASW CORVETTES                           ,P1241PE        
+VEER CLASS               ,ASW CORVETTES                           ,P1241RE        
+RAJPUT CLASS             ,DESTROYERS                              ,SNF P61ME      
+PONDICHERRY CLASS        ,MINESWEEPERS                            ,SNM            
+SINDHUGHOSH CLASS        ,CONVENTIONAL SUBMARINES                 ,877EKM         
+GAJ CLASS                ,GAJ                                     ,OGT            
+MK IV LCU                ,LCU                                     ,LCU            
+TIR CLASS                ,TRAINING SHIPS                          ,TRG SHIP       
+KIEV CLASS               ,AIRCRAFT CARRIER                        ,P11430         
+MK II & III LCU          ,LCU                                     ,LCU(019)       
+SUPER DVORA CLASS        ,FAC                                     ,XFACs          
+IMMEDIATE SUPPORT VESSEL ,ISV                                     ,ISV(E)         
+TRINKAT CLASS            ,FAC                                     ,FAC(TRINKAT)   
+NIREEKSHAK CLASS         ,DSV                                     ,DIVING         
+ARNALA CLASS             ,ASW CORVETTES                           ,159AE          
+KALVARI-I CLASS          ,CONVENTIONAL SUBMARINES                 ,PI641          
+MAKAR CLASS              ,SURVEY SHIPS                            ,20.MCMS        
+VELA CLASS               ,CONVENTIONAL SUBMARINES                 ,PI641          
+MAHE CLASS               ,MINESWEEPERS                            ,20 MCMS        
+NILGIRI CLASS            ,FRIGATES                                ,FRIGATE        
+ASTRAVAHINI CLASS        ,ASW SWC                                 ,TRV            
+CHAMAK CLASS             ,OPV                                     ,205ER          
+DURG  CLASS              ,ASW CORVETTES                           ,P1234E         
+HUNT CLASS               ,DESTROYERS                              ,HUNT           
+LEOPARD CLASS            ,FRIGATES                                ,LEOPARD        
+MAJESTIC CLASS           ,AIRCRAFT CARRIER                        ,VIKRANT        
+CENTAUR CLASS            ,AIRCRAFT CARRIER                        ,P-VIR          
+WHITBY CLASS             ,FRIGATES                                ,TRISHUL        
+TON CLASS                ,MINESWEEPERS                            ,SNM            
+UGRA CLASS               ,SURVEY SHIPS                            ,1886M          
+LEANDER CLASSS           ,FRIGATES                                ,LEANDER        
+Floating Dock            ,MINESWEEPERS                            ,FDN-1          
+Floating Dock            ,MINESWEEPERS                            ,FDN-2          
+VISAKHAPATNAM            ,DESTROYERS                              ,P15B           
+MULTI MISSION FRIGATES   ,FRIGATES                                ,P17A (MDL)     
+VIKRANT (IAC-1)          ,AIRCRAFT CARRIER                        ,P71            
+Naval Offshore Petrol Ves,OPV                                     ,NOPV           
+TUSHIL CLASS             ,FRIGATES                                ,ADDLFOP1135.6-R
+DIVING SUPPORT CRAFT     ,DIVING SUPPORT CRAFT                    ,DSC            
+NEXT GENERATION OPV      ,OPV                                     ,NGOPV (GSL)    
+MULTI PURPOSE VESSEL     ,MULTI PURPOSE VESSEL                    ,MPV            
+DIVING SUPPORT VESSEL    ,DSV                                     ,DSV            
+CADET TRAINING SHIP      ,TRAINING SHIPS                          ,CTS            
+REPLENISHMENT OILER      ,FSS                                     ,TANKER(FSS)    
+MAHE CLASS               ,ASW SWC                                 ,ASW SWC (CSL)  
+ARNALA CLASS             ,ASW SWC                                 ,ASW SWC (GRSE) 
+NEXT GENERATION OPV      ,OPV                                     ,NGOPV (GRSE)   
+TRIPUT CLASS             ,FRIGATES                                ,ADDL FO P1135.6
+NEXT GEN MISSILE VESSEL  ,MISSILE VESSELS                         ,NGMV           

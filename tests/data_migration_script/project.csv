@@ -1,0 +1,108 @@
+ProjectCode,Name,CountryCode,ProjectDate,ProjectCostRs,NoOfShips,ClassType,DateTimeAdded,AddedBy
+159AE          ,ARNALA CLASS,Ind,1969-12-23 00:00:00.0,1.0000,7,ASW CORVETTES                           ,1969-12-23 00:00:00.0,sa      
+1886M          ,UGRA CLASS,Ind,1968-12-28 00:00:00.0,1.0000,1,SURVEY SHIPS                            ,1968-12-28 00:00:00.0,sa      
+20 MCMS        ,MAHE CLASS,Rus,1984-01-31 00:00:00.0,1.0000,4,MINESWEEPERS                            ,1984-01-31 00:00:00.0,sa      
+20.MCMS        ,MAKAR CLASS,Ind,1983-05-16 00:00:00.0,1.0000,6,SURVEY SHIPS                            ,1983-05-16 00:00:00.0,sa      
+205ER          ,CHAMAK CLASS,Ind,1976-02-17 00:00:00.0,1.0000,8,OPV                                     ,1976-02-17 00:00:00.0,sa      
+3FT            ,3RD FLEET TANKER,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+5-6SV          ,SURVEY VESSEL,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+6005 (VC 11199),SEMI SUBMERSIBLE PONTOON (SSP),Ind,2021-02-05 00:00:00.0,4948230710.0000,1,FLOATING DOCK                           ,2024-05-09 16:10:00.0,k05593  
+773J           ,LST (LANDING SHIP TANK),Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+773JM          ,LST NEW (LANDING SHIP TANK),Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+8-9SV          ,SURVEY VESSEL,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+877EKM         ,SINDHUGHOSH CLASS,Rus,1986-04-30 00:00:00.0,1.0000,12,CONVENTIONAL SUBMARINES                 ,1986-04-30 00:00:00.0,sa      
+ABER           ,ABER,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+ADDL FO P1135.6,TRIPUT CLASS,Ind,2019-01-25 00:00:00.0,148260000000.0000,2,FRIGATES                                ,2023-09-11 16:34:00.0,j10986  
+ADDLFOP1135.6-R,TUSHIL CLASS,Rus,2018-10-23 00:00:00.0,81792000000.0000,2,FRIGATES                                ,2023-09-11 16:31:00.0,j10986  
+AGNIBAHU       ,AGNIBAHU MBS,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+ASW SWC (CSL)  ,MAHE CLASS,Ind,2019-04-30 00:00:00.0,63110000000.0000,8,ASW SWC                                 ,2023-07-12 12:41:00.0,a06447  
+ASW SWC (GRSE) ,ARNALA CLASS,Ind,2019-04-29 00:00:00.0,63110000000.0000,8,ASW SWC                                 ,2023-11-03 09:51:00.0,j10986  
+BHATKAL        ,BHATKAL CLASS,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+CTS            ,CADET TRAINING SHIP,Ind,2023-03-02 00:00:00.0,3108.0900,3,TRAINING SHIPS                          ,2023-04-11 16:10:00.0,c860310 
+DHRUV          ,DHRUV CLASS,Ind,2014-06-30 00:00:00.0,15000000000.0000,1,MRI VESSEL                              ,2024-05-16 14:32:00.0,k05593  
+DIVING         ,NIREEKSHAK CLASS,Ind,1995-09-15 00:00:00.0,1.0000,1,DSV                                     ,1995-09-15 00:00:00.0,sa      
+DSC            ,DIVING SUPPORT CRAFT,Ind,2021-02-12 00:00:00.0,1747700000.0000,5,DIVING SUPPORT CRAFT                    ,2023-06-07 16:36:00.0,j10986  
+DSV            ,DIVING SUPPORT VESSEL,Ind,2023-03-24 14:02:00.0,23929500000.0000,2,DSV                                     ,2023-07-04 16:26:00.0,a06447  
+FAC            ,BANGARAM CLASS,Ind,2006-02-10 00:00:00.0,1.0000,4,FAC                                     ,2006-02-10 00:00:00.0,sa      
+FAC(TRINKAT)   ,TRINKAT CLASS,Ind,2000-09-28 00:00:00.0,1.0000,4,FAC                                     ,2000-09-28 00:00:00.0,sa      
+FDN-1          ,FDN-1,Jap,1987-07-11 00:00:00.0,1.0000,1,TO BE DECIDED                           ,1987-07-11 00:00:00.0,sa      
+FDN-2          ,FDN-2,Ind,2018-05-25 00:00:00.0,1.0000,1,TO BE DECIDED                           ,2018-05-25 00:00:00.0,sa      
+FICs           ,SRILANKAN FAST INTERCEPTER CRA,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+FLEET TANKER   ,DEEPAK CLASS,Ita,1954-01-29 00:00:00.0,1.0000,4,TANKERS                                 ,1954-01-29 00:00:00.0,sa      
+FO P1135.6     ,TEG CLASS,Rus,2012-11-09 00:00:00.0,1.0000,2,FRIGATES                                ,2012-11-09 00:00:00.0,sa      
+FO-WJFAC       ,TARMUGLI CLASS,Ind,2016-05-23 00:00:00.0,1.0000,4,FAC                                     ,2016-05-23 00:00:00.0,sa      
+FRIGATE        ,NILGIRI CLASS,UK ,1972-06-23 00:00:00.0,1.0000,6,FRIGATES                                ,1972-06-23 00:00:00.0,sa      
+FTR            ,ANVESH CLASS,Ind,2022-01-02 00:00:00.0,4250000000.0000,1,FLOATING TEST RANGE                     ,2024-05-16 14:36:00.0,k05593  
+HUNT           ,HUNT CLASS,UK ,1953-04-27 00:00:00.0,1.0000,1,DESTROYERS                              ,1953-04-27 00:00:00.0,sa      
+ISV(E)         ,IMMEDIATE SUPPORT VESSEL,Ind,2014-06-05 00:00:00.0,1.0000,6,ISV                                     ,2014-06-05 00:00:00.0,sa      
+ISV(W)         ,IMMEDIATE SUPPORT VESSEL,Ind,2015-01-22 00:00:00.0,1988260870.0000,17,PATROL BOATS                            ,2015-01-22 00:00:00.0,sa      
+LCU            ,LCU,Ind,2017-03-29 00:00:00.0,21000000000.0000,8,MK IV LCU                               ,2017-03-29 00:00:00.0,sa      
+LCU(019)       ,MK II & III LCU,Ind,1980-01-01 00:00:00.0,1.0000,9,LCU                                     ,1980-01-01 00:00:00.0,sa      
+LEANDER        ,LEANDER CLASSS,UK ,1995-08-22 00:00:00.0,1.0000,1,FRIGATES                                ,1995-08-22 00:00:00.0,sa      
+LEOPARD        ,LEOPARD CLASS,UK ,1958-03-31 00:00:00.0,1.0000,3,FRIGATES                                ,1958-03-31 00:00:00.0,sa      
+LPD            ,LPD CELL,USA,2007-06-22 00:00:00.0,1.0000,1,TO BE DECIDED                           ,2007-06-22 00:00:00.0,sa      
+LST            ,LANDING SHIP TANK,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+LST(L)         ,SHARDUL CLASS,Ind,1987-07-18 00:00:00.0,1.0000,2,LST                                     ,1987-07-18 00:00:00.0,sa      
+LST.L          ,SHARDUL CLASS,Ind,2007-01-04 00:00:00.0,1.0000,3,LANDING SHIP TANK                       ,2007-01-04 00:00:00.0,sa      
+LSTL2          ,LSTL2,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+LSTs(M)        ,KUMBHIR CLASS,Pol,1975-01-01 00:00:00.0,1.0000,8,LST                                     ,1975-01-01 00:00:00.0,sa      
+Leander        ,GIRIS,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+MARS           ,MARS,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+MCMV           ,MINE COUNTER MEASURE VESSELS,Ind,2023-07-14 00:00:00.0,320000000000.0000,12,MINESWEEPERS                            ,2023-07-14 14:42:00.0,j10986  
+MPV            ,MULTI PURPOSE VESSEL,Ind,2022-03-25 00:00:00.0,8868700000.0000,2,MULTI PURPOSE VESSEL                    ,2023-09-15 16:19:00.0,a06447  
+NGMV           ,NEXT GENERATION MISSILE VESSEL,Ind,2023-03-30 00:00:00.0,98050000000.0000,6,MISSILE VESSELS                         ,2023-05-24 10:34:00.0,j10986  
+NGOPV (GRSE)   ,NEXT GENERATION OPV,Ind,2023-03-30 00:00:00.0,35557500000.0000,4,OPV                                     ,2023-11-03 11:34:00.0,j10986  
+NGOPV (GSL)    ,NEXT GENERATION OPV,Ind,2023-03-30 00:00:00.0,62253400000.0000,7,OPV                                     ,2023-04-10 14:22:00.0,c860310 
+NOPV           ,Naval Offshore Petrol Vessels,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+OGT            ,GAJ CLASS,Ind,1973-09-20 00:00:00.0,1.0000,3,GAJ                                     ,1973-09-20 00:00:00.0,sa      
+OPD            ,Other Professional Directorate,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+OPV            ,SUKANYA CLASS,Kor,1989-08-31 00:00:00.0,1.0000,6,OPV                                     ,1989-08-31 00:00:00.0,sa      
+P-VIR          ,CENTAUR CLASS,UK ,1987-05-12 00:00:00.0,1.0000,1,AIRCRAFT CARRIER                        ,1987-05-12 00:00:00.0,sa      
+P1135.6        ,TALWAR CLASS,Rus,2003-06-18 00:00:00.0,1.0000,3,FRIGATES                                ,2003-06-18 00:00:00.0,sa      
+P11430         ,KIEV CLASS,Rus,2013-11-16 00:00:00.0,1.0000,1,AIRCRAFT CARRIER                        ,2013-11-16 00:00:00.0,sa      
+P1194          ,SARYU CLASS,Ind,2013-01-21 00:00:00.0,1.0000,4,OPV                                     ,2013-01-21 00:00:00.0,sa      
+P1234E         ,DURG CLASS,Ind,1976-12-25 00:00:00.0,1.0000,3,TO BE DECIDED                           ,1976-12-25 00:00:00.0,sa      
+P1241PE        ,ABHAY CLASS,Ind,1971-01-01 00:00:00.0,1.0000,6,ASW CORVETTES                           ,1971-01-01 00:00:00.0,sa      
+P1241RE        ,VEER CLASS,Ind,1971-03-27 00:00:00.0,1.0000,14,ASW CORVETTES                           ,1971-03-27 00:00:00.0,sa      
+P15            ,DELHI CLASS,Ind,1957-08-29 00:00:00.0,1.0000,4,DESTROYERS                              ,1957-08-29 00:00:00.0,sa      
+P15A           ,KOLKATA CLASS,Ind,2014-08-16 00:00:00.0,1.0000,3,DESTROYERS                              ,2014-08-16 00:00:00.0,sa      
+P15B           ,VISAKHAPATNAM CLASS,Ind,2023-03-24 14:02:00.0,343129600000.0000,4,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+P16            ,GODAVARI CLASS,Ind,1985-12-30 00:00:00.0,1.0000,2,FRIGATES                                ,1985-12-30 00:00:00.0,sa      
+P16A           ,BETWA CLASS,Ind,2000-04-14 00:00:00.0,1.0000,3,TO BE DECIDED                           ,2000-04-14 00:00:00.0,sa      
+P17            ,SHIVALIK CLASS,Ind,2010-04-29 00:00:00.0,1.0000,4,FRIGATES                                ,2010-04-29 00:00:00.0,sa      
+P17A (GRSE)    ,MULTI MISSION FRIGATES,Ind,2015-02-20 00:00:00.0,192948685714.0000,3,NILGIRI CLASS                           ,2023-11-03 12:44:00.0,j10986  
+P17A (MDL)     ,MULTI MISSION FRIGATES,Ind,2015-02-20 00:00:00.0,257264914286.0000,4,FRIGATES                                ,2023-07-13 10:10:00.0,a06447  
+P25            ,KHUKRI CLASS,Ind,1989-08-23 00:00:00.0,1.0000,4,ASW CORVETTES                           ,1989-08-23 00:00:00.0,sa      
+P25A           ,KORA CLASS,Ind,1998-08-01 00:00:00.0,1.0000,4,ASW CORVETTES                           ,1998-08-01 00:00:00.0,sa      
+P28            ,KAMORTA CLASS,Ind,2014-08-23 00:00:00.0,1.0000,3,ASW CORVETTES                           ,2014-08-23 00:00:00.0,sa      
+P71            ,VIKRANT (IAC-1),Ind,2023-03-24 14:02:00.0,1.0000,1,AIRCRAFT CARRIER                        ,2023-03-24 14:02:00.0,sa      
+P75            ,KALVARI CLASS,Ind,1967-12-08 00:00:00.0,1.0000,3,CONVENTIONAL SUBMARINES                 ,1967-12-08 00:00:00.0,sa      
+PI641          ,VELA CLASS,Ind,1967-12-08 00:00:00.0,1.0000,9,CONVENTIONAL SUBMARINES                 ,1967-12-08 00:00:00.0,sa      
+RESEARCH       ,SAGARDHWANI CLASS,Ind,1994-07-30 00:00:00.0,1.0000,1,OPV                                     ,1994-07-30 00:00:00.0,sa      
+SDB            ,SDB,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+SNF P61ME      ,RAJPUT CLASS,Rus,1980-05-07 00:00:00.0,1.0000,5,DESTROYERS                              ,1980-05-07 00:00:00.0,sa      
+SNM            ,PONDICHERRY CLASS,Rus,1956-01-01 00:00:00.0,1.0000,12,MINESWEEPERS                            ,1956-01-01 00:00:00.0,sa      
+SSBN           ,ARIHANT CLASS,Ind,2016-08-01 00:00:00.0,40000000000.0000,4,BALLISTIC MISSILE SUBMARIN              ,2024-05-15 16:34:00.0,k05593  
+SSK            ,SHISHUMAR CLASS,Ger,1986-09-22 00:00:00.0,1.0000,4,CONVENTIONAL SUBMARINES                 ,1986-09-22 00:00:00.0,sa      
+SSN            ,CHAKRA CLASS,Rus,2012-01-23 00:00:00.0,1.0000,1,CONVENTIONAL SUBMARINES                 ,2012-01-23 00:00:00.0,sa      
+STB            ,MHADEI CLASS,Ind,2009-02-01 00:00:00.0,1.0000,2,SAIL TRAINING BOAT                      ,2024-05-16 16:28:00.0,k05593  
+STS            ,TARANGINI CLASS,Ind,1997-11-11 00:00:00.0,1.0000,2,TARANGINI                               ,1997-11-11 00:00:00.0,sa      
+SURVEY         ,SANDHAYAK CLASS,Ind,1964-01-01 00:00:00.0,1.0000,10,SURVEY SHIPS                            ,1964-01-01 00:00:00.0,sa      
+SVL            ,SURVEY VESSEL LARGE,Ind,2018-10-30 14:02:00.0,24350000000.0000,4,SURVEY VESSEL LARGE                     ,2023-06-07 16:33:00.0,j10986  
+TANKER         ,OIL TANKERS,Ger,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+TANKER(ADITYA) ,ADITYA CLASS,Ind,2000-04-03 00:00:00.0,1.0000,1,TANKERS                                 ,2000-04-03 00:00:00.0,sa      
+TANKER(FSS)    ,REPLENISHMENT OILER,Ind,2023-08-25 00:00:00.0,190483707000.0000,5,FSS                                     ,2023-08-31 16:54:00.0,a06447  
+TANKER(JYOTI)  ,JYOTI CLASS,Rus,1996-07-20 00:00:00.0,1.0000,1,TANKERS                                 ,1996-07-20 00:00:00.0,sa      
+TLRV           ,ASTRADHARINI CLASS,Ind,1984-11-05 00:00:00.0,1.0000,2,ASW SWC                                 ,1984-11-05 00:00:00.0,sa      
+TOOLS          ,SPL.TOOLS - PIELSTICK,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+TRG SHIP       ,TIR CLASS,Ind,1986-02-21 00:00:00.0,1.0000,1,TRAINING SHIPS                          ,1986-02-21 00:00:00.0,sa      
+TRISHUL        ,WHITBY CLASS,UK ,1959-04-26 00:00:00.0,1.0000,2,FRIGATES                                ,1959-04-26 00:00:00.0,sa      
+TRV            ,ASTRAVAHINI CLASS,Ind,1982-09-15 00:00:00.0,1.0000,2,ASW SWC                                 ,1982-09-15 00:00:00.0,sa      
+TrgShips       ,TRAINING SHIPS,UK ,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+VIKRANT        ,MAJESTIC CLASS,UK ,1961-03-04 00:00:00.0,1.0000,1,AIRCRAFT CARRIER                        ,1961-03-04 00:00:00.0,sa      
+WJFAC          ,CAR NICOBAR CLASS,Ind,2009-02-16 00:00:00.0,500000000.0000,14,FAC                                     ,2009-02-16 00:00:00.0,sa      
+XFACs          ,SUPER DVORA CLASS,Isr,1998-06-24 00:00:00.0,1.0000,5,FAC                                     ,1998-06-24 00:00:00.0,sa      
+YARD 1171      ,YARD 1171,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+YARD 1172      ,YARD 1172,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+YARD 2042      ,KARMUKH (GRSE YARD 2042),Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      
+YARD 257       ,CATAMARAN CLASS SURVEY VESSEL,Ind,2023-03-24 14:02:00.0,1.0000,1,TO BE DECIDED                           ,2023-03-24 14:02:00.0,sa      

@@ -1,0 +1,77 @@
+-- Table: offline.ofl_item_line
+
+-- DROP TABLE IF EXISTS offline.ofl_item_line;
+
+CREATE TABLE IF NOT EXISTS offline.ofl_item_line
+(
+    item_code character varying COLLATE pg_catalog."default" NOT NULL,
+    station_code character varying COLLATE pg_catalog."default" NOT NULL,
+    sh_no character varying COLLATE pg_catalog."default" NOT NULL,
+    qty_war_reserve real NOT NULL,
+    qty_msl real NOT NULL,
+    qty_usl real NOT NULL,
+    qty_acl real NOT NULL,
+    days_lt_proc smallint NOT NULL,
+    date_time_added timestamp without time zone,
+    date_time_closed timestamp without time zone,
+    item_line_serial smallint NOT NULL,
+    download_date_time timestamp without time zone,
+    status_flag character varying COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS offline.ofl_item_line
+    OWNER to postgres;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Table: offline.ofl_item
+
+-- DROP TABLE IF EXISTS offline.ofl_item;
+
+CREATE TABLE IF NOT EXISTS offline.ofl_item
+(
+    item_code character varying(32) COLLATE pg_catalog."default" NOT NULL,
+    section_head character varying(2) COLLATE pg_catalog."default" NOT NULL,
+    item_desc character varying(60) COLLATE pg_catalog."default" NOT NULL,
+    country_code character varying(3) COLLATE pg_catalog."default" NOT NULL,
+    item_deno character varying(3) COLLATE pg_catalog."default" NOT NULL,
+    months_shelf_life smallint NOT NULL,
+    crp_category character varying(1) COLLATE pg_catalog."default" NOT NULL,
+    ved_category character varying(1) COLLATE pg_catalog."default" NOT NULL,
+    abc_category character varying(1) COLLATE pg_catalog."default" NOT NULL,
+    date_time_approved timestamp(0) without time zone,
+    approved_by character varying(8) COLLATE pg_catalog."default",
+    review_sub_section_code character varying(2) COLLATE pg_catalog."default",
+    incatyn character varying(1) COLLATE pg_catalog."default",
+    download_date_time timestamp(0) without time zone,
+    status_flag character varying(2) COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS offline.ofl_item
+    OWNER to postgres;

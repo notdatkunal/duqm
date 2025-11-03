@@ -1,0 +1,17 @@
+/offline_code/
+/demand.csv
+/modules/imports/demand.csv
+*.pyc
+.venv
+.env
+*.log
+
+/.env
+*.sqlite
+/.idea/
+/templates/dist/
+/templates
+*.png
+offline_code/OfflineCustomerModule/pgdata/data/log/
+offline_code/OfflineCustomerModule/app/New folder/ILMSI_backup.sql
+offline_code/OfflineCustomerModule/Python37/Lib/site-packages/cefpython3/libcef.dll
