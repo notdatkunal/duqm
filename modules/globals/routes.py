@@ -1,7 +1,6 @@
 import os
 from flask import request, jsonify, send_from_directory
 from flask_jwt_extended import create_access_token
-from modules.imports.import_service import import_data
 import pandas as pd
 from helpers.exceptions import AppException
 from modules.globals.models import ResUserModel, ReqLoginUser
@@ -56,17 +55,7 @@ class CodeTable(Resource):
         return jsonify(results_data)
 
 
-@global_ns.route('/import')
-class Import(Resource):
-    def post(self):
-        file_data = request.files['file']
-        df = pd.read_csv(file_data)
-        print(df.head())
-        print(df.keys())
-        import_data(df)
-        response = jsonify({'status': f'successful'})
-        response.status = 200
-        return response
+
 
 
 @global_ns.route('/customers')
@@ -88,10 +77,11 @@ class Login(Resource):
         username = request.get_json().get('username')
         password = request.get_json().get('password')
         validation: bool = False
+        check: bool = True
         count: int = 0
         print(f'proof that this exists {check}')
         while check and not validation and (count < 3):
-            validation = validate_pg(username, password)
+            validation = 'password' == password
             print(f'checking login')
             count += 1
 
