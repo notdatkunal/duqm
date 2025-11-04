@@ -6,8 +6,10 @@ from os import getenv
 from flask import send_from_directory
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
+
+from fob_postgres.db_utils import ensure_single_logo_active_role
 from helpers.constants import fetch_origins
-from helpers.exceptions import AppException, TokenExpiredException, NotFoundAppException, UnAuthorizedException
+from helpers.exceptions import AppException, TokenExpiredException, NotFoundAppException
 from modules.issue.routes import issue_ns
 from modules.globals.routes import global_ns
 from modules.demand.routes import demand_ns
@@ -21,14 +23,11 @@ from modules.internal_stock.routes import int_stock_ns
 from modules.user.routes import user_ns
 from flask_restx import Api
 from helpers.handlers import before_request_handler, after_request_handler
-from security.auth import load_auth
 from helpers.exceptions import BadRequestException
 from werkzeug.exceptions import MethodNotAllowed, NotFound
 from config.config import config
-from flask import render_template, request
+from flask import render_template
 from flask_caching import Cache
-from fob_postgres.pg_session import postgres_session
-from sqlalchemy import text
 
 app = Flask(__name__)
 authorizations = {
@@ -84,6 +83,7 @@ api.add_namespace(issue_ns)
 # auth repo
 # app.before_request(load_auth)
 app.before_request(before_request_handler)
+app.before_request(ensure_single_logo_active_role)
 app.after_request(after_request_handler)
 jwt = JWTManager(app)
 
@@ -97,36 +97,6 @@ def base_url(filename):
     file_path = os.path.join(DIST_DIR, filename)
     print(f'this is path {file_path}')
     return send_from_directory(DIST_DIR, filename, as_attachment=False)
-
-
-@app.before_request
-def ensure_single_logo_active_role():
-    print(f'this is endpoint {request.endpoint}')
-    if (request.endpoint in ("static", None, "/api/docs", '/fob/index.html')
-        or request.endpoint.startswith("user")) \
-            or "OPTIONS"==request.method or "/fob/" in request.endpoint or 'GET'==request.method or 'login' in request.endpoint:
-        return
-    cache_count = cache.get("cache_count")
-    if cache_count is None:
-        sess = postgres_session.get_session()
-        count = sess.execute(text("""
-        select count(*) from fob_users u 
-            join fob_user_role r on u.login_id = r.login_id
-                where r.date_time_closed is null
-                    and r.role_name = 'LOGO'
-        """)).one()[0]
-        cache.set("role_conflict", cache_count, timeout=60)
-        if count > 1:
-            # raise UnAuthorizedException("Two users with role LOGO found please close one")
-            return jsonify({"message": "Two users with role LOGO found please close one",
-                            "error": "ROLE_CONFLICT"
-                            }), 400
-    elif cache_count > 1:
-        # raise UnAuthorizedException("Two users with role LOGO found please close one")
-        return jsonify({
-            "message": "Two users with role LOGO found please close one",
-            "error": "ROLE_CONFLICT"
-        }), 400
 
 
 @app.get('/imports')
