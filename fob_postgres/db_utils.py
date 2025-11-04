@@ -2,6 +2,7 @@ from flask import request, jsonify
 from sqlalchemy import text
 
 from fob_postgres.pg_session import postgres_session
+from helpers.exceptions import BadRequestException
 
 
 def ensure_single_logo_active_role():
@@ -22,10 +23,10 @@ def ensure_single_logo_active_role():
         """)).one()[0]
         cache.set("role_conflict", cache_count, timeout=60)
         if count > 1:
-            # raise UnAuthorizedException("Two users with role LOGO found please close one")
-            return jsonify({"message": "Two users with role LOGO found please close one",
-                            "error": "ROLE_CONFLICT"
-                            }), 400
+            raise BadRequestException("Two users with role LOGO found please close one")
+            # return jsonify({"message": "Two users with role LOGO found please close one",
+            #                 "error": "ROLE_CONFLICT"
+            #                 }), 400
     elif cache_count > 1:
         # raise UnAuthorizedException("Two users with role LOGO found please close one")
         return jsonify({
