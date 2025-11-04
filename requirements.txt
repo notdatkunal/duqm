@@ -16,3 +16,4 @@ pyodbc
 sqlalchemy
 pydantic
 pydantic_core
+pyinstaller
