@@ -440,7 +440,7 @@ class fob_item_line(postgres_session.App_Base):
     item_code = Column(VARCHAR, primary_key=True)
     station_code = Column(VARCHAR, primary_key=True)
     item_line_serial = Column(SMALLINT, primary_key=True)
-    date_time_closed = Column(SMALLINT, nullable=True)
+    date_time_closed = Column(TIMESTAMP, nullable=True)
     sh_no = Column(VARCHAR)
     qty_war_reserve = Column(REAL)
     qty_msl = Column(REAL)
