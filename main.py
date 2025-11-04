@@ -1,5 +1,7 @@
 import http
 import os
+import time
+import webbrowser
 from datetime import timedelta
 from flask import Flask, jsonify
 from os import getenv
@@ -8,7 +10,6 @@ from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 
 from fob_postgres.db_utils import ensure_single_logo_active_role
-from helpers.constants import fetch_origins
 from helpers.exceptions import AppException, TokenExpiredException, NotFoundAppException
 from modules.issue.routes import issue_ns
 from modules.globals.routes import global_ns
@@ -63,7 +64,6 @@ def token_timeout(token_name='access'):
         return timedelta(minutes=60)
 
 
-print(fetch_origins())
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = token_timeout()
 # app.config['JWT_REFRESH_TOKEN_EXPIRES'] = token_timeout(token_name='refresh')
 app.config['JWT_ERROR_MESSAGE_KEY'] = 'session expired'
@@ -161,8 +161,13 @@ def handle_not_found(e):
     }), http.HTTPStatus.NOT_FOUND
 
 
+def open_browser():
+    time.sleep(1)
+    webbrowser.open('http://127.0.0.1:8989/fob')
+
+
 if __name__ == '__main__':
-    # is_working()
+    open_browser()
     print("\n-----------\n")
     print(f"App started on port {config.PORT}")
     print("\n-----------\n")
