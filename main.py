@@ -29,7 +29,7 @@ from config.config import config
 from flask import render_template
 from flask_caching import Cache
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates/dist')
 authorizations = {
     'Bearer Auth': {
         'type': 'apiKey',
@@ -90,13 +90,21 @@ jwt = JWTManager(app)
 cache = Cache(app, config={"CACHE_TYPE": "simple"})
 
 
-@app.route('/fob/<path:filename>')
-def base_url(filename):
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    DIST_DIR = os.path.join(BASE_DIR, 'templates', 'dist')
-    file_path = os.path.join(DIST_DIR, filename)
-    print(f'this is path {file_path}')
-    return send_from_directory(DIST_DIR, filename, as_attachment=False)
+@app.route('/fob/<path:path>')
+def base_url(path):
+    dist_path = os.path.join(app.template_folder)
+    file_path = os.path.join(dist_path, path)
+    if os.path.exists(file_path):
+        return send_from_directory(dist_path, path)
+    else:
+        # If the file doesn’t exist, serve index.html so React Router can handle it
+        return send_from_directory(dist_path, 'index.html')
+
+
+# Optional: handle /fob (without trailing slash)
+@app.route('/fob')
+def serve_fob_root():
+    return send_from_directory(app.template_folder, 'index.html')
 
 
 @app.get('/imports')
