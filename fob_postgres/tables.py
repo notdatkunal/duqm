@@ -271,7 +271,7 @@ class FobUsers(postgres_session.App_Base):
     status_flag = Column(CHAR(2))
 
 
-class FobItem(postgres_session.App_Base):
+class fob_item(postgres_session.App_Base):
     __tablename__ = 'fob_item'
     item_code = Column(VARCHAR(32), primary_key=True)
     section_head = Column(VARCHAR(2), nullable=False)
@@ -281,16 +281,13 @@ class FobItem(postgres_session.App_Base):
     abc_category = Column(CHAR(1), nullable=False)
     download_date_time = Column(TIMESTAMP)
     status_flag = Column(CHAR(2))
-
-    # country_code VARCHAR(3) COLLATE pg_catalog."default",
-    # months_shelf_life smallint,
-    # ved_category VARCHAR(1) COLLATE pg_catalog."default",
-    # date_time_approved = Column(TIMESTAMP,nullable=True)
-    # approved_by VARCHAR(8) COLLATE pg_catalog."default",
-    # review_sub_section_code VARCHAR(2) COLLATE pg_catalog."default",
-    # incatyn VARCHAR(1) COLLATE pg_catalog."default",
-    # download_date_time = Column(TIMESTAMP,nullable=True)
-    # status_flag VARCHAR(2) COLLATE pg_catalog."default",
+    country_code = Column(VARCHAR(3))
+    months_shelf_life = Column(SMALLINT)
+    ved_category = Column(VARCHAR(1))
+    date_time_approved = Column(TIMESTAMP)
+    approved_by = Column(VARCHAR(8))
+    review_sub_section_code = Column(VARCHAR(2))
+    incatyn = Column(VARCHAR(1))
 
 
 class FobGatePass(postgres_session.App_Base):

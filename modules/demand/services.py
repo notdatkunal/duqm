@@ -4,7 +4,7 @@ from sqlalchemy import update
 
 from fob_postgres.pg_session import postgres_session
 from fob_postgres.tables import fob_demand_status, fob_internal_demand, fob_internal_demand_line
-from fob_postgres.tables import fob_demand_status, fob_internal_demand_line, FobItem
+from fob_postgres.tables import fob_demand_status, fob_internal_demand_line, fob_item
 from helpers.commonn_utils import format_date_postgres_timestamp
 from helpers.exceptions import BadRequestException
 from fob_postgres.functions import execute_query_with_results, execute_query_with_dictionary, convert_date_to_str, \
@@ -299,9 +299,9 @@ def get_demand_line_by_demand_no(int_demand_no: str) -> list[dict]:
     sess = postgres_session.get_session()
     query = sess.query(
         fob_internal_demand_line,
-        func.trim(FobItem.item_desc).label("item_desc")
+        func.trim(fob_item.item_desc).label("item_desc")
     ).join(
-        FobItem, func.trim(FobItem.item_code) == func.trim(fob_internal_demand_line.item_code)
+        fob_item, func.trim(fob_item.item_code) == func.trim(fob_internal_demand_line.item_code)
     ).filter(
         fob_internal_demand_line.internal_demand_no == int_demand_no
     )

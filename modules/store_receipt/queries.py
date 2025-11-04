@@ -1,7 +1,7 @@
 from sqlalchemy import and_, cast, SMALLINT,func
 
 from fob_postgres.tables import FobInternalGateIn, FobStockDelivery, fob_internal_demand_line, FobGatePass, \
-    fob_internal_store_receipt, FobItem, fob_internal_consumption, fob_internal_stock
+    fob_internal_store_receipt, fob_item, fob_internal_consumption, fob_internal_stock
 from fob_postgres.pg_session import postgres_session
 from sqlalchemy.orm import Query, aliased
 

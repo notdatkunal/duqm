@@ -1,6 +1,6 @@
 import pandas as pd
 from fob_postgres.tables import fob_internal_demand, fob_internal_demand_line, \
-    fob_internal_stock, fob_internal_consumption, FobItem
+    fob_internal_stock, fob_internal_consumption, fob_item
 from fob_postgres.pg_session import postgres_session
 from datetime import datetime
 from sqlalchemy import update, and_, func, text, Integer
@@ -20,12 +20,12 @@ def pending_issue_service(customer_code: int, raised_for_customer: int):
             fob_internal_demand.authority_type,
             fob_internal_demand.raised_for_customer,
             fob_internal_demand.station_code,
-            func.trim(FobItem.item_desc).label("item_desc"),
+            func.trim(fob_item.item_desc).label("item_desc"),
             fob_internal_demand.date_time_authorised,
         ).join(
             fob_internal_demand, fob_internal_demand.internal_demand_no == fob_internal_demand_line.internal_demand_no
         ).join(
-            FobItem, func.trim(FobItem.item_code) == func.trim(fob_internal_demand_line.item_code)
+            fob_item, func.trim(fob_item.item_code) == func.trim(fob_internal_demand_line.item_code)
         ).join(
             fob_internal_consumption,
             fob_internal_consumption.int_consumption_no == fob_internal_demand_line.int_consumption_no,

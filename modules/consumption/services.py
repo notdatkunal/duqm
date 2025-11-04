@@ -4,7 +4,7 @@ from typing import Type
 from sqlalchemy import func, and_, Integer, text
 from sqlalchemy.orm import aliased
 from fob_postgres.pg_session import postgres_session
-from fob_postgres.tables import fob_internal_stock, FobItem, fob_internal_store_receipt, fob_internal_consumption \
+from fob_postgres.tables import fob_internal_stock, fob_item, fob_internal_store_receipt, fob_internal_consumption \
     , fob_internal_demand, fob_internal_demand_line
 import pandas as pd
 from helpers import exceptions
@@ -28,13 +28,13 @@ def stock_list_service(item_code: str | None):
         func.sum(fob_internal_stock.qty).label('qty')
         , fob_internal_stock.sh_no
         # , fob_internal_stock.miqp_qty
-        , FobItem.item_code
-        , func.trim(FobItem.item_desc).label('item_desc'),
-        FobItem.crp_category,
-        FobItem.item_deno
+        , fob_item.item_code
+        , func.trim(fob_item.item_desc).label('item_desc'),
+        fob_item.crp_category,
+        fob_item.item_deno
         # fob_internal_store_receipt.mo_demand_no
     ).join(
-        FobItem, func.TRIM(FobItem.item_code) == func.TRIM(fob_internal_stock.item_code)
+        fob_item, func.TRIM(fob_item.item_code) == func.TRIM(fob_internal_stock.item_code)
     ).join(
         fob_internal_store_receipt,
         fob_internal_store_receipt.int_store_receipt_no == fob_internal_stock.int_store_receipt_no
@@ -44,10 +44,10 @@ def stock_list_service(item_code: str | None):
         fob_internal_stock.item_code.ilike(f"%{item_code}%") if item_code is not None and len(item_code) > 0 else True,
     )
     .group_by(
-        FobItem.item_code
-        , func.trim(FobItem.item_desc),
-        FobItem.crp_category,
-        FobItem.item_deno,
+        fob_item.item_code
+        , func.trim(fob_item.item_desc),
+        fob_item.crp_category,
+        fob_item.item_deno,
         fob_internal_stock.sh_no
         # , fob_internal_stock.miqp_qty
 
@@ -168,9 +168,9 @@ def get_consumption_by_gate_pass_no(gate_pass_no):
     sess = postgres_session.get_session()
     query = sess.query(
         fob_internal_consumption,
-        func.trim(FobItem.item_desc).label("item_desc")
+        func.trim(fob_item.item_desc).label("item_desc")
     ).join(
-        FobItem, func.trim(FobItem.item_code) == func.trim(fob_internal_consumption.item_code)
+        fob_item, func.trim(fob_item.item_code) == func.trim(fob_internal_consumption.item_code)
     ).filter(
         fob_internal_consumption.int_gate_pass_no == gate_pass_no
     )

@@ -3,8 +3,8 @@ import os
 import pandas as pd
 from pydantic import dataclasses
 import numpy as np
-from fob_postgres.tables import fob_internal_stock, FobItem, fob_internal_item_details, FobInternalGateIn, \
-    fob_internal_store_receipt, FobItem, fob_internal_item_details
+from fob_postgres.tables import fob_internal_stock, fob_item, fob_internal_item_details, FobInternalGateIn, \
+    fob_internal_store_receipt, fob_item, fob_internal_item_details
 from fob_postgres.pg_session import postgres_session
 from sqlalchemy import func, text, text
 from helpers import exceptions
@@ -35,9 +35,9 @@ def internal_stock_list(item_code: str | None, page: int, rows: int):
         raise exceptions.BadRequestException("invalid item_code")
     base_query = postgres_session.get_session().query(
         fob_internal_stock,
-        func.trim(FobItem.item_desc).label("item_desc")
+        func.trim(fob_item.item_desc).label("item_desc")
     ).join(
-        FobItem, func.trim(FobItem.item_code) == func.trim(fob_internal_stock.item_code)
+        fob_item, func.trim(fob_item.item_code) == func.trim(fob_internal_stock.item_code)
     )
     if item_code is not None:
         base_query.filter(
@@ -159,13 +159,13 @@ def deficiency_service(interval: str, item_code: str) -> list[dict]:
 
     query = sess.query(
         func.trim(fob_internal_stock.item_code).label("item_code"),
-        func.trim(FobItem.item_desc).label("item_desc"),
+        func.trim(fob_item.item_desc).label("item_desc"),
         func.sum(fob_internal_stock.qty).label("total_qty"),
         fob_internal_stock.sh_no,
         fob_internal_stock.condition_code,
         func.coalesce(fob_internal_item_details.allowance_qty, 0).label("allowance_qty"),
     ).join(
-        FobItem, func.trim(FobItem.item_code) == func.trim(fob_internal_stock.item_code)
+        fob_item, func.trim(fob_item.item_code) == func.trim(fob_internal_stock.item_code)
     ).join(
         fob_internal_item_details,
         func.trim(fob_internal_stock.item_code) == func.trim(fob_internal_item_details.item_code),
@@ -175,7 +175,7 @@ def deficiency_service(interval: str, item_code: str) -> list[dict]:
             item_code.strip()) > 0 else True
     ).group_by(
         func.trim(fob_internal_stock.item_code),
-        func.trim(FobItem.item_desc),
+        func.trim(fob_item.item_desc),
         fob_internal_stock.sh_no,
         fob_internal_stock.condition_code,
         fob_internal_item_details.allowance_qty

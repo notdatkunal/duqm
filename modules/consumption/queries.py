@@ -1,5 +1,5 @@
 from fob_postgres.pg_session import postgres_session
-from fob_postgres.tables import fob_internal_consumption, FobItem
+from fob_postgres.tables import fob_internal_consumption, fob_item
 from sqlalchemy import func
 
 
@@ -8,9 +8,9 @@ def get_consumption_data_q(status: str, closed: str, self_customer_code: str, se
 
     query = postgres_session.get_session().query(
         fob_internal_consumption,
-        FobItem.item_desc,
+        fob_item.item_desc,
     ).join(
-        FobItem, func.trim(FobItem.item_code) == func.trim(fob_internal_consumption.item_code)
+        fob_item, func.trim(fob_item.item_code) == func.trim(fob_internal_consumption.item_code)
     )
     if status:
         query = query.filter(fob_internal_consumption.approved_by.is_not(
