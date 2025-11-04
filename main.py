@@ -105,6 +105,8 @@ def ensure_single_logo_active_role():
         or request.endpoint.startswith("user")) \
             or request.method == "OPTIONS":
         return
+    print(request.endpoint)
+    print('/fob/' in request.endpoint)
     if '/fob/' in request.endpoint:
         return
     cache_count = cache.get("cache_count")
