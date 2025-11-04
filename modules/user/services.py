@@ -1,3 +1,5 @@
+from typing import Type
+
 import pandas as pd
 from fob_postgres.tables import FobUsers, FobUserRole, FobInternalCustomerUser
 from fob_postgres.pg_session import postgres_session
@@ -70,11 +72,14 @@ def create_user_service(data:dict):
     sess.commit()
     return True
 
-def close_user_service(login_id:str,role_name:str):
-    sess = postgres_session.get_session()
-    userRole:FobUserRole = sess.query(FobUserRole).filter(and_(
-        FobUserRole.login_id == login_id,
-        FobUserRole.role_name == role_name
-    )).update({"date_time_closed":datetime.now()},synchronize_session=False)
-    sess.commit()
-    return True
+
+def close_user_service(login_id:str, role_name:str):
+    with (postgres_session.get_session() as sess):
+        user_obj: Type[FobUserRole] = (sess.query(FobUserRole).filter(
+            FobUserRole.login_id.startswith(login_id.strip()) ,
+            FobUserRole.role_name.startswith(role_name.strip())).one())
+
+        user_obj.date_time_closed = datetime.now()
+        sess.add(user_obj)
+        sess.commit()
+        return True

@@ -34,13 +34,12 @@ class UserManagement(Resource):
 @user_ns.route("/close")
 class UserClose(Resource):
     def post(self):
-        '''
+        """
         Close User Role
         login_id: string;
         role_name: string;
-        '''
+        """
         login_id = request.get_json().get("login_id")
         role_name = request.get_json().get("role_name")
-        user_result = services.close_user_service(login_id,role_name)
-
-        return jsonify({'message':"User Role Deactivated",'user':user_result})
+        user_result = services.close_user_service(login_id, role_name)
+        return jsonify({'message': "User Role Deactivated", 'user': user_result})
