@@ -99,15 +99,11 @@ def base_url(filename):
     return send_from_directory(DIST_DIR, filename, as_attachment=False)
 
 
-@app.before_request
+# @app.before_request
 def ensure_single_logo_active_role():
     if (request.endpoint in ("static", None, "/api/docs", '/fob/index.html')
         or request.endpoint.startswith("user")) \
-            or request.method == "OPTIONS":
-        return
-    print(request.endpoint)
-    print('/fob/' in request.endpoint)
-    if '/fob/' in request.endpoint:
+            or "OPTIONS"==request.method or "/fob/" in request.endpoint or 'GET'==request.method or 'login' in request.endpoint:
         return
     cache_count = cache.get("cache_count")
     if cache_count is None:
