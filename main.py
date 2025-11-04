@@ -112,6 +112,14 @@ def home():
     return render_template('index.html')
 
 
+@app.route('/')
+def root_index():
+    """Serve a simple landing page with a button to open /fob."""
+    # Serve a lightweight static HTML that links to /fob so users visiting base URL
+    # can navigate into the React app mounted at /fob
+    return send_from_directory(app.template_folder, 'root_index.html')
+
+
 @app.errorhandler(AppException)
 def exception_handler(e: AppException):
     return jsonify({'message': str(e.args)}), e.error_code
