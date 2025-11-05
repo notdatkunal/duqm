@@ -168,7 +168,4 @@ def open_browser():
 
 if __name__ == '__main__':
     open_browser()
-    print("\n-----------\n")
-    print(f"App started on port {config.PORT}")
-    print("\n-----------\n")
-    app.run(host='0.0.0.0', port=config.PORT, debug=True)
+    app.run(host='0.0.0.0', port=8989, debug=True)
