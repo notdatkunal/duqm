@@ -1,6 +1,5 @@
 from flask import request, jsonify
 from sqlalchemy import text
-
 from fob_postgres.pg_session import postgres_session
 from helpers.exceptions import BadRequestException
 
