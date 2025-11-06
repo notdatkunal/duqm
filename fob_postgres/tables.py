@@ -21,6 +21,7 @@ class fob_demand_status(postgres_session.App_Base):
     latest_package_date_time_approved = Column(TIMESTAMP, nullable=True)
     latest_package_date_time_taken_over = Column(TIMESTAMP, nullable=True)
     latest_gate_pass_key = Column(TIMESTAMP, nullable=True)
+    status_flag = Column(CHAR(2), nullable=True)
 
     @validates('id_line_no')
     def validate_id_line_no(self, key, value) -> int:
