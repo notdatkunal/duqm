@@ -10,6 +10,17 @@ def init_or_get_pgserver(base_path: str = r"C:\pg_data")->str:
     Automatically initializes one if it doesn't exist.
     Compatible with pgserver 0.x and 1.x structures.
     """
+    from dotenv import load_dotenv, set_key
+    # Load .env file (or create one if missing)
+    env_path = os.path.join(os.getcwd(), ".env")
+    load_dotenv(env_path)
+
+    # Step 1: If URI already exists in .env → reuse it
+    env_uri = os.getenv("POSTGRES_URI")
+    if env_uri:
+        print("[INFO] Loaded PostgreSQL URI from .env.")
+        return env_uri
+
     base_path = os.path.abspath(base_path)
     print(f"[INFO] Checking for PostgreSQL data directory at: {base_path}")
 
@@ -43,6 +54,9 @@ def init_or_get_pgserver(base_path: str = r"C:\pg_data")->str:
         db_uri = db_uri.replace("postgresql://", "postgresql+pg8000://", 1)
 
     print(f"[INFO] PostgreSQL URI: {db_uri}")
+    # Step 3: Save to .env for persistence
+    set_key(env_path, "POSTGRES_URI", db_uri)
+    print(f"[INFO] Saved PostgreSQL URI to .env → {env_path}")
     return db_uri
 
 
