@@ -78,7 +78,3 @@ def test_pg_connection(uri: str):
         engine.dispose()
 
 
-if __name__ == "__main__":
-    uri = init_or_get_pgserver(r"C:\pg_data")
-    test_pg_connection(uri)
-    print("✅ PostgreSQL initialized or connected successfully.")
