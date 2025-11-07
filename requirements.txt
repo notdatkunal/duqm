@@ -17,4 +17,5 @@ sqlalchemy
 pydantic
 pydantic_core
 pyinstaller
+nuitka
 pgserver
