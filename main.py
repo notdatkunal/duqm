@@ -8,7 +8,6 @@ from os import getenv
 from flask import send_from_directory
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
-
 from fob_postgres.db_utils import ensure_single_logo_active_role
 from helpers.exceptions import AppException, TokenExpiredException, NotFoundAppException
 from modules.issue.routes import issue_ns
@@ -167,5 +166,7 @@ def open_browser():
 
 
 if __name__ == '__main__':
+    from fob_postgres.create_table import create_all_tables
+    create_all_tables()
     open_browser()
     app.run(host='0.0.0.0', port=8989)
