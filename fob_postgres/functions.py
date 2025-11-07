@@ -89,7 +89,9 @@ def get_postgres_con():
 
 
 def get_postgres_conn_string():
-    return f'postgresql+pg8000://{config.DB_USER}:{config.DB_PASSWORD}@{config.DB_HOST}/{config.DB_NAME}'
+    from fob_postgres.pg_admin import init_or_get_pgserver
+    return init_or_get_pgserver()
+    # return f'postgresql+pg8000://{config.DB_USER}:{config.DB_PASSWORD}@{config.DB_HOST}/{config.DB_NAME}'
 
 
 def concatenate_to_where(master_string: str, table_name: str, column_name: str, data, operator: str = '=') -> str:
