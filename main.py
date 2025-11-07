@@ -1,3 +1,5 @@
+import env_manager
+env_manager.delete_env_file_at_exit()
 import http
 import os
 import time
@@ -8,6 +10,8 @@ from os import getenv
 from flask import send_from_directory
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
+
+from env_manager import delete_env_file_at_exit
 from fob_postgres.db_utils import ensure_single_logo_active_role
 from helpers.exceptions import AppException, TokenExpiredException, NotFoundAppException
 from modules.issue.routes import issue_ns
@@ -25,7 +29,6 @@ from flask_restx import Api
 from helpers.handlers import before_request_handler, after_request_handler
 from helpers.exceptions import BadRequestException
 from werkzeug.exceptions import MethodNotAllowed, NotFound
-from config.config import config
 from flask import render_template
 from flask_caching import Cache
 
@@ -167,6 +170,10 @@ def open_browser():
 
 if __name__ == '__main__':
     from fob_postgres.create_table import create_all_tables
+    from fob_postgres.setup_users import create_users
     create_all_tables()
+    create_users()
     open_browser()
+    import atexit
+    atexit.register(delete_env_file_at_exit)
     app.run(host='0.0.0.0', port=8989)
