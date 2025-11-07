@@ -267,7 +267,7 @@ class FobUsers(postgres_session.App_Base):
     department = Column(CHAR(8))
     station_code = Column(CHAR(1))
     date_time_left = Column(TIMESTAMP)
-    date_time_joined = Column(TIMESTAMP)
+    date_time_joined = Column(TIMESTAMP, default=func.now())
     download_date_time = Column(TIMESTAMP)
     status_flag = Column(CHAR(2))
 
@@ -386,7 +386,7 @@ class FobUserRole(postgres_session.App_Base):
     __tablename__ = "fob_user_role"
     login_id = Column(VARCHAR(8), primary_key=True)
     role_name = Column(VARCHAR(15))
-    date_time_activated = Column(TIMESTAMP)
+    date_time_activated = Column(TIMESTAMP, default=func.now())
     date_time_closed = Column(TIMESTAMP, nullable=True)
     station_code = Column(VARCHAR(1))
     download_date_time = Column(TIMESTAMP, nullable=True)
@@ -398,7 +398,7 @@ class FobInternalCustomerUser(postgres_session.App_Base):
     login_id = Column(VARCHAR(8), primary_key=True)
     role_name = Column(VARCHAR(15))
     customer_code = Column(VARCHAR(4))
-    date_time_added = Column(TIMESTAMP)
+    date_time_added = Column(TIMESTAMP,default=func.now())
     added_by = Column(VARCHAR(8))
     date_time_closed = Column(TIMESTAMP, nullable=True)
     closed_by = Column(VARCHAR(8), nullable=True)
