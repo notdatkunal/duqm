@@ -1,12 +1,11 @@
 from sqlalchemy import create_engine, QueuePool, MetaData
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
-
-from fob_postgres.functions import get_postgres_conn_string
+from fob_postgres.pg_admin import init_or_get_pgserver
 
 
 class __PostgresSession__:
     def __init__(self):
-        self.__engine__ = create_engine(get_postgres_conn_string(), pool_size=20, poolclass=QueuePool, echo=True)
+        self.__engine__ = create_engine(init_or_get_pgserver(), pool_size=20, poolclass=QueuePool, echo=True)
         self.__AppSession__ = sessionmaker(self.__engine__)
         self.__app_session__ = self.__AppSession__()
         self.app_sybase_metadata = MetaData()
