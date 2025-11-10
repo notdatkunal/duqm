@@ -1,0 +1,13 @@
+;The comment below contains SFX script commands
+
+Path=%temp%\duqm
+Setup=%temp%\duqm\duqmbackend\run_flask.bat
+Title=duqmbackend
+Text
+{
+installing duqm module
+}
+TextDone=installation completed
+{
+welcome to duqm
+}
