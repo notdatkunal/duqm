@@ -2,6 +2,7 @@ import os, sys
 
 # Add the folder where this script lives to sys.path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 import http
 import os
 import time
@@ -34,7 +35,7 @@ from werkzeug.exceptions import MethodNotAllowed, NotFound
 from flask import render_template
 from flask_caching import Cache
 
-app = Flask(__name__, template_folder='templates/dist')
+app = Flask(__name__, static_folder=os.path.join(BASE_DIR, 'static'), template_folder=os.path.join(BASE_DIR, 'templates/dist'))
 authorizations = {
     'Bearer Auth': {
         'type': 'apiKey',
