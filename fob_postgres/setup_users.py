@@ -1,4 +1,17 @@
+from sqlalchemy import text
 
+
+def insert_data():
+    from fob_postgres.check_data import item_sql, item_line_sql
+    from fob_postgres.pg_session import postgres_session
+    from fob_postgres.tables import fob_item, fob_item_line
+
+    with postgres_session.get_session() as sess:
+        if 0 == sess.query(fob_item).count():
+            sess.execute(text(item_sql))
+        if 0 == sess.query(fob_item_line).count():
+            sess.execute(text(item_line_sql))
+        sess.commit()
 
 
 def create_users():

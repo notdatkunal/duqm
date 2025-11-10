@@ -1,5 +1,4 @@
-
-item_line_sql:str = """
+item_line_sql: str = """
 
 
     
@@ -18547,7 +18546,7 @@ item_sql: str = """
 	item_code, section_head, item_desc, country_code, item_deno, months_shelf_life, crp_category, ved_category, abc_category, date_time_approved, approved_by, review_sub_section_code, incatyn)
 	VALUES ('EA3070B-37282301                ', 'AB', 'SET OF GASKET                                               ', 'Ind', 'no ', '0', 'R', 'E', 'C', null, 'c209890 ', '0', 'Y');
 
-
+ 
 
 
 
@@ -18665,7 +18664,7 @@ item_sql: str = """
 
         INSERT INTO public.fob_item(
 	item_code, section_head, item_desc, country_code, item_deno, months_shelf_life, crp_category, ved_category, abc_category, date_time_approved, approved_by, review_sub_section_code, incatyn)
-	VALUES ('EA6330B-110-233X04              ', 'RZ', 'OUTER SPHERE', null, null, null, null, null, '', null, '', '', '');
+	VALUES ('EA6330B-110-233X04              ', 'RZ', 'OUTER SPHERE', null, '', null, '', null, '', null, '', '', '');
 
 
 
@@ -18689,7 +18688,7 @@ item_sql: str = """
 
         INSERT INTO public.fob_item(
 	item_code, section_head, item_desc, country_code, item_deno, months_shelf_life, crp_category, ved_category, abc_category, date_time_approved, approved_by, review_sub_section_code, incatyn)
-	VALUES ('EA6330B-110-234-101             ', 'RZ', 'STEP MOTOR', null, null, null, null, null, '', null, '', '', '');
+	VALUES ('EA6330B-110-234-101             ', 'RZ', 'STEP MOTOR', null, '', null, '', null, '', null, '', '', '');
 
 
 
@@ -18801,7 +18800,7 @@ item_sql: str = """
 
         INSERT INTO public.fob_item(
 	item_code, section_head, item_desc, country_code, item_deno, months_shelf_life, crp_category, ved_category, abc_category, date_time_approved, approved_by, review_sub_section_code, incatyn)
-	VALUES ('EA6330B-MG5424G624375-3         ', 'RZ', 'MAGNETRON', null, null, null, null, null, '', null, '', '', '');
+	VALUES ('EA6330B-MG5424G624375-3         ', 'RZ', 'MAGNETRON', null, '', null, '', null, '', null, '', '', '');
 
 
 
@@ -19017,7 +19016,7 @@ item_sql: str = """
 
         INSERT INTO public.fob_item(
 	item_code, section_head, item_desc, country_code, item_deno, months_shelf_life, crp_category, ved_category, abc_category, date_time_approved, approved_by, review_sub_section_code, incatyn)
-	VALUES ('EC4720B-3034221                 ', 'KC', 'PUMP', null, null, null, null, null, '', null, '', '', '');
+	VALUES ('EC4720B-3034221                 ', 'KC', 'PUMP', null, '', null, '', null, '', null, '', '', '');
 
 
 

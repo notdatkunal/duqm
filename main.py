@@ -1,5 +1,3 @@
-import env_manager
-env_manager.delete_env_file_at_exit()
 import http
 import os
 import time
@@ -170,9 +168,10 @@ def open_browser():
 
 if __name__ == '__main__':
     from fob_postgres.create_table import create_all_tables
-    from fob_postgres.setup_users import create_users
+    from fob_postgres.setup_users import create_users, insert_data
     create_all_tables()
     create_users()
+    insert_data()
     open_browser()
     import atexit
     atexit.register(delete_env_file_at_exit)
