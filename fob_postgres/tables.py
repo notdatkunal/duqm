@@ -277,7 +277,7 @@ class fob_item(postgres_session.App_Base):
     item_code = Column(VARCHAR(32), primary_key=True)
     section_head = Column(VARCHAR(2), nullable=False)
     item_desc = Column(CHAR(60), nullable=False)
-    item_deno = Column(CHAR(3), nullable=False)
+    item_deno = Column(CHAR(3), nullable=True)
     crp_category = Column(CHAR(1), nullable=False)
     abc_category = Column(CHAR(1), nullable=False)
     download_date_time = Column(TIMESTAMP)
