@@ -12931,3 +12931,5 @@
 /venv/share/man/man1/isympy.1
 /venv/share/man/man1/ttx.1
 /venv/pyvenv.cfg
+/main.dist/psutil/_psutil_windows.pyd
+/main.dist/python312.dll
