@@ -1,3 +1,7 @@
+import os, sys
+
+# Add the folder where this script lives to sys.path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import http
 import os
 import time
@@ -9,7 +13,7 @@ from flask import send_from_directory
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 
-from env_manager import delete_env_file_at_exit
+from helpers.env_manager import delete_env_file_at_exit
 from fob_postgres.db_utils import ensure_single_logo_active_role
 from helpers.exceptions import AppException, TokenExpiredException, NotFoundAppException
 from modules.issue.routes import issue_ns
