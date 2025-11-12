@@ -3,14 +3,19 @@ from sqlalchemy import text
 
 def insert_data():
     from fob_postgres.check_data import item_sql, item_line_sql
+    from fob_postgres.data import customer_table_sql, code_table_sql
     from fob_postgres.pg_session import postgres_session
-    from fob_postgres.tables import fob_item, fob_item_line
+    from fob_postgres.tables import fob_item, fob_item_line, FobInternalCustomerUser, FobUserRole, fob_customer, fob_code_table
 
     with postgres_session.get_session() as sess:
         if 0 == sess.query(fob_item).count():
             sess.execute(text(item_sql))
         if 0 == sess.query(fob_item_line).count():
             sess.execute(text(item_line_sql))
+        if 0 == sess.query(fob_customer).count():
+            sess.execute(text(customer_table_sql))
+        if 0 == sess.query(fob_code_table).count():
+            sess.execute(text(code_table_sql))
         sess.commit()
 
 
@@ -39,12 +44,12 @@ def create_users():
         internal_customer_user.role_name = user_role.role_name
         internal_customer_user.customer_code = '2096'
         sess.add(internal_customer_user)
-        customer:fob_customer = fob_customer()
-        customer.customer_code = internal_customer_user.customer_code
-        customer.name = 'MLC DUQM'
-        customer.customer_type = 'EST'
-        customer.mother_depot = 'MO(MB)'
-        sess.add(customer)
+        # customer:fob_customer = fob_customer()
+        # customer.customer_code = internal_customer_user.customer_code
+        # customer.name = 'MLC DUQM'
+        # customer.customer_type = 'EST'
+        # customer.mother_depot = 'MO(MB)'
+        # sess.add(customer)
         sess.commit()
 
 
