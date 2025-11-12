@@ -398,7 +398,7 @@ class FobInternalCustomerUser(postgres_session.App_Base):
     login_id = Column(VARCHAR(8), primary_key=True)
     role_name = Column(VARCHAR(15))
     customer_code = Column(VARCHAR(4))
-    date_time_added = Column(TIMESTAMP,default=func.now())
+    date_time_added = Column(TIMESTAMP, default=func.now())
     added_by = Column(VARCHAR(8))
     date_time_closed = Column(TIMESTAMP, nullable=True)
     closed_by = Column(VARCHAR(8), nullable=True)
@@ -406,9 +406,12 @@ class FobInternalCustomerUser(postgres_session.App_Base):
 
 class fob_code_table(postgres_session.App_Base):
     __tablename__ = "fob_code_table"
-    column_name = Column(VARCHAR(30), primary_key=True)
-    code_value = Column(VARCHAR(10), primary_key=True)
+    column_name = Column(VARCHAR(30))  # pk1
+    code_value = Column(VARCHAR(10))  # pk2
     description = Column(VARCHAR(30))
+    date_time_added = Column(TIMESTAMP)
+    status_flag = Column(VARCHAR)
+    pk_column = Column(Integer, autoincrement=True, primary_key=True)
 
 
 class fob_customer(postgres_session.App_Base):
