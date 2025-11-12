@@ -2,6 +2,7 @@
 
 Path=%temp%\duqm
 Setup=%temp%\duqm\duqmbackend\run_flask.bat
+Overwrite=1
 Title=duqmbackend
 Text
 {
