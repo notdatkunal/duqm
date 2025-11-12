@@ -12,3 +12,4 @@ TextDone=installation completed
 {
 welcome to duqm
 }
+Shortcut=D, run_flask.bat, Run Flask App
