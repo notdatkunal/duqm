@@ -1,5 +1,6 @@
 from datetime import datetime
-from sqlalchemy import Column, CHAR, DATETIME, VARCHAR, TIMESTAMP, FLOAT, Integer, REAL, SMALLINT, Numeric, func
+from sqlalchemy import Column, CHAR, DATETIME, VARCHAR, TIMESTAMP, FLOAT, Integer, REAL, SMALLINT, Numeric, func, event, \
+    DDL
 from sqlalchemy.orm import validates
 from sqlalchemy.event import listens_for
 from fob_postgres.exceptions import PostgresError
@@ -416,9 +417,33 @@ class fob_code_table(postgres_session.App_Base):
 
 class fob_customer(postgres_session.App_Base):
     __tablename__ = "fob_customer"
+    __ddl__ = """
+    CREATE TABLE public.fob_customer (
+        customer_code character varying NOT NULL,
+        name character varying(31),
+        customer_type character varying,
+        mother_depot character varying,
+        addressee character varying,
+        address_line1 character varying,
+        address_line2 character varying,
+        address_line3 character varying,
+        city character varying(30),
+        state character varying,
+        pin_code character varying,
+        allowance_annual_rs character varying,
+        date_introduced timestamp(0) without time zone,
+        date_closed timestamp(0) without time zone,
+        remarks character varying(120),
+        admin_authority character varying,
+        station_code character varying,
+        added_by character varying,
+        closed_by character varying,
+        download_date_time timestamp without time zone,
+        status_flag character varying
+    );
+"""
     customer_code = Column(VARCHAR, primary_key=True)
-    name = Column(VARCHAR(31), nullable=True)
-    date_closed = Column(TIMESTAMP, nullable=True)
+    name = Column(VARCHAR(31))
     customer_type = Column(VARCHAR)
     mother_depot = Column(VARCHAR)
     addressee = Column(VARCHAR)
@@ -430,13 +455,17 @@ class fob_customer(postgres_session.App_Base):
     pin_code = Column(VARCHAR)
     allowance_annual_rs = Column(VARCHAR)
     date_introduced = Column(TIMESTAMP)
-    remarks = Column(VARCHAR)
+    date_closed = Column(TIMESTAMP)
+    remarks = Column(VARCHAR(120))
     admin_authority = Column(VARCHAR)
     station_code = Column(VARCHAR)
     added_by = Column(VARCHAR)
     closed_by = Column(VARCHAR)
     download_date_time = Column(TIMESTAMP)
     status_flag = Column(VARCHAR)
+
+
+# event.listen(fob_customer.__table__, "before_create", DDL(fob_customer.__ddl__))
 
 
 class fob_item_line(postgres_session.App_Base):
