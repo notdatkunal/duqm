@@ -4,8 +4,8 @@ from fob_postgres.pg_session import postgres_session
 from helpers.exceptions import BadRequestException
 
 
+from caching import cache
 def ensure_single_logo_active_role():
-    from main import cache
     print(f'this is endpoint {request.endpoint}')
     if (request.endpoint in ("static", None, "/api/docs", '/fob/index.html')
         or request.endpoint.startswith("user")) \
