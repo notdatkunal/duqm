@@ -3,7 +3,7 @@ from sqlalchemy import text
 
 def insert_data():
     from fob_postgres.check_data import item_sql, item_line_sql
-    from fob_postgres.data import customer_table_sql, code_table_sql
+    from fob_postgres.data import customer_table_sql, code_table_sql,internal_customer_user
     from fob_postgres.pg_session import postgres_session
     from fob_postgres.tables import fob_item, fob_item_line, FobInternalCustomerUser, FobUserRole, fob_customer, fob_code_table
 
@@ -22,6 +22,10 @@ def insert_data():
         if 0 == sess.query(fob_code_table).count():
             sess.execute(text(code_table_sql))
             sess.commit()
+        if sess.query(FobInternalCustomerUser).count()<5:
+            sess.execute(text(internal_customer_user))
+            sess.commit()
+
 
 
 def create_users():
@@ -43,12 +47,12 @@ def create_users():
         user_role.role_name = 'LOGO'
         user_role.station_code = user.station_code
         sess.add(user_role)
-        internal_customer_user: FobInternalCustomerUser = FobInternalCustomerUser()
-        internal_customer_user.added_by = 'system'
-        internal_customer_user.login_id = user.login_id
-        internal_customer_user.role_name = user_role.role_name
-        internal_customer_user.customer_code = '2096'
-        sess.add(internal_customer_user)
+        # internal_customer_user: FobInternalCustomerUser = FobInternalCustomerUser()
+        # internal_customer_user.added_by = 'system'
+        # internal_customer_user.login_id = user.login_id
+        # internal_customer_user.role_name = user_role.role_name
+        # internal_customer_user.customer_code = '2096'
+        # sess.add(internal_customer_user)
         # customer:fob_customer = fob_customer()
         # customer.customer_code = internal_customer_user.customer_code
         # customer.name = 'MLC DUQM'
