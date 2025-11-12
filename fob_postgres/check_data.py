@@ -1,8 +1,5 @@
+
 item_line_sql: str = """
-
-
-    
-    
                     INSERT INTO public.fob_item_line(
 	    item_code, station_code, sh_no, qty_war_reserve, qty_msl, qty_usl, qty_acl, days_lt_proc, date_time_added, date_time_closed, item_line_serial)
 	VALUES ('EA3000B-BM-350', 'B','B31', '0.0', '0.0', '0.0', '0.0', '365', null, null, '1' );
@@ -18515,6 +18512,7 @@ item_line_sql: str = """
                 
 
 """
+
 item_sql: str = """
 
     
