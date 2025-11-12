@@ -41,7 +41,7 @@ def fetch_pending_status(customer_code):
     sess = postgres_session.get_session()
     gate_in_sub_query = sess.query(FobInternalGateIn.gate_pass_key).filter(
         FobInternalGateIn.date_time_approved.is_not(None)
-    ).scalar_subquery()
+    )
 
     gate_in_count_query = sess.query(func.count()).filter(
         FobGatePass.gate_pass_key.not_in(gate_in_sub_query)
@@ -53,18 +53,18 @@ def fetch_pending_status(customer_code):
          where fob_internal_gate_in.date_time_approved is not null
          ) 
     """)
-    store_receipt_count = sess.execute(store_receipt_query).one()
+    store_receipt_count = sess.execute(store_receipt_query).scalar_one()
 
     internal_gate_pass_query = text("""
         select count(*) from fob_internal_gate_pass where int_gate_pass_no not in (
 	    select int_gate_pass_no from fob_internal_consumption where fob_internal_consumption.date_time_approved is not null)
     """)
 
-    internal_gate_pass_count = sess.execute(internal_gate_pass_query).one()
+    internal_gate_pass_count = sess.execute(internal_gate_pass_query).scalar_one()
     internal_consumption_query = text("""
             select count(*) from fob_internal_consumption where approved_by is null and issue_to_customer_code = customer_code
     """)
-    consumption_count = sess.execute(internal_consumption_query).one()
+    consumption_count = sess.execute(internal_consumption_query).scalar_one()
 
     issue_count = sess.query(fob_internal_consumption).filter(
         fob_internal_consumption.issue_to_customer_code != customer_code,
@@ -74,9 +74,9 @@ def fetch_pending_status(customer_code):
 
     return {
         'gatein_count': gate_in_count_query,
-        'store_receipt_count': store_receipt_count._mapping.count,
-        'internal_gate_pass_count': internal_gate_pass_count._mapping.count,
-        'internal_consumption_count': consumption_count._mapping.count,
+        'store_receipt_count': store_receipt_count,
+        'internal_gate_pass_count': internal_gate_pass_count,
+        'internal_consumption_count': consumption_count,
         'internal_issue_count': issue_count,
     }
 

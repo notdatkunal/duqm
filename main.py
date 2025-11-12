@@ -33,7 +33,7 @@ from helpers.handlers import before_request_handler, after_request_handler
 from helpers.exceptions import BadRequestException
 from werkzeug.exceptions import MethodNotAllowed, NotFound
 from flask import render_template
-from flask_caching import Cache
+from caching import cache
 
 app = Flask(__name__, static_folder=os.path.join(BASE_DIR, 'static'), template_folder=os.path.join(BASE_DIR, 'templates/dist'))
 authorizations = {
@@ -92,7 +92,7 @@ app.before_request(ensure_single_logo_active_role)
 app.after_request(after_request_handler)
 jwt = JWTManager(app)
 
-cache = Cache(app, config={"CACHE_TYPE": "simple"})
+cache.init_app(app, config={"CACHE_TYPE": "simple"})
 
 
 @app.route('/fob/<path:path>')
