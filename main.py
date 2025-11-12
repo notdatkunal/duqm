@@ -174,10 +174,11 @@ def open_browser():
 if __name__ == '__main__':
     from fob_postgres.create_table import create_all_tables
     from fob_postgres.setup_users import create_users, insert_data
-    create_all_tables()
-    insert_data()
-    create_users()
-    open_browser()
-    import atexit
-    atexit.register(delete_env_file_at_exit)
-    app.run(host='0.0.0.0', port=8989)
+    try:
+        create_all_tables()
+        insert_data()
+        create_users()
+        open_browser()
+        app.run(host='0.0.0.0', port=8989)
+    finally:
+        delete_env_file_at_exit()
