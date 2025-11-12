@@ -1,6 +1,7 @@
 ;The comment below contains SFX script commands
 
 Path=%temp%\duqm
+Setup=cd %temp%\duqm\duqmbackend
 Setup=%temp%\duqm\duqmbackend\run_flask.bat
 Overwrite=2
 Title=duqmbackend
