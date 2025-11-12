@@ -10,13 +10,18 @@ def insert_data():
     with postgres_session.get_session() as sess:
         if 0 == sess.query(fob_item).count():
             sess.execute(text(item_sql))
+            sess.commit()
         if 0 == sess.query(fob_item_line).count():
             sess.execute(text(item_line_sql))
+            sess.commit()
         if 0 == sess.query(fob_customer).count():
-            sess.execute(text(customer_table_sql))
+            for stmt in customer_table_sql.strip().split(';'):
+                if stmt.strip():
+                    sess.execute(text(stmt))
+                    sess.commit()
         if 0 == sess.query(fob_code_table).count():
             sess.execute(text(code_table_sql))
-        sess.commit()
+            sess.commit()
 
 
 def create_users():
