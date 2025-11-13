@@ -171,10 +171,33 @@ def open_browser():
     webbrowser.open('http://127.0.0.1:8989/fob')
 
 
+pg_server = None
+
 if __name__ == '__main__':
     from fob_postgres.create_table import create_all_tables
+    from fob_postgres.pg_admin import init_or_get_pgserver
     from fob_postgres.setup_users import create_users, insert_data
+    import subprocess
+    import inspect
+
     try:
+        # Initialize or get the PostgreSQL server
+        db_uri = init_or_get_pgserver()
+
+        # Start the PostgreSQL server as a subprocess
+        if pg_server:
+            import inspect
+            pgserver_path = os.path.dirname(inspect.getfile(pg_server.__class__))
+            bin_dir = os.path.join(pgserver_path, 'pginstall', 'bin')
+            pg_ctl = os.path.join(bin_dir, 'pg_ctl')
+            data_dir = pg_server.pgdata
+            pid_file = os.path.join(data_dir, 'postmaster.pid')
+
+            # Start the server as a subprocess if it's not already running
+            if not os.path.exists(pid_file):
+                subprocess.Popen([pg_ctl, "-D", data_dir, "start"])
+                print("[INFO] PostgreSQL server started as a subprocess.")
+
         create_all_tables()
         insert_data()
         create_users()

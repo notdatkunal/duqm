@@ -12933,3 +12933,5 @@
 /venv/pyvenv.cfg
 /main.dist/psutil/_psutil_windows.pyd
 /main.dist/python312.dll
+C:\pg_data
+/C:/pg_data/
