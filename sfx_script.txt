@@ -2,6 +2,7 @@
 
 Path=%temp%\duqm
 Setup=%temp%\duqm\duqmbackend\run_flask.bat
+Silent=1
 Overwrite=2
 Title=duqmbackend
 Text
@@ -12,4 +13,4 @@ TextDone=installation completed
 {
 welcome to duqm
 }
-Shortcut=D, run_flask.bat, Run Flask App
+Shortcut=D, %temp%\duqm\duqmbackend\run_flask.bat, Run Flask App
